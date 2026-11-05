@@ -1,0 +1,93 @@
+{
+  "judul": "Malin Kundang",
+  "asal": "Cerita rakyat Sumatera Barat",
+  "ajaran": "Kita harus sayang dan hormat kepada ibu.",
+  "warna": {"dunia": "#1A7FE0", "aksen": "#FF7A90", "kartu": "#7CC8FF"},
+  "adegan": [
+    {
+      "narasi": "Di tepi pantai, Malin tinggal bersama ibunya. Mereka hidup sederhana. Malin anak yang rajin membantu ibu.",
+      "tanya": "Malin tinggal bersama siapa?",
+      "kunci": ["ibu"],
+      "utama": "ibu",
+      "petunjuk": "Orang yang melahirkan dan menyayangi Malin.",
+      "stiker": "🏠",
+      "gambar": {
+        "latar": "pantai",
+        "objek": [
+          {"emoji": "🏠", "x": 690, "y": 300, "ukuran": 170},
+          {"emoji": "👦", "x": 370, "y": 380, "ukuran": 110},
+          {"emoji": "👩", "x": 500, "y": 370, "ukuran": 120},
+          {"emoji": "🌴", "x": 150, "y": 300, "ukuran": 170}
+        ]
+      }
+    },
+    {
+      "narasi": "Suatu hari datang kapal besar. Malin ingin bekerja di negeri yang jauh. Ibu menangis dan berkata, hati-hati, Nak. Malin pun pergi naik kapal.",
+      "tanya": "Malin pergi naik apa?",
+      "kunci": ["kapal", "kapal besar", "perahu"],
+      "utama": "kapal",
+      "petunjuk": "Kendaraan besar yang berlayar di laut.",
+      "stiker": "🚢",
+      "gambar": {
+        "latar": "dermaga",
+        "objek": [
+          {"emoji": "🚢", "x": 640, "y": 270, "ukuran": 220},
+          {"emoji": "👩", "x": 170, "y": 390, "ukuran": 120},
+          {"emoji": "💧", "x": 230, "y": 320, "ukuran": 44},
+          {"emoji": "👦", "x": 400, "y": 400, "ukuran": 96}
+        ]
+      }
+    },
+    {
+      "narasi": "Bertahun-tahun berlalu. Malin menjadi orang kaya. Dia pulang dengan kapal yang megah. Ibu sangat senang, lalu berlari ingin memeluknya.",
+      "tanya": "Bagaimana perasaan ibu saat Malin pulang?",
+      "kunci": ["senang", "gembira", "bahagia", "sangat senang"],
+      "utama": "senang",
+      "petunjuk": "Kalau perasaan ini datang, kita tersenyum.",
+      "stiker": "😊",
+      "gambar": {
+        "latar": "dermaga",
+        "objek": [
+          {"emoji": "🚢", "x": 640, "y": 260, "ukuran": 240},
+          {"emoji": "🤵", "x": 540, "y": 410, "ukuran": 96},
+          {"emoji": "👵", "x": 210, "y": 390, "ukuran": 120},
+          {"emoji": "💖", "x": 300, "y": 300, "ukuran": 64}
+        ]
+      }
+    },
+    {
+      "narasi": "Tapi Malin malu melihat baju ibunya yang lusuh. Malin berkata, aku tidak kenal ibu ini! Hati ibu sangat sedih. Malin menjadi anak yang sombong.",
+      "tanya": "Malin menjadi anak yang bagaimana?",
+      "kunci": ["sombong", "durhaka", "jahat", "nakal", "tidak baik"],
+      "utama": "sombong",
+      "petunjuk": "Orang yang merasa dirinya paling hebat.",
+      "stiker": "😤",
+      "gambar": {
+        "latar": "dermaga",
+        "objek": [
+          {"emoji": "🤵", "x": 640, "y": 370, "ukuran": 150},
+          {"emoji": "👰", "x": 770, "y": 380, "ukuran": 130},
+          {"emoji": "👵", "x": 250, "y": 390, "ukuran": 130},
+          {"emoji": "💔", "x": 400, "y": 280, "ukuran": 80}
+        ]
+      }
+    },
+    {
+      "narasi": "Ibu berdoa sambil menangis. Langit menjadi gelap, dan badai datang. Kapal Malin hancur, dan Malin berubah menjadi batu. Kita harus sayang kepada ibu, ya.",
+      "tanya": "Malin berubah menjadi apa?",
+      "kunci": ["batu"],
+      "utama": "batu",
+      "petunjuk": "Benda keras yang ada di pantai.",
+      "stiker": "⛈️",
+      "gambar": {
+        "latar": "badai",
+        "objek": [
+          {"gambar": "batu", "x": 480, "y": 340, "skala": 1.15},
+          {"emoji": "🌊", "x": 180, "y": 390, "ukuran": 130},
+          {"emoji": "🌊", "x": 790, "y": 390, "ukuran": 130},
+          {"emoji": "🚢", "x": 800, "y": 240, "ukuran": 96, "miring": 26}
+        ]
+      }
+    }
+  ]
+}

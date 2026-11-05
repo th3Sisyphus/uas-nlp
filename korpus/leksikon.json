@@ -1,0 +1,64 @@
+{
+  "_catatan": [
+    "Sumber bahasa untuk modul NLP. Semua kata ditulis huruf kecil.",
+    "normalisasi: kata lisan atau keluaran ASR diseragamkan. Semua kata negasi menjadi 'tidak'.",
+    "pertentangan: kata yang menghentikan penanda negasi ('bukan kayu tapi batu').",
+    "stopword: dibuat sendiri, sengaja tanpa kata negasi.",
+    "pengisi: kata pengisi tuturan anak dan frasa penunda jawaban.",
+    "kata_dasar: kamus stemmer. Tambahkan kata dasar dari cerita baru di sini."
+  ],
+  "normalisasi": {
+    "nggak": "tidak",
+    "ngga": "tidak",
+    "gak": "tidak",
+    "enggak": "tidak",
+    "ga": "tidak",
+    "tak": "tidak",
+    "bukan": "tidak",
+    "belum": "tidak",
+    "gede": "besar",
+    "gedhe": "besar",
+    "ijo": "hijau",
+    "item": "hitam",
+    "mama": "ibu",
+    "mamak": "ibu",
+    "mami": "ibu",
+    "emak": "ibu",
+    "bunda": "ibu",
+    "umi": "ibu",
+    "1": "satu",
+    "2": "dua",
+    "3": "tiga",
+    "4": "empat",
+    "5": "lima"
+  },
+  "pertentangan": ["tapi", "tetapi", "melainkan", "namun"],
+  "stopword": [
+    "yang", "di", "ke", "dari", "dan", "atau", "itu", "ini", "dengan", "untuk", "pada", "adalah",
+    "akan", "sudah", "lagi", "juga", "saja", "aja", "dong", "deh", "kok", "sih", "kan", "nih", "tuh",
+    "ya", "iya", "yaitu", "si", "sang", "para", "oleh", "lalu", "kemudian", "terus", "karena", "ada",
+    "apa", "siapa", "mana", "bagaimana", "kenapa", "mengapa", "dia", "ia", "aku", "saya", "kamu",
+    "mereka", "kita", "kami", "nya", "jadi", "menjadi", "sama", "seperti", "kayak", "tapi", "tetapi",
+    "lah", "pun", "kak", "kakak", "pak", "mau", "ingin", "bisa", "dalam", "sebuah", "seorang", "satu"
+  ],
+  "pengisi": [
+    "eh", "em", "emm", "eee", "ee", "hmm", "hm", "um", "uh", "ah", "oh", "anu", "aduh", "wah", "nah",
+    "gini", "begini", "jawab", "jawaban", "jawabannya", "menurut", "mungkin", "kayaknya", "sepertinya",
+    "rasanya", "tau", "tahu"
+  ],
+  "kata_dasar": [
+    "air", "ajaib", "anak", "ayo", "baju", "badai", "bahagia", "baik", "bambu", "banyak", "baris",
+    "batu", "bayi", "belah", "beri", "berani", "besar", "biji", "bohong", "buah", "buaya", "buto",
+    "dalam", "datang", "dekat", "doa", "dua", "durhaka", "emas", "empat", "gelap", "gembira", "garam",
+    "hancur", "hari", "hati", "hebat", "hijau", "hitung", "hutan", "ibu", "ide", "ijo", "jahat",
+    "jalan", "jarum", "jauh", "jembatan", "jemput", "jujur", "jumlah", "kaca", "kantong", "kapal",
+    "kaya", "kejar", "kenal", "kenyang", "kerja", "kuning", "lapar", "langit", "lari", "laut",
+    "lempar", "lompat", "lucu", "lumpur", "lusuh", "maaf", "makan", "malu", "manis", "mas", "masuk",
+    "megah", "merah", "minta", "muncul", "nakal", "naik", "negeri", "panas", "pantai", "perahu",
+    "peluk", "pergi", "pikir", "pohon", "pulang", "punggung", "pura", "rajin", "raja", "raksasa",
+    "rambut", "rambutan", "rawat", "rumah", "sadar", "sakit", "sayang", "sedih", "sederhana", "senang",
+    "seberang", "sombong", "sungai", "takut", "tanam", "tangis", "tahun", "tenggelam", "teman", "tepi",
+    "terasi", "tiga", "timun", "tinggal", "tumbuh", "ubah", "ucap", "warna", "mbok", "srini", "malin",
+    "kancil", "berlalu", "bantu", "kata", "lahir", "perempuan"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "judul": "Si Kancil dan Buaya",
+  "asal": "Fabel Nusantara",
+  "ajaran": "Cerdik itu baik, tapi kita harus jujur dan mau minta maaf.",
+  "warna": {"dunia": "#0FA67A", "aksen": "#FFC531", "kartu": "#FFD23F"},
+  "adegan": [
+    {
+      "narasi": "Hari itu Si Kancil sangat lapar. Dia berjalan ke tepi sungai. Di seberang sungai ada pohon rambutan. Buahnya merah dan manis.",
+      "tanya": "Buah apa yang dilihat Si Kancil?",
+      "kunci": ["rambutan", "buah rambutan"],
+      "utama": "rambutan",
+      "petunjuk": "Buahnya merah, dan kulitnya berambut.",
+      "stiker": "🌳",
+      "gambar": {
+        "latar": "sungai",
+        "objek": [
+          {"gambar": "kancil", "x": 230, "y": 248, "skala": 0.95},
+          {"gambar": "pohon", "x": 790, "y": 190, "skala": 1.25},
+          {"gambar": "rambutan", "x": 740, "y": 150},
+          {"gambar": "rambutan", "x": 800, "y": 110},
+          {"gambar": "rambutan", "x": 850, "y": 160},
+          {"gambar": "rambutan", "x": 780, "y": 190},
+          {"gambar": "rambutan", "x": 720, "y": 200},
+          {"gambar": "rambutan", "x": 860, "y": 210}
+        ]
+      }
+    },
+    {
+      "narasi": "Kancil ingin menyeberang. Tapi sungainya dalam, dan ada banyak buaya. Buaya itu sedang lapar. Kancil takut, lalu dia berpikir.",
+      "tanya": "Hewan apa yang ada di dalam sungai?",
+      "kunci": ["buaya"],
+      "utama": "buaya",
+      "petunjuk": "Giginya tajam dan ekornya panjang.",
+      "stiker": "🐊",
+      "gambar": {
+        "latar": "sungai",
+        "objek": [
+          {"gambar": "kancil", "x": 210, "y": 262, "skala": 0.8},
+          {"emoji": "💭", "x": 340, "y": 120, "ukuran": 88},
+          {"emoji": "🐊", "x": 470, "y": 400, "ukuran": 120},
+          {"emoji": "🐊", "x": 700, "y": 415, "ukuran": 120, "cermin": true}
+        ]
+      }
+    },
+    {
+      "narasi": "Kancil punya ide. Dia berkata, hai buaya, Raja ingin tahu jumlah kalian. Ayo berbaris, aku akan menghitung! Buaya pun berbaris dari tepi ke tepi, seperti jembatan.",
+      "tanya": "Buaya berbaris seperti apa?",
+      "kunci": ["jembatan"],
+      "utama": "jembatan",
+      "petunjuk": "Kita berjalan di atasnya untuk menyeberang sungai.",
+      "stiker": "🌉",
+      "gambar": {
+        "latar": "sungai",
+        "objek": [
+          {"gambar": "kancil", "x": 150, "y": 268, "skala": 0.75},
+          {"emoji": "🐊", "x": 340, "y": 395, "ukuran": 118},
+          {"emoji": "🐊", "x": 460, "y": 395, "ukuran": 118},
+          {"emoji": "🐊", "x": 580, "y": 395, "ukuran": 118},
+          {"emoji": "🐊", "x": 700, "y": 395, "ukuran": 118},
+          {"emoji": "🐊", "x": 820, "y": 395, "ukuran": 118},
+          {"emoji": "🔢", "x": 330, "y": 120, "ukuran": 80}
+        ]
+      }
+    },
+    {
+      "narasi": "Hop! Kancil melompat ke punggung buaya. Satu, dua, tiga, empat! Kancil melompat terus sampai ke seberang.",
+      "tanya": "Ke mana Kancil melompat?",
+      "kunci": ["punggung buaya", "punggung", "atas buaya", "buaya"],
+      "utama": "punggung buaya",
+      "petunjuk": "Kancil menginjak badan hewan yang berbaris tadi.",
+      "stiker": "🐾",
+      "gambar": {
+        "latar": "sungai",
+        "objek": [
+          {"gambar": "kancil", "x": 500, "y": 272, "skala": 0.85},
+          {"emoji": "🐊", "x": 240, "y": 395, "ukuran": 118},
+          {"emoji": "🐊", "x": 370, "y": 395, "ukuran": 118},
+          {"emoji": "🐊", "x": 500, "y": 395, "ukuran": 118},
+          {"emoji": "🐊", "x": 630, "y": 395, "ukuran": 118},
+          {"emoji": "🐊", "x": 760, "y": 395, "ukuran": 118},
+          {"emoji": "✨", "x": 370, "y": 140, "ukuran": 72},
+          {"emoji": "✨", "x": 640, "y": 130, "ukuran": 56}
+        ]
+      }
+    },
+    {
+      "narasi": "Kancil makan rambutan sampai kenyang. Buaya baru sadar, Kancil hanya pura-pura menghitung. Kancil lalu berkata maaf, dan melempar rambutan untuk buaya. Mereka pun berteman.",
+      "tanya": "Apa yang Kancil ucapkan kepada buaya?",
+      "kunci": ["maaf", "minta maaf"],
+      "utama": "maaf",
+      "petunjuk": "Kata ini kita ucapkan kalau berbuat salah.",
+      "stiker": "💖",
+      "gambar": {
+        "latar": "sungai",
+        "objek": [
+          {"gambar": "kancil", "x": 690, "y": 246, "skala": 0.9, "cermin": true},
+          {"emoji": "🐊", "x": 300, "y": 390, "ukuran": 150},
+          {"emoji": "💖", "x": 480, "y": 170, "ukuran": 88},
+          {"gambar": "rambutan", "x": 470, "y": 300, "r": 15},
+          {"gambar": "rambutan", "x": 515, "y": 318, "r": 15}
+        ]
+      }
+    }
+  ]
+}

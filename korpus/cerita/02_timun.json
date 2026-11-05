@@ -1,0 +1,92 @@
+{
+  "judul": "Timun Mas",
+  "asal": "Cerita rakyat Jawa Tengah",
+  "ajaran": "Anak yang berani dan sayang ibu akan selalu dilindungi.",
+  "warna": {"dunia": "#F2641E", "aksen": "#FFE14D", "kartu": "#FF9F45"},
+  "adegan": [
+    {
+      "narasi": "Dahulu ada seorang ibu bernama Mbok Srini. Dia ingin sekali punya anak. Suatu hari, raksasa hijau datang dan memberi biji timun. Tanamlah biji ini, kata raksasa.",
+      "tanya": "Apa yang diberikan raksasa?",
+      "kunci": ["biji timun", "biji", "timun"],
+      "utama": "biji timun",
+      "petunjuk": "Bentuknya kecil, lalu ditanam di tanah.",
+      "stiker": "🌱",
+      "gambar": {
+        "latar": "senja",
+        "objek": [
+          {"emoji": "👵", "x": 250, "y": 330, "ukuran": 130},
+          {"emoji": "👹", "x": 680, "y": 280, "ukuran": 220, "hijau": true},
+          {"emoji": "🌱", "x": 450, "y": 390, "ukuran": 74}
+        ]
+      }
+    },
+    {
+      "narasi": "Biji itu tumbuh menjadi timun besar berwarna emas. Mbok Srini membelah timun itu. Di dalamnya ada bayi perempuan yang lucu! Namanya Timun Mas.",
+      "tanya": "Apa warna timun itu?",
+      "kunci": ["emas", "kuning", "kuning emas", "warna emas"],
+      "utama": "emas",
+      "petunjuk": "Warnanya berkilau seperti mahkota raja.",
+      "stiker": "👶",
+      "gambar": {
+        "latar": "ladang",
+        "objek": [
+          {"emoji": "🥒", "x": 450, "y": 300, "ukuran": 230, "miring": -30},
+          {"emoji": "👶", "x": 450, "y": 300, "ukuran": 96},
+          {"emoji": "👵", "x": 170, "y": 330, "ukuran": 120},
+          {"emoji": "✨", "x": 690, "y": 160, "ukuran": 80}
+        ]
+      }
+    },
+    {
+      "narasi": "Timun Mas tumbuh besar. Lalu raksasa datang untuk menjemputnya. Mbok Srini memberi satu kantong berisi biji timun, jarum, garam, dan terasi. Larilah, Nak! Timun Mas pun berlari.",
+      "tanya": "Siapa yang datang menjemput Timun Mas?",
+      "kunci": ["raksasa", "raksasa hijau", "buto ijo"],
+      "utama": "raksasa",
+      "petunjuk": "Badannya besar sekali dan berwarna hijau.",
+      "stiker": "👹",
+      "gambar": {
+        "latar": "senja",
+        "objek": [
+          {"emoji": "🏠", "x": 170, "y": 300, "ukuran": 150},
+          {"emoji": "👵", "x": 330, "y": 350, "ukuran": 96},
+          {"emoji": "🏃‍♀️", "x": 650, "y": 350, "ukuran": 120},
+          {"emoji": "🎒", "x": 500, "y": 390, "ukuran": 70}
+        ]
+      }
+    },
+    {
+      "narasi": "Raksasa makin dekat. Timun Mas melempar jarum. Ajaib! Jarum itu berubah menjadi hutan bambu. Raksasa kesakitan, tapi dia terus mengejar.",
+      "tanya": "Jarum berubah menjadi apa?",
+      "kunci": ["hutan bambu", "bambu"],
+      "utama": "hutan bambu",
+      "petunjuk": "Tumbuhan yang tinggi, dan panda suka memakannya.",
+      "stiker": "🎋",
+      "gambar": {
+        "latar": "bambu",
+        "objek": [
+          {"emoji": "🏃‍♀️", "x": 780, "y": 340, "ukuran": 110},
+          {"emoji": "👹", "x": 250, "y": 300, "ukuran": 190, "hijau": true},
+          {"emoji": "🎋", "x": 500, "y": 330, "ukuran": 170},
+          {"emoji": "🎋", "x": 400, "y": 350, "ukuran": 130}
+        ]
+      }
+    },
+    {
+      "narasi": "Timun Mas melempar garam, lalu muncul laut yang luas. Dia melempar terasi, lalu muncul lumpur yang panas. Raksasa pun tenggelam. Timun Mas pulang dan memeluk ibunya.",
+      "tanya": "Timun Mas pulang kepada siapa?",
+      "kunci": ["ibu", "mbok srini", "mbok"],
+      "utama": "ibu",
+      "petunjuk": "Orang yang merawatnya sejak bayi.",
+      "stiker": "🤗",
+      "gambar": {
+        "latar": "lumpur",
+        "objek": [
+          {"emoji": "👹", "x": 480, "y": 330, "ukuran": 130, "miring": 18, "hijau": true},
+          {"emoji": "👵", "x": 800, "y": 310, "ukuran": 110},
+          {"emoji": "👧", "x": 700, "y": 320, "ukuran": 100},
+          {"emoji": "💖", "x": 756, "y": 190, "ukuran": 70}
+        ]
+      }
+    }
+  ]
+}
