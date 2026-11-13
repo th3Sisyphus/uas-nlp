@@ -1,0 +1,187 @@
+{
+  "cerita": [
+    {
+      "id": "kancil-buaya",
+      "judul": "Si Kancil dan Buaya",
+      "sumber": "cerita rakyat; ditulis ulang oleh kelompok",
+      "segmen": [
+        {
+          "teks": "Si Kancil lapar sekali. Ia berjalan ke tepi sungai. Di seberang ada pohon rambutan yang berbuah lebat.",
+          "pertanyaan": [
+            {
+              "tanya": "Buah apa yang ada di seberang sungai?",
+              "jawaban_utama": "Buah rambutan ada di seberang sungai",
+              "variasi": [
+                "Rambutan",
+                "Pohon rambutan",
+                "Buah yang merah"
+              ],
+              "kata_kunci": [
+                "rambutan"
+              ],
+              "hint": "Buahnya berambut dan kulitnya merah."
+            }
+          ]
+        },
+        {
+          "teks": "Sungai itu dalam dan ada banyak buaya. Kancil ingin menyeberang. Ia lalu punya ide.",
+          "pertanyaan": [
+            {
+              "tanya": "Hewan apa yang ada di sungai?",
+              "jawaban_utama": "Buaya ada di sungai",
+              "variasi": [
+                "Buaya",
+                "Banyak buaya",
+                "Buaya yang lapar"
+              ],
+              "kata_kunci": [
+                "buaya"
+              ],
+              "hint": "Hewan bergigi tajam dan berekor panjang."
+            }
+          ]
+        },
+        {
+          "teks": "Kancil meminta buaya berbaris untuk dihitung jumlahnya. Buaya berbaris dari tepi ke tepi, seperti jembatan. Kancil melompat ke punggung buaya satu per satu sampai ke seberang.",
+          "pertanyaan": [
+            {
+              "tanya": "Buaya berbaris seperti apa?",
+              "jawaban_utama": "Buaya berbaris seperti jembatan",
+              "variasi": [
+                "Seperti jembatan",
+                "Jembatan",
+                "Jembatan di sungai"
+              ],
+              "kata_kunci": [
+                "jembatan"
+              ],
+              "hint": "Kita berjalan di atasnya untuk menyeberang."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malin-kundang",
+      "judul": "Malin Kundang",
+      "sumber": "cerita rakyat; ditulis ulang oleh kelompok",
+      "segmen": [
+        {
+          "teks": "Di sebuah kampung di tepi pantai, Malin Kundang tinggal bersama ibunya. Ayahnya sudah pergi sejak lama.",
+          "pertanyaan": [
+            {
+              "tanya": "Malin Kundang tinggal bersama siapa?",
+              "jawaban_utama": "Malin Kundang tinggal bersama ibunya",
+              "variasi": [
+                "Ibunya",
+                "Ibu",
+                "Dengan ibu"
+              ],
+              "kata_kunci": [
+                "ibu"
+              ],
+              "hint": "Perempuan yang merawatnya sejak kecil."
+            }
+          ]
+        },
+        {
+          "teks": "Malin Kundang ingin menjadi kaya. Ia naik kapal dan pergi ke negeri jauh. Ibunya menunggu di rumah setiap hari.",
+          "pertanyaan": [
+            {
+              "tanya": "Malin Kundang pergi naik apa?",
+              "jawaban_utama": "Malin Kundang pergi naik kapal",
+              "variasi": [
+                "Kapal",
+                "Naik kapal",
+                "Kapal besar"
+              ],
+              "kata_kunci": [
+                "kapal"
+              ],
+              "hint": "Kendaraan besar yang berlayar di laut."
+            }
+          ]
+        },
+        {
+          "teks": "Beberapa tahun kemudian Malin Kundang pulang. Ia sudah kaya, tetapi ia tidak mau mengakui ibunya. Ibunya sedih dan berdoa. Tiba-tiba badai datang, dan Malin Kundang berubah menjadi batu.",
+          "pertanyaan": [
+            {
+              "tanya": "Malin Kundang berubah menjadi apa?",
+              "jawaban_utama": "Malin Kundang berubah menjadi batu",
+              "variasi": [
+                "Batu",
+                "Menjadi batu",
+                "Batu keras"
+              ],
+              "kata_kunci": [
+                "batu"
+              ],
+              "hint": "Benda keras yang ada di tepi pantai."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timun-mas",
+      "judul": "Timun Mas",
+      "sumber": "cerita rakyat; ditulis ulang oleh kelompok",
+      "segmen": [
+        {
+          "teks": "Mbok Srini ingin punya anak. Ia menanam biji timun pemberian raksasa. Dari dalam timun, keluarlah seorang bayi perempuan yang cantik.",
+          "pertanyaan": [
+            {
+              "tanya": "Mbok Srini menanam apa?",
+              "jawaban_utama": "Mbok Srini menanam biji timun",
+              "variasi": [
+                "Biji timun",
+                "Timun",
+                "Biji buah timun"
+              ],
+              "kata_kunci": [
+                "timun"
+              ],
+              "hint": "Sayur berwarna hijau dan panjang."
+            }
+          ]
+        },
+        {
+          "teks": "Bayi itu diberi nama Timun Mas. Ia tumbuh menjadi anak yang baik. Suatu hari raksasa datang untuk menagih janji.",
+          "pertanyaan": [
+            {
+              "tanya": "Raksasa datang untuk apa?",
+              "jawaban_utama": "Raksasa datang untuk menagih janji",
+              "variasi": [
+                "Menagih janji",
+                "Mengambil Timun Mas",
+                "Menjemput Timun Mas"
+              ],
+              "kata_kunci": [
+                "janji"
+              ],
+              "hint": "Sesuatu yang pernah disepakati bersama."
+            }
+          ]
+        },
+        {
+          "teks": "Mbok Srini memberi Timun Mas empat bungkusan. Isinya biji timun, jarum, garam, dan terasi. Bungkusan itu dilempar ke belakang, lalu tumbuh hutan bambu dan lumpur yang membuat raksasa tenggelam.",
+          "pertanyaan": [
+            {
+              "tanya": "Apa yang tumbuh saat Timun Mas melempar biji timun?",
+              "jawaban_utama": "Hutan bambu tumbuh saat Timun Mas melempar biji timun",
+              "variasi": [
+                "Hutan bambu",
+                "Bambu",
+                "Hutan pohon bambu"
+              ],
+              "kata_kunci": [
+                "bambu"
+              ],
+              "hint": "Tanaman tinggi dan beruas, seperti pohon di hutan."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
