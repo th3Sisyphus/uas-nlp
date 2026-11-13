@@ -10,9 +10,9 @@ Tugas Pemrograman Akhir NLPTA (IT6073), Tugas A.
 
 | No | NIM | Nama |
 |----|-----|------|
-| 1  |     |      |
-| 2  |     |      |
-| 3  |     |      |
+| 1  |71230975|Thomas Aquinas Ryan Wisnu Adi|
+| 2  |71230994|Putu Gde Kenzie Carlen Mataram|
+| 3  |71231023|Yehezkiel Darren Putra Wardoyo|
 
 ## Fitur utama
 

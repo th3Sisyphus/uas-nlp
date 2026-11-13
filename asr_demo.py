@@ -28,11 +28,20 @@ AMBANG_AWAL = 300           # tingkat energi suara agar rekaman dimulai (bawaan 
 PENYESUAIAN_AWAL = 1.0      # detik, untuk mengukur kebisingan ruangan
 
 
-def transkripsi(pengenal, sumber) -> str:
-    """Mengubah isi sumber audio menjadi teks. Gagal = pesan jelas, bukan traceback."""
+def transkripsi(pengenal, sumber, durasi: int = DURASI_MAKS, dari_berkas: bool = False) -> str:
+    """Mengubah isi sumber audio menjadi teks. Gagal = pesan jelas, bukan traceback.
+
+    durasi dipakai sebagai batas waktu mendengar. dari_berkas=True membuat rekaman
+    dibaca langsung dengan record(); listen() hanya untuk mikrofon karena ia
+    menunggu suara melewati ambang.
+    """
     try:
-        print("[asr] Mendengarkan... (bicara sekarang)")
-        rekaman = pengenal.listen(sumber, timeout=DURASI_MAKS, phrase_time_limit=DURASI_MAKS)
+        if dari_berkas:
+            print("[asr] Membaca berkas suara...")
+            rekaman = pengenal.record(sumber)
+        else:
+            print(f"[asr] Mendengarkan... (bicara sekarang, batas {durasi} detik)")
+            rekaman = pengenal.listen(sumber, timeout=durasi, phrase_time_limit=durasi)
     except Exception as galat:
         # Termasuk sr.WaitTimeoutError: tidak ada suara sampai batas waktu.
         print(f"[info] Tidak ada suara yang masuk ({type(galat).__name__}).")
@@ -93,14 +102,18 @@ def rekam_dari_mikrofon(durasi: int, ambang: int, penyetelan: float) -> str:
         return ""
 
     with mikrofon as sumber:
-        # Ukur kebisingan ruangan sebentar agar ambang suara lebih pas dengan tempat demo.
+        # Ukur kebisingan ruangan dulu, lalu simpan nilainya sebagai ambang.
         print(f"[asr] Mengukur kebisingan ruangan ({penyetelan:.1f} detik)...")
         try:
             pengenal.adjust_for_ambient_noise(sumber, duration=penyetelan)
+            print(f"[asr] Ambang suara hasil ukur: {pengenal.energy_threshold:.0f} "
+                  f"(batas bawah {ambang})")
         except Exception:
-            pass   # tidak fatal: tetap lanjut dengan ambang bawaan
-        pengenal.energy_threshold = ambang
-        return transkripsi(pengenal, sumber)
+            print("[info] Pengukuran kebisingan gagal; memakai ambang bawaan.")
+        # Jangan ditimpa dengan nilai tetap: pakai hasil ukur, tetapi jangan lebih rendah
+        # dari ambang pilihan pengguna agar suara bising tidak dianggap ucapan.
+        pengenal.energy_threshold = max(pengenal.energy_threshold, ambang)
+        return transkripsi(pengenal, sumber, durasi)
 
 
 def rekam_dari_berkas(jalur: Path, ambang: int) -> str:
@@ -117,7 +130,7 @@ def rekam_dari_berkas(jalur: Path, ambang: int) -> str:
     pengenal.energy_threshold = ambang
     try:
         with sr.AudioFile(str(jalur)) as sumber:
-            return transkripsi(pengenal, sumber)
+            return transkripsi(pengenal, sumber, dari_berkas=True)
     except Exception as galat:
         print(f"[gagal] Berkas suara tidak bisa dibuka ({galat}). Pastikan formatnya WAV.")
         return ""
