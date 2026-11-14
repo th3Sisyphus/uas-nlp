@@ -17,6 +17,7 @@ BERKAS_CSS = FOLDER / "aset" / "tampilan.css"
 
 BAHASA_ASR = "id-ID"            # kode bahasa untuk Google Speech Recognition
 BAHASA_TTS = "id"               # kode bahasa untuk gTTS
+SUARA_TTS = "id-ID-GadisNeural" # suara edge-tts untuk narator (alternatif: id-ID-ArdiNeural)
 BATAS_WAKTU_TTS = 10            # detik, agar aplikasi tidak menunggu selamanya
 BATAS_WAKTU_ASR = 12            # detik
 
