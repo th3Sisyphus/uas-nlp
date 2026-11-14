@@ -10,9 +10,9 @@ Tugas Pemrograman Akhir NLPTA (IT6073), Tugas A.
 
 | No | NIM | Nama |
 |----|-----|------|
-| 1  |     |      |
-| 2  |     |      |
-| 3  |     |      |
+| 1  |71230975|Thomas Aquinas Ryan Wisnu Adi|
+| 2  |71230994|Putu Gde Kenzie Carlen Mataram|
+| 3  |71231023|Yehezkiel Darren Putra Wardoyo|
 
 ## Fitur utama
 
@@ -20,19 +20,22 @@ Tugas Pemrograman Akhir NLPTA (IT6073), Tugas A.
 - **Jawaban lisan**: anak merekam jawaban langsung di peramban, lalu Google Speech Recognition mentranskripsinya.
 - **Penilaian NLP yang toleran**: menerima "kancil melompat ke punggungnya buaya", "boaya", atau "seneng", tetapi menolak "bukan batu".
 - **Umpan balik ramah anak**: pujian, petunjuk bertingkat, lalu kunci jawaban dibacakan pada percobaan ketiga.
+- **Narator bersuara alami**: edge-tts dengan suara `id-ID-GadisNeural` (bisa diganti `id-ID-ArdiNeural` lewat `SUARA_TTS` di `modul/konfigurasi.py`). Jika gagal, otomatis pindah ke gTTS, lalu pyttsx3 luring.
 - **Penanganan gangguan suara**: rekaman hening, terpotong, tidak jelas, atau internet putus dibalas dengan pesan ramah, dan kesempatan anak tidak berkurang.
 - **Panel guru**: batas lulus, detail NLP, mode ketik tanpa mikrofon, narator pelan, dan tabel hasil di akhir cerita.
 
 ## Struktur folder
 
 ```
-Tugas_A_Dongeng_Bersuara/
+uas-nlp/
 ├── dongeng_nusantara.py        titik masuk aplikasi (main), dijalankan dengan streamlit run
+├── tts_demo.py                 prototipe TTS: edge-tts, cadangan gTTS lalu pyttsx3
+├── asr_demo.py                 prototipe ASR dari mikrofon atau berkas WAV
 ├── modul/                      seluruh logika aplikasi
-│   ├── konfigurasi.py          lokasi berkas, ambang, dan batas waktu
+│   ├── konfigurasi.py          lokasi berkas, ambang, batas waktu, suara edge-tts
 │   ├── korpus.py               memuat korpus dongeng dan leksikon
 │   ├── nlp.py                  praproses, TF-IDF, cosine similarity
-│   ├── tts.py                  suara narator: gTTS, cadangan pyttsx3
+│   ├── tts.py                  suara narator: edge-tts, cadangan gTTS lalu pyttsx3
 │   ├── asr.py                  pemeriksaan rekaman, Google Speech Recognition
 │   ├── kuis.py                 pujian, petunjuk bertingkat, kunci jawaban
 │   ├── ilustrasi.py            gambar adegan (SVG)
@@ -44,21 +47,34 @@ Tugas_A_Dongeng_Bersuara/
 │   │   ├── 01_kancil.json      Si Kancil dan Buaya
 │   │   ├── 02_timun.json       Timun Mas
 │   │   └── 03_malin.json       Malin Kundang
+│   ├── flashcard/              tempat data flashcard (masih kosong)
 │   └── leksikon.json           stopword, kata pengisi, kamus normalisasi, kata dasar
 ├── aset/
-│   └── tampilan.css            gaya tampilan
+│   ├── tampilan.css            gaya tampilan
+│   ├── gambar/                 gambar tambahan: cerita/, hewan/, buah/
+│   └── model3d/                tempat berkas model 3D (masih kosong)
+├── suara/                      hasil suara dari tts_demo.py (tidak di-commit)
 ├── pengujian/
 │   └── uji_sistem.py           evaluasi NLP dan 36 uji unit
-├── dokumen/
-│   └── Laporan_Panggung_Dongeng_Nusantara.pdf
+├── docs/
+│   ├── riset.md                catatan riset
+│   ├── keputusan-teknis.md     catatan keputusan teknis
+│   ├── sketsa-ui.md            sketsa tampilan
+│   ├── laporan/                Laporan_Panggung_Dongeng_Nusantara.pdf
+│   └── laporan-ai/             catatan progres per minggu
+├── prompt/                     catatan prompt dan revisi
+├── ai/                         catatan tambahan
 ├── .streamlit/config.toml      memaksa tema terang
-├── requirements.txt            daftar pustaka
-└── Readme.md
+├── requirements.txt            daftar pustaka aplikasi
+├── requirements-demo.txt       pustaka tambahan untuk tts_demo.py dan asr_demo.py
+├── Readme.md                   dokumentasi ini
+└── ReadMe.txt                  catatan singkat
 ```
 
 - **Kode** ada di `dongeng_nusantara.py` (hanya titik masuk) dan folder `modul/`. Semua kode ditulis sebagai fungsi, tanpa class.
 - **Data** ada di `korpus/`, sehingga menambah cerita tidak perlu mengubah kode.
 - **Aset, pengujian, dan dokumen** masing-masing punya folder sendiri.
+- **Demo** (`tts_demo.py`, `asr_demo.py`) ada di akar supaya path `korpus/cerita` dan `suara/` dihitung dari folder proyek.
 
 ### Peran tiap modul
 
@@ -67,7 +83,7 @@ Tugas_A_Dongeng_Bersuara/
 | `konfigurasi.py` | – | Lokasi berkas, ambang skor, batas waktu | – |
 | `korpus.py` | `muat_cerita()` | Membaca dan memeriksa berkas JSON dongeng | konfigurasi |
 | `nlp.py` | `praproses()`, `nilai_jawaban()`, `nilai_alternatif()` | Inti NLP: menilai jawaban anak | konfigurasi, korpus |
-| `tts.py` | `buat_suara()`, `putar_suara()` | Teks menjadi suara | konfigurasi |
+| `tts.py` | `buat_suara()`, `putar_suara()` | Teks menjadi suara: edge-tts, cadangan gTTS lalu pyttsx3 | konfigurasi |
 | `asr.py` | `periksa_audio()`, `transkripsi()` | Suara menjadi teks, dan mendeteksi gangguan | konfigurasi |
 | `kuis.py` | `putuskan()` | Memilih pujian, petunjuk, atau kunci jawaban | konfigurasi, asr |
 | `ilustrasi.py` | `gambar_adegan()` | Menyusun gambar adegan dari korpus | korpus |
@@ -80,7 +96,7 @@ Tugas_A_Dongeng_Bersuara/
 ## Kebutuhan
 
 - **Python 3.11 atau lebih baru.** Streamlit 1.66 tidak mendukung Python 3.10.
-- Koneksi internet, untuk suara narator (gTTS) dan pengenalan suara (Google).
+- **Koneksi internet**, untuk suara narator (edge-tts dan gTTS) dan pengenalan suara (Google).
 - Mikrofon, dan peramban Chrome, Edge, atau Firefox.
 
 ## Instalasi dan menjalankan
@@ -101,6 +117,22 @@ streamlit run dongeng_nusantara.py
 ```
 
 Peramban akan terbuka di <http://localhost:8501>. Izinkan akses mikrofon saat diminta.
+
+## Menjalankan prototipe suara
+
+`tts_demo.py` dan `asr_demo.py` dipakai tanpa Streamlit, dari akar proyek:
+
+```bash
+pip install -r requirements-demo.txt   # requirements.txt + PyAudio
+python tts_demo.py --daftar            # daftar id cerita dan jumlah segmen
+python tts_demo.py --cerita malin --segmen 2 --suara id-ID-ArdiNeural --rate -10% --pitch 5
+python tts_demo.py --bandingkan        # bandingkan edge-tts, gTTS, dan pyttsx3
+python tts_demo.py --semua             # pra-render semua narasi, tanya, dan umpan balik ke suara/
+python asr_demo.py --durasi 6          # rekam dari mikrofon, cetak teks ASR
+python asr_demo.py --berkas jawab.wav  # uji tanpa mikrofon
+```
+
+**Cache suara.** `tts_demo.py` menyimpan hasil ke `suara/` dengan nama hash dari teks + mesin + suara + rate + pitch. Nama yang sama tidak disintesis ulang; folder `suara/` tidak di-commit.
 
 ## Cara memakai
 
@@ -203,7 +235,7 @@ Tiap dongeng berisi 5 adegan. Tiap adegan punya narasi, satu pertanyaan, jawaban
 
 ```bash
 python pengujian/uji_sistem.py              # evaluasi NLP + 36 uji unit, tanpa internet
-python pengujian/uji_sistem.py --langsung   # tambah uji Streamlit, gTTS, dan Google ASR sungguhan
+python pengujian/uji_sistem.py --langsung   # tambah uji Streamlit, TTS, dan Google ASR sungguhan
 python pengujian/uji_sistem.py --json hasil.json   # simpan hasil evaluasi ke berkas JSON
 ```
 
@@ -224,7 +256,9 @@ Data uji ditulis atau dibuat oleh pembuat sistem, bukan rekaman suara anak. Penj
 | Gejala | Penyebab dan solusi |
 |---|---|
 | `pip install` gagal memasang streamlit | Versi Python terlalu lama. Periksa dengan `python --version`; minimal 3.11. |
+| `asr_demo.py` gagal: "Mikrofon tidak tersedia" | PyAudio belum terpasang. Jalankan `pip install -r requirements-demo.txt`. |
 | Suara narator tidak otomatis berbunyi | Peramban memblokir autoplay sebelum ada interaksi. Klik di mana saja pada halaman, lalu tekan play. |
+| Suara narator terdengar berbeda dari biasanya | edge-tts gagal (biasanya internet), jadi narator memakai gTTS atau pyttsx3. Periksa koneksi internet. |
 | Mikrofon tidak bisa dipakai | Buka lewat `http://localhost:8501`. Jika dibuka dari komputer lain, peramban mewajibkan HTTPS untuk mikrofon. |
 | Pesan "Alat pengenal suara belum lengkap" | Di Mac Apple Silicon atau Linux ARM, pasang flac (contoh: `brew install flac`). |
 | Pesan "Sambungan internetnya sedang terganggu" | Periksa koneksi internet. Untuk demo tanpa internet, nyalakan mode ketik di panel guru. |
@@ -232,4 +266,6 @@ Data uji ditulis atau dibuat oleh pembuat sistem, bukan rekaman suara anak. Penj
 
 ## Laporan
 
-Penjelasan lengkap tentang landasan teori, modul NLP, penanganan kesalahan, daftar fungsi, dan hasil uji ada di [dokumen/Laporan_Panggung_Dongeng_Nusantara.pdf](dokumen/Laporan_Panggung_Dongeng_Nusantara.pdf).
+Penjelasan lengkap tentang landasan teori, modul NLP, penanganan kesalahan, daftar fungsi, dan hasil uji ada di [docs/laporan/Laporan_Panggung_Dongeng_Nusantara.pdf](docs/laporan/Laporan_Panggung_Dongeng_Nusantara.pdf).
+
+

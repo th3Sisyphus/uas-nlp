@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
-"""Modul TTS: teks menjadi suara dengan gTTS, dengan cadangan luring pyttsx3.
+"""Modul TTS: teks menjadi suara dengan edge-tts sebagai mesin utama.
+
+Cadangan otomatis tetap sama: gTTS, lalu pyttsx3 (luring).
 """
 
 from __future__ import annotations
 
+import asyncio
 import io
 import os
 import tempfile
@@ -19,12 +22,39 @@ except ImportError:  # pragma: no cover
     gTTS = None
     gTTSError = Exception
 
-from modul.konfigurasi import BAHASA_TTS, BATAS_WAKTU_TTS
+from modul.konfigurasi import BAHASA_TTS, BATAS_WAKTU_TTS, SUARA_TTS
 
 
 # =============================================================================
 # MODUL TTS
 # =============================================================================
+
+
+@st.cache_data(show_spinner=False, max_entries=300)
+def _suara_edge(teks: str, pelan: bool, suara: str) -> bytes:
+    """Membuat MP3 dengan edge-tts (butuh internet).
+
+    Hasil di-cache agar teks yang sama tidak disintesis ulang. Jika gagal, fungsi
+    melempar error sehingga st.cache_data tidak menyimpan kegagalan.
+    """
+    import edge_tts
+
+    # pelan: 15% lebih lambat, sama seperti atur pelan di gTTS.
+    rate = "-15%" if pelan else "+0%"
+
+    async def tulis() -> bytes:
+        data = bytearray()
+        # Communicate dibuat di dalam korutin: konstruktornya bisa menyentuh jaringan.
+        async for potong in edge_tts.Communicate(
+                teks, suara, rate=rate, connect_timeout=BATAS_WAKTU_TTS).stream():
+            if potong["type"] == "audio":
+                data.extend(potong["data"])
+        return bytes(data)
+
+    hasil = asyncio.run(tulis())
+    if not hasil:
+        raise RuntimeError("edge-tts tidak menghasilkan suara")
+    return hasil
 
 
 @st.cache_data(show_spinner=False, max_entries=300)
@@ -77,6 +107,10 @@ def _suara_pyttsx3(teks: str) -> bytes | None:
 
 def buat_suara(teks: str, pelan: bool = False) -> tuple[bytes | None, str]:
     """Mengembalikan (data_audio, format). data_audio None jika semua mesin TTS gagal."""
+    try:
+        return _suara_edge(teks, pelan, SUARA_TTS), "audio/mpeg"
+    except Exception:   # internet putus, layanan menolak, pustaka belum terpasang
+        pass
     try:
         return _suara_gtts(teks, pelan), "audio/mpeg"
     except (gTTSError, RuntimeError, ValueError, OSError):
