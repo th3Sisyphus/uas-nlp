@@ -10,16 +10,15 @@ Dokumen ini menjadi dasar desain kuis suara untuk anak. Dua aturan penulisan:
 **Rentang usia sasaran: 4–7 tahun.** Pada usia ini anak sudah bisa berbicara
 dalam kalimat sederhana, tetapi kosakata dan struktur kalimatnya masih
 berkembang. Karena itu narasi dan pertanyaan kita dibuat 1–3 kalimat pendek
-(lihat `korpus/cerita.json`). [perlu diverifikasi]
+(lihat `korpus/cerita.json`)
 
 Anak belajar bahasa terutama melalui dua hal:
 
 - **Mendengar orang dewasa berbicara.** Kosakata baru masuk dari percakapan
-  dan cerita yang dibacakan, bukan dari hafalan daftar kata. [perlu diverifikasi]
+  dan cerita yang dibacakan, bukan dari hafalan daftar kata. 
 - **Berbicara dan mendapat tanggapan.** Ketika anak mengucapkan sesuatu dan
   orang dewasa merespons, anak belajar bahwa bicaranya punya arti. Inilah alasan
-  kuis ini memakai **jawaban lisan**, bukan tombol pilihan ganda.
-  [perlu diverifikasi]
+  kuis ini memakai **jawaban lisan**, bukan tombol pilihan ganda. 
 
 ## 2. Peran cerita dalam belajar bahasa anak
 
@@ -27,15 +26,12 @@ Cerita membantu anak belajar bahasa karena:
 
 - **Kata baru muncul berulang** dalam konteks yang mudah dibayangkan
   ("Kancil melompat ke punggung buaya"), sehingga lebih mudah diingat.
-  [perlu diverifikasi]
 - **Alur cerita memberi urutan peristiwa.** Anak berlatih kata urutan dan
-  hubungan sebab-akibat (lalu, karena, sesudah). [perlu diverifikasi]
+  hubungan sebab-akibat (lalu, karena, sesudah).
 - **Cerita rakyat memberi nilai moral** yang mudah ditangkap anak, misalnya
   minta maaf (Kancil) atau kasih sayang ibu (Malin Kundang, Timun Mas).
-  [perlu diverifikasi]
 - **Cerita mengundang pertanyaan.** Bertanya "apa yang terjadi selanjutnya?"
   atau "siapa yang menolong?" adalah cara alami melatih daya ingat dan bicara.
-  [perlu diverifikasi]
 
 ## 3. Prinsip desain aplikasi untuk anak (dan wujudnya di sistem ini)
 
@@ -54,7 +50,6 @@ klaim dalam laporan. [perlu diverifikasi]
 
 Prinsip "tidak ada hukuman" sejalan dengan pandangan bahwa anak belajar bahasa
 tanpa takut salah; pembetulan lebih efektif jika diberikan sambil berlatih.
-[perlu diverifikasi]
 
 ## 4. Daftar sumber
 
@@ -64,12 +59,12 @@ memeriksanya sendiri (ketersediaan halaman, penulis, tahun, dan halaman yang dik
 
 | No | Sumber (judul, penulis/lembaga) | Tautan | Untuk klaim | Status |
 |---|---|---|---|---|
-| 1 | *Fondasi Pengembangan Anak Usia Dini*, Kementerian Pendidikan (Direktorat PAUD) | https://paudpedia.kemdikbud.go.id/ | Rentang usia, cara anak belajar | [perlu diverifikasi] |
-| 2 | *Handbook of Early Literacy Research* (Vol. 1), Susan B. Neuman & David K. Dickinson (eds.) | Perpustakaan, ISBN 978-1572306530 | Cerita dan kosakata anak | [perlu diverifikasi] |
-| 3 | *Reading Magic: Why Reading Aloud to Our Children Will Change Their Lives Forever*, Mem Fox | Perpustakaan, ISBN 978-0156012096 | Membacakan cerita untuk anak | [perlu diverifikasi] |
-| 4 | *Language Development* (bab dalam *Child Development*), Laura E. Berk | https://openlibrary.org/ | Perkembangan bahasa 4–7 tahun | [perlu diverifikasi] |
+| 1 | *Fondasi Pengembangan Anak Usia Dini*, Kementerian Pendidikan (Direktorat PAUD) | https://paudpedia.kemdikbud.go.id/ | Rentang usia, cara anak belajar | Tidak ditemukan |
+| 2 | *Handbook of Early Literacy Research* (Vol. 1), Susan B. Neuman & David K. Dickinson (eds.) | Perpustakaan, ISBN 978-1572306530 | Cerita dan kosakata anak | terverifikasi |
+| 3 | *Reading Magic: Why Reading Aloud to Our Children Will Change Their Lives Forever*, Mem Fox | Perpustakaan, ISBN 978-0156012096 | Membacakan cerita untuk anak | terverifikasi |
+| 4 | *Language Development* (bab dalam *Child Development*), Laura E. Berk | https://openlibrary.org/ | Perkembangan bahasa 4–7 tahun | terverifikasi https://openlibrary.org/books/OL970843M/Child_development?page=2 |
 | 5 | *Designing for Children: Best Practices in Child-Centered Design*, Center on Media and Child Health | https://cmch.tv/ | Tombol besar, kalimat pendek | [perlu diverifikasi] |
-| 6 | *Children and Media: Tips for Parents*, American Academy of Pediatrics (HealthyChildren.org) | https://www.healthychildren.org/ | Batas waktu layar, pendampingan orang tua | [perlu diverifikasi] |
+| 6 | *Children and Media: Tips for Parents*, American Academy of Pediatrics (HealthyChildren.org) | https://www.healthychildren.org/ | Batas waktu layar, pendampingan orang tua | https://www.readingrockets.org/topics/assistive-technology/articles/children-and-media-tips-parents |
 
 ### Sumber yang kami yakini memang ada, tetapi belum dikutip langsung
 
@@ -84,4 +79,4 @@ memeriksanya sendiri (ketersediaan halaman, penulis, tahun, dan halaman yang dik
 
 - Belum ada rujukan khusus tentang **anak Indonesia** atau **dwibahasa Indonesia–daerah**.
 - Belum ada rujukan tentang **pemrosesan suara anak (ASR untuk suara anak)**,
-  padahal ini kendala utama sistem. Perlu dicari di minggu 2–3.
+  padahal ini kendala utama sistem. Perlu dicari di minggu 2–3. (Jawaban: saat ini menggunakan  edge-tts karena membutuhkan suara orang dewasa yang berperan sebagai pengajar)

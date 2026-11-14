@@ -79,6 +79,6 @@ pip install gTTS pyttsx3 SpeechRecognition PyAudio
 > Diisi setelah kelompok berdiskusi. Contoh format: "Kami memilih gTTS + Google
 > ASR + Streamlit karena ... (alasan)."
 
-- TTS: [KEPUTUSAN KELOMPOK]
-- ASR: [KEPUTUSAN KELOMPOK]
-- UI: [KEPUTUSAN KELOMPOK]
+- TTS: edgeTTS (utama), pyttsx3 dan gtts (cadangan)
+- ASR: SpeechRecognition + Google
+- UI: Streamlit, HTML + CSS + Threejs
