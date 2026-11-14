@@ -15,13 +15,13 @@ Hasil suara disimpan di folder suara/ sebagai berkas MP3 bernama hash dari
 teks + mesin + suara + rate + pitch. Nama yang sama tidak disintesis ulang.
 
 Cara menjalankan (dari folder proyek):
-    python demo/tts_demo.py
-    python demo/tts_demo.py --cerita malin --segmen 2 --suara id-ID-ArdiNeural
-    python demo/tts_demo.py --rate -10% --pitch +5Hz
-    python demo/tts_demo.py --mesin gtts
-    python demo/tts_demo.py --bandingkan        # tiga mesin, kalimat yang sama
-    python demo/tts_demo.py --semua             # pra-render seluruh korpus
-    python demo/tts_demo.py --daftar            # tampilkan id cerita dan segmen
+    python tts_demo.py
+    python tts_demo.py --cerita malin --segmen 2 --suara id-ID-ArdiNeural
+    python tts_demo.py --rate -10% --pitch +5Hz
+    python tts_demo.py --mesin gtts
+    python tts_demo.py --bandingkan        # tiga mesin, kalimat yang sama
+    python tts_demo.py --semua             # pra-render seluruh korpus
+    python tts_demo.py --daftar            # tampilkan id cerita dan segmen
 
 Hasil suara diputar dengan pemutar bawaan sistem (pakai --tanpa-putar untuk
 mematikannya).
@@ -40,7 +40,7 @@ import sys
 from pathlib import Path
 
 
-FOLDER = Path(__file__).resolve().parent.parent   # demo/ ada di dalam folder proyek
+FOLDER = Path(__file__).resolve().parent   # berkas ini ada di akar folder proyek
 FOLDER_KORPUS = FOLDER / "korpus" / "cerita"
 FOLDER_SUARA = FOLDER / "suara"
 

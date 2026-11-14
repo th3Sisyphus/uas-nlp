@@ -49,7 +49,7 @@ Tugas_A_Dongeng_Bersuara/
 │   └── tampilan.css            gaya tampilan
 ├── pengujian/
 │   └── uji_sistem.py           evaluasi NLP dan 36 uji unit
-├── dokumen/
+├── docs/laporan/
 │   └── Laporan_Panggung_Dongeng_Nusantara.pdf
 ├── .streamlit/config.toml      memaksa tema terang
 ├── requirements.txt            daftar pustaka
@@ -232,4 +232,6 @@ Data uji ditulis atau dibuat oleh pembuat sistem, bukan rekaman suara anak. Penj
 
 ## Laporan
 
-Penjelasan lengkap tentang landasan teori, modul NLP, penanganan kesalahan, daftar fungsi, dan hasil uji ada di [dokumen/Laporan_Panggung_Dongeng_Nusantara.pdf](dokumen/Laporan_Panggung_Dongeng_Nusantara.pdf).
+Penjelasan lengkap tentang landasan teori, modul NLP, penanganan kesalahan, daftar fungsi, dan hasil uji ada di [docs/laporan/Laporan_Panggung_Dongeng_Nusantara.pdf](docs/laporan/Laporan_Panggung_Dongeng_Nusantara.pdf).
+
+
