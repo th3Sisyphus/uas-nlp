@@ -4,6 +4,6 @@ __pycache__/
 .env
 suara/_tmp/
 .DS_Store
-/suara
-/prompt
-/ai
+suara/
+prompt/
+ai/
