@@ -1,0 +1,157 @@
+{
+ "judul": "Jaka Tarub",
+ "asal": "Cerita rakyat Jawa Tengah",
+ "ajaran": "Jujur dan menghargai milik orang lain itu penting.",
+ "warna": {
+  "dunia": "#2E7D6B",
+  "aksen": "#9BE3C9",
+  "kartu": "#C7EFE3"
+ },
+ "adegan": [
+  {
+   "narasi": "Jaka Tarub berjalan di hutan yang rimbun. Ia melihat tujuh bidadari bermain di telaga. Mereka tertawa riang bersama.",
+   "tanya": "Berapa bidadari yang dilihat Jaka Tarub?",
+   "kunci": [
+    "tujuh",
+    "tujuh bidadari"
+   ],
+   "utama": "tujuh",
+   "petunjuk": "Jumlah lebih dari enam.",
+   "stiker": "✨",
+   "gambar": {
+    "latar": "sungai",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 240,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🧚",
+      "x": 620,
+      "y": 320,
+      "ukuran": 140
+     },
+     {
+      "emoji": "🧚",
+      "x": 800,
+      "y": 320,
+      "ukuran": 140,
+      "cermin": true
+     },
+     {
+      "emoji": "✨",
+      "x": 480,
+      "y": 160,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Jaka Tarub mengambil selendang salah satu bidadari. Selendang itu milik Nawang Wulan. Tanpa selendang, ia tidak bisa terbang pulang.",
+   "tanya": "Apa yang diambil Jaka Tarub?",
+   "kunci": [
+    "selendang",
+    "selendang nawang wulan"
+   ],
+   "utama": "selendang",
+   "petunjuk": "Kain panjang untuk dipakai di pundak.",
+   "stiker": "🧣",
+   "gambar": {
+    "latar": "sungai",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 240,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🧣",
+      "x": 480,
+      "y": 180,
+      "ukuran": 100
+     },
+     {
+      "emoji": "🧚",
+      "x": 700,
+      "y": 340,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Nawang Wulan tinggal di rumah Jaka Tarub. Ia membantu mengurus rumah dengan rajin. Suatu hari, selendangnya ditemukan kembali.",
+   "tanya": "Di mana Nawang Wulan tinggal?",
+   "kunci": [
+    "rumah jaka tarub",
+    "rumah"
+   ],
+   "utama": "rumah jaka tarub",
+   "petunjuk": "Tempat berlindung dari hujan dan panas.",
+   "stiker": "🏠",
+   "gambar": {
+    "latar": "ladang",
+    "objek": [
+     {
+      "emoji": "🧚",
+      "x": 260,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🧑",
+      "x": 640,
+      "y": 340,
+      "ukuran": 150,
+      "cermin": true
+     },
+     {
+      "emoji": "🏠",
+      "x": 470,
+      "y": 170,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Nawang Wulan memakai selendangnya lagi. Ia terbang kembali ke kahyangan. Jaka Tarub belajar untuk selalu jujur.",
+   "tanya": "Ke mana Nawang Wulan kembali?",
+   "kunci": [
+    "kahyangan",
+    "ke kahyangan"
+   ],
+   "utama": "kahyangan",
+   "petunjuk": "Tempat tinggi para bidadari.",
+   "stiker": "☁️",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "🧚",
+      "x": 400,
+      "y": 300,
+      "ukuran": 150
+     },
+     {
+      "emoji": "☁️",
+      "x": 700,
+      "y": 160,
+      "ukuran": 100
+     },
+     {
+      "emoji": "🧑",
+      "x": 220,
+      "y": 340,
+      "ukuran": 150
+     }
+    ]
+   }
+  }
+ ]
+}

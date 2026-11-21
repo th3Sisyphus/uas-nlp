@@ -1,0 +1,150 @@
+{
+ "judul": "Sangkuriang",
+ "asal": "Cerita rakyat Jawa Barat",
+ "ajaran": "Belajar sabar dan tidak mudah marah.",
+ "warna": {
+  "dunia": "#4E7C3A",
+  "aksen": "#FFD166",
+  "kartu": "#CBE3B5"
+ },
+ "adegan": [
+  {
+   "narasi": "Sangkuriang tinggal bersama ibunya, Dayang Sumbi. Dia anak yang kuat dan rajin. Setiap hari ia berburu di hutan.",
+   "tanya": "Dengan siapa Sangkuriang tinggal?",
+   "kunci": [
+    "dayang sumbi",
+    "ibunya"
+   ],
+   "utama": "dayang sumbi",
+   "petunjuk": "Nama perempuan yang merawatnya sejak kecil.",
+   "stiker": "🌳",
+   "gambar": {
+    "latar": "bambu",
+    "objek": [
+     {
+      "emoji": "🧒",
+      "x": 260,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "👩",
+      "x": 660,
+      "y": 340,
+      "ukuran": 150,
+      "cermin": true
+     },
+     {
+      "emoji": "🌳",
+      "x": 480,
+      "y": 150,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Dayang Sumbi meminta Sangkuriang membuat perahu besar. Perahu itu harus selesai dalam satu malam. Sangkuriang menyanggupinya dengan senang hati.",
+   "tanya": "Apa yang harus dibuat Sangkuriang?",
+   "kunci": [
+    "perahu besar",
+    "perahu"
+   ],
+   "utama": "perahu besar",
+   "petunjuk": "Benda untuk berlayar di sungai.",
+   "stiker": "⛵",
+   "gambar": {
+    "latar": "sungai",
+    "objek": [
+     {
+      "emoji": "🧒",
+      "x": 240,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🛶",
+      "x": 620,
+      "y": 350,
+      "ukuran": 170
+     },
+     {
+      "emoji": "🌳",
+      "x": 120,
+      "y": 160,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Sangkuriang bekerja sepanjang malam. Pagi datang dan perahu belum selesai. Sangkuriang kesal lalu menendang perahu itu.",
+   "tanya": "Mengapa Sangkuriang kesal?",
+   "kunci": [
+    "perahu belum selesai",
+    "belum selesai"
+   ],
+   "utama": "perahu belum selesai",
+   "petunjuk": "Sebab ia kecewa pada pagi hari.",
+   "stiker": "😟",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "🧒",
+      "x": 260,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🛶",
+      "x": 600,
+      "y": 360,
+      "ukuran": 180
+     },
+     {
+      "emoji": "☀️",
+      "x": 760,
+      "y": 150,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Perahu yang ditendang berubah menjadi gunung besar. Gunung itu dikenal sebagai Tangkuban Perahu. Sangkuriang belajar untuk sabar dan tidak mudah marah.",
+   "tanya": "Perahu itu berubah menjadi apa?",
+   "kunci": [
+    "gunung",
+    "gunung tangkuban perahu"
+   ],
+   "utama": "gunung",
+   "petunjuk": "Tempat tinggi yang bisa dilihat dari jauh.",
+   "stiker": "⛰️",
+   "gambar": {
+    "latar": "polos",
+    "objek": [
+     {
+      "emoji": "⛰️",
+      "x": 480,
+      "y": 300,
+      "ukuran": 170
+     },
+     {
+      "emoji": "🌳",
+      "x": 180,
+      "y": 340,
+      "ukuran": 110
+     },
+     {
+      "emoji": "🌳",
+      "x": 780,
+      "y": 340,
+      "ukuran": 110,
+      "cermin": true
+     }
+    ]
+   }
+  }
+ ]
+}

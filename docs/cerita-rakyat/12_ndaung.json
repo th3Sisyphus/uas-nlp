@@ -1,0 +1,153 @@
+{
+ "judul": "Legenda Ular N'daung",
+ "asal": "Cerita rakyat Kalimantan",
+ "ajaran": "Sayang pada ibu dan berani membantu.",
+ "warna": {
+  "dunia": "#2F9E8F",
+  "aksen": "#FFD84D",
+  "kartu": "#A8E6DE"
+ },
+ "adegan": [
+  {
+   "narasi": "Seorang gadis pemberani punya ibu yang sakit. Dia ingin mencari obat. Dia pergi ke puncak gunung.",
+   "tanya": "Untuk siapa gadis itu mencari obat?",
+   "kunci": [
+    "ibu",
+    "ibunya",
+    "untuk ibunya"
+   ],
+   "utama": "ibu",
+   "petunjuk": "Orang yang melahirkan kita.",
+   "stiker": "👩",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "👧",
+      "x": 260,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🤒",
+      "x": 480,
+      "y": 340,
+      "ukuran": 110
+     },
+     {
+      "emoji": "🏔️",
+      "x": 720,
+      "y": 260,
+      "ukuran": 200
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Di puncak gunung ada ular raksasa. Namanya N'daung. Ular itu menjaga sebuah bunga gaib.",
+   "tanya": "Siapa yang menjaga bunga gaib?",
+   "kunci": [
+    "ular",
+    "ular raksasa",
+    "ndaung",
+    "n'daung"
+   ],
+   "utama": "ular",
+   "petunjuk": "Hewan panjang yang tidak punya kaki.",
+   "stiker": "🐍",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "👧",
+      "x": 220,
+      "y": 350,
+      "ukuran": 120
+     },
+     {
+      "emoji": "🌸",
+      "x": 330,
+      "y": 300,
+      "ukuran": 100
+     },
+     {
+      "emoji": "🐍",
+      "x": 610,
+      "y": 350,
+      "ukuran": 220
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Gadis itu mau bekerja untuk sang ular. Dia rajin dan tidak mengeluh. Dia ingin mendapat bunga itu.",
+   "tanya": "Apa yang ingin didapat gadis itu?",
+   "kunci": [
+    "bunga",
+    "bunga gaib"
+   ],
+   "utama": "bunga",
+   "petunjuk": "Tanaman yang harum dan cantik.",
+   "stiker": "🌸",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "👧",
+      "x": 260,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🌸",
+      "x": 520,
+      "y": 330,
+      "ukuran": 130
+     },
+     {
+      "emoji": "🐍",
+      "x": 740,
+      "y": 350,
+      "ukuran": 170,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Ternyata ular itu seorang pangeran. Dia terkena kutukan. Gadis itu sangat terkejut.",
+   "tanya": "Sebenarnya ular itu siapa?",
+   "kunci": [
+    "pangeran",
+    "seorang pangeran"
+   ],
+   "utama": "pangeran",
+   "petunjuk": "Anak raja.",
+   "stiker": "🤴",
+   "gambar": {
+    "latar": "polos",
+    "objek": [
+     {
+      "emoji": "🐍",
+      "x": 300,
+      "y": 350,
+      "ukuran": 180
+     },
+     {
+      "emoji": "✨",
+      "x": 480,
+      "y": 240,
+      "ukuran": 100
+     },
+     {
+      "emoji": "🤴",
+      "x": 680,
+      "y": 330,
+      "ukuran": 160,
+      "cermin": true
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "judul": "Pulau Kemaro",
+ "asal": "Cerita rakyat Sumatera Selatan",
+ "ajaran": "Jangan cepat menilai sebelum memeriksa.",
+ "warna": {
+  "dunia": "#8C3B5A",
+  "aksen": "#FFD166",
+  "kartu": "#EBC0CF"
+ },
+ "adegan": [
+  {
+   "narasi": "Pangeran Tan Bun An tinggal di Palembang. Ia menikah dengan putri dari Tiongkok. Mereka hidup bahagia.",
+   "tanya": "Di mana Pangeran Tan Bun An tinggal?",
+   "kunci": [
+    "palembang",
+    "di palembang"
+   ],
+   "utama": "palembang",
+   "petunjuk": "Kota di tepi Sungai Musi.",
+   "stiker": "🏠",
+   "gambar": {
+    "latar": "dermaga",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "👸",
+      "x": 660,
+      "y": 340,
+      "ukuran": 150,
+      "cermin": true
+     },
+     {
+      "emoji": "🏠",
+      "x": 480,
+      "y": 160,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Ayah putri mengirim banyak guci. Guci itu berisi sayuran. Pangeran menyimpan guci di dermaga.",
+   "tanya": "Apa isi guci yang dikirim?",
+   "kunci": [
+    "sayuran",
+    "isi sayuran"
+   ],
+   "utama": "sayuran",
+   "petunjuk": "Makanan hijau dari kebun.",
+   "stiker": "🥬",
+   "gambar": {
+    "latar": "dermaga",
+    "objek": [
+     {
+      "emoji": "🏺",
+      "x": 480,
+      "y": 320,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🧑",
+      "x": 260,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "👸",
+      "x": 700,
+      "y": 340,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Sayuran di dalam guci mulai membusuk. Aroma guci itu tidak sedap. Pangeran mengira isinya hanya sayuran busuk.",
+   "tanya": "Mengapa guci dibuang?",
+   "kunci": [
+    "sayuran busuk",
+    "bau tidak sedap"
+   ],
+   "utama": "sayuran busuk",
+   "petunjuk": "Aroma makanan yang sudah lama.",
+   "stiker": "😷",
+   "gambar": {
+    "latar": "dermaga",
+    "objek": [
+     {
+      "emoji": "🏺",
+      "x": 480,
+      "y": 320,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🧑",
+      "x": 260,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "💨",
+      "x": 700,
+      "y": 180,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Pangeran membuang guci itu ke sungai. Ternyata di dalamnya ada emas. Guci jatuh ke dasar sungai, lalu muncul Pulau Kemaro.",
+   "tanya": "Apa yang muncul di tempat guci jatuh?",
+   "kunci": [
+    "pulau kemaro",
+    "pulau"
+   ],
+   "utama": "pulau kemaro",
+   "petunjuk": "Daratan kecil di tengah sungai.",
+   "stiker": "🏝️",
+   "gambar": {
+    "latar": "sungai",
+    "objek": [
+     {
+      "emoji": "🏝️",
+      "x": 480,
+      "y": 300,
+      "ukuran": 170
+     },
+     {
+      "emoji": "🏺",
+      "x": 700,
+      "y": 340,
+      "ukuran": 110,
+      "cermin": true
+     },
+     {
+      "emoji": "🌊",
+      "x": 200,
+      "y": 180,
+      "ukuran": 90
+     }
+    ]
+   }
+  }
+ ]
+}

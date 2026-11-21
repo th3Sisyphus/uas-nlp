@@ -1,0 +1,157 @@
+{
+ "judul": "Roro Jonggrang",
+ "asal": "Cerita rakyat Jawa Tengah",
+ "ajaran": "Jujur itu lebih baik daripada menipu.",
+ "warna": {
+  "dunia": "#8A5A2B",
+  "aksen": "#F4C95D",
+  "kartu": "#E6CDAA"
+ },
+ "adegan": [
+  {
+   "narasi": "Bandung Bondowoso ingin menikah dengan Roro Jonggrang. Roro Jonggrang meminta seribu candi dibangun dalam satu malam. Bandung Bondowoso menerima permintaan itu.",
+   "tanya": "Berapa candi yang diminta Roro Jonggrang?",
+   "kunci": [
+    "seribu candi",
+    "seribu"
+   ],
+   "utama": "seribu candi",
+   "petunjuk": "Jumlah yang sangat banyak.",
+   "stiker": "🏛️",
+   "gambar": {
+    "latar": "ladang",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 240,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "👸",
+      "x": 700,
+      "y": 340,
+      "ukuran": 150,
+      "cermin": true
+     },
+     {
+      "emoji": "🏛️",
+      "x": 470,
+      "y": 180,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Bandung Bondowoso dibantu makhluk halus membangun candi. Candi demi candi berdiri dengan cepat. Hampir seribu candi selesai sebelum pagi.",
+   "tanya": "Siapa yang membantu membangun candi?",
+   "kunci": [
+    "makhluk halus",
+    "bandung bondowoso"
+   ],
+   "utama": "makhluk halus",
+   "petunjuk": "Mereka tidak terlihat oleh mata biasa.",
+   "stiker": "🧱",
+   "gambar": {
+    "latar": "ladang",
+    "objek": [
+     {
+      "emoji": "🏛️",
+      "x": 220,
+      "y": 340,
+      "ukuran": 120
+     },
+     {
+      "emoji": "🏛️",
+      "x": 480,
+      "y": 340,
+      "ukuran": 120
+     },
+     {
+      "emoji": "🏛️",
+      "x": 740,
+      "y": 340,
+      "ukuran": 120,
+      "cermin": true
+     },
+     {
+      "emoji": "🧑",
+      "x": 480,
+      "y": 180,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Roro Jonggrang meminta warga menumbuk padi. Suara itu membuat ayam jantan berkokok. Bandung Bondowoso mengira pagi telah tiba.",
+   "tanya": "Apa yang membuat ayam berkokok?",
+   "kunci": [
+    "menumbuk padi",
+    "suara itu"
+   ],
+   "utama": "menumbuk padi",
+   "petunjuk": "Kegiatan memukul padi di lesung.",
+   "stiker": "🐓",
+   "gambar": {
+    "latar": "ladang",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 260,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🌾",
+      "x": 560,
+      "y": 340,
+      "ukuran": 120
+     },
+     {
+      "emoji": "🐓",
+      "x": 760,
+      "y": 170,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Bandung Bondowoso kecewa karena permintaannya belum selesai. Candi keseribu tidak sempat dibangun. Arca Roro Jonggrang akhirnya berdiri di candi itu.",
+   "tanya": "Candi ke berapa yang tidak selesai?",
+   "kunci": [
+    "keseribu",
+    "candi keseribu"
+   ],
+   "utama": "keseribu",
+   "petunjuk": "Jumlah terakhir dari seribu.",
+   "stiker": "🗿",
+   "gambar": {
+    "latar": "ladang",
+    "objek": [
+     {
+      "emoji": "🏛️",
+      "x": 420,
+      "y": 320,
+      "ukuran": 160
+     },
+     {
+      "emoji": "🗿",
+      "x": 720,
+      "y": 340,
+      "ukuran": 140,
+      "cermin": true
+     },
+     {
+      "emoji": "🌳",
+      "x": 140,
+      "y": 340,
+      "ukuran": 110
+     }
+    ]
+   }
+  }
+ ]
+}

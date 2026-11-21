@@ -1,0 +1,150 @@
+{
+ "judul": "Legenda Batu Golog",
+ "asal": "Cerita rakyat Nusa Tenggara Barat",
+ "ajaran": "Hati-hati dan patuhi nasihat orang tua.",
+ "warna": {
+  "dunia": "#5B6EE1",
+  "aksen": "#FFE14D",
+  "kartu": "#B9C3FF"
+ },
+ "adegan": [
+  {
+   "narasi": "Amaq dan Inaq Lembain pergi menumbuk padi. Mereka pergi ke desa tetangga. Kedua anaknya menunggu di atas batu.",
+   "tanya": "Apa yang ditumbuk Amaq dan Inaq?",
+   "kunci": [
+    "padi"
+   ],
+   "utama": "padi",
+   "petunjuk": "Tanaman yang buahnya menjadi beras.",
+   "stiker": "🌾",
+   "gambar": {
+    "latar": "ladang",
+    "objek": [
+     {
+      "emoji": "👨",
+      "x": 250,
+      "y": 330,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🌾",
+      "x": 480,
+      "y": 380,
+      "ukuran": 110
+     },
+     {
+      "emoji": "👩",
+      "x": 700,
+      "y": 330,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Kedua anak itu duduk di atas batu yang leper. Mereka menunggu ayah dan ibu pulang. Mereka menunggu sambil bermain.",
+   "tanya": "Anak-anak duduk di atas apa?",
+   "kunci": [
+    "batu",
+    "batu leper"
+   ],
+   "utama": "batu",
+   "petunjuk": "Benda keras yang ada di tanah.",
+   "stiker": "👧",
+   "gambar": {
+    "latar": "ladang",
+    "objek": [
+     {
+      "gambar": "batu",
+      "x": 480,
+      "y": 380,
+      "skala": 1.3
+     },
+     {
+      "emoji": "👧",
+      "x": 420,
+      "y": 270,
+      "ukuran": 90
+     },
+     {
+      "emoji": "👦",
+      "x": 540,
+      "y": 280,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Tiba-tiba batu itu tumbuh tinggi. Makin tinggi dan makin tinggi. Batu itu menembus awan.",
+   "tanya": "Apa yang ditembus batu itu?",
+   "kunci": [
+    "awan",
+    "awan putih"
+   ],
+   "utama": "awan",
+   "petunjuk": "Putih dan mengambang di langit.",
+   "stiker": "☁️",
+   "gambar": {
+    "latar": "polos",
+    "objek": [
+     {
+      "gambar": "batu",
+      "x": 480,
+      "y": 430,
+      "skala": 1.7
+     },
+     {
+      "emoji": "☁️",
+      "x": 250,
+      "y": 130,
+      "ukuran": 130
+     },
+     {
+      "emoji": "☁️",
+      "x": 720,
+      "y": 100,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Kedua anak itu lama sekali di atas awan. Akhirnya mereka berubah menjadi burung. Burung itu terbang bebas di langit.",
+   "tanya": "Anak-anak itu berubah menjadi apa?",
+   "kunci": [
+    "burung",
+    "menjadi burung"
+   ],
+   "utama": "burung",
+   "petunjuk": "Hewan yang punya sayap dan bisa terbang.",
+   "stiker": "🐦",
+   "gambar": {
+    "latar": "pantai",
+    "objek": [
+     {
+      "emoji": "🐦",
+      "x": 300,
+      "y": 200,
+      "ukuran": 130
+     },
+     {
+      "emoji": "🐦",
+      "x": 560,
+      "y": 150,
+      "ukuran": 150,
+      "cermin": true
+     },
+     {
+      "emoji": "☁️",
+      "x": 780,
+      "y": 100,
+      "ukuran": 140
+     }
+    ]
+   }
+  }
+ ]
+}

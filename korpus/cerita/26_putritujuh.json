@@ -1,0 +1,164 @@
+{
+ "judul": "Putri Tujuh",
+ "asal": "Cerita rakyat Riau",
+ "ajaran": "Berani menolak dengan sopan dan saling melindungi.",
+ "warna": {
+  "dunia": "#B23A5E",
+  "aksen": "#FFD166",
+  "kartu": "#EFC0CD"
+ },
+ "adegan": [
+  {
+   "narasi": "Di Kerajaan Seri Bunga Tanjung hidup tujuh putri cantik. Mereka bersaudara dan saling menyayangi. Kampung mereka damai dan tenteram.",
+   "tanya": "Berapa putri di kerajaan itu?",
+   "kunci": [
+    "tujuh",
+    "tujuh putri"
+   ],
+   "utama": "tujuh",
+   "petunjuk": "Jumlah lebih dari enam.",
+   "stiker": "👑",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 240,
+      "y": 340,
+      "ukuran": 130
+     },
+     {
+      "emoji": "👸",
+      "x": 480,
+      "y": 340,
+      "ukuran": 130
+     },
+     {
+      "emoji": "👸",
+      "x": 720,
+      "y": 340,
+      "ukuran": 130,
+      "cermin": true
+     },
+     {
+      "emoji": "👑",
+      "x": 480,
+      "y": 160,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Pangeran Empang Kuala datang melamar putri tercantik. Putri menolak lamaran itu dengan sopan. Pangeran merasa kecewa dan marah.",
+   "tanya": "Siapa yang datang melamar?",
+   "kunci": [
+    "pangeran empang kuala",
+    "pangeran"
+   ],
+   "utama": "pangeran empang kuala",
+   "petunjuk": "Pemuda dari daerah lain.",
+   "stiker": "💐",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "👸",
+      "x": 700,
+      "y": 340,
+      "ukuran": 150,
+      "cermin": true
+     },
+     {
+      "emoji": "💐",
+      "x": 480,
+      "y": 170,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Pangeran marah lalu mengirim pasukan. Ketujuh putri bersembunyi di gua yang aman. Mereka berlindung bersama-sama.",
+   "tanya": "Di mana ketujuh putri bersembunyi?",
+   "kunci": [
+    "gua",
+    "gua yang aman"
+   ],
+   "utama": "gua",
+   "petunjuk": "Tempat gelap di dalam bukit.",
+   "stiker": "🕯️",
+   "gambar": {
+    "latar": "bambu",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 240,
+      "y": 340,
+      "ukuran": 130
+     },
+     {
+      "emoji": "👸",
+      "x": 480,
+      "y": 340,
+      "ukuran": 130
+     },
+     {
+      "emoji": "👸",
+      "x": 720,
+      "y": 340,
+      "ukuran": 130,
+      "cermin": true
+     },
+     {
+      "emoji": "🕳️",
+      "x": 480,
+      "y": 160,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Pasukan pergi dan ketujuh putri selamat. Peristiwa itu dikenang warga. Sejak itu, daerah itu dikenal sebagai Kota Dumai.",
+   "tanya": "Daerah itu dikenal sebagai kota apa?",
+   "kunci": [
+    "dumai",
+    "kota dumai"
+   ],
+   "utama": "dumai",
+   "petunjuk": "Nama kota di Riau.",
+   "stiker": "🌟",
+   "gambar": {
+    "latar": "pantai",
+    "objek": [
+     {
+      "emoji": "🏘️",
+      "x": 480,
+      "y": 320,
+      "ukuran": 160
+     },
+     {
+      "emoji": "👸",
+      "x": 240,
+      "y": 340,
+      "ukuran": 130
+     },
+     {
+      "emoji": "👸",
+      "x": 720,
+      "y": 340,
+      "ukuran": 130,
+      "cermin": true
+     }
+    ]
+   }
+  }
+ ]
+}

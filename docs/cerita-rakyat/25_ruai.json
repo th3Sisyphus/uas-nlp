@@ -1,0 +1,151 @@
+{
+ "judul": "Burung Ruai",
+ "asal": "Cerita rakyat Nusantara",
+ "ajaran": "Perlakukan keluarga dengan kasih sayang.",
+ "warna": {
+  "dunia": "#3C7A5A",
+  "aksen": "#FFE066",
+  "kartu": "#C3E6D3"
+ },
+ "adegan": [
+  {
+   "narasi": "Ada seorang putri bungsu di istana. Ia memiliki enam kakak perempuan. Kakak-kakaknya memperlakukannya dengan tidak baik.",
+   "tanya": "Berapa kakak perempuan putri bungsu?",
+   "kunci": [
+    "enam",
+    "enam kakak"
+   ],
+   "utama": "enam",
+   "petunjuk": "Jumlah satu lebih dari lima.",
+   "stiker": "👸",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "👩",
+      "x": 620,
+      "y": 340,
+      "ukuran": 120,
+      "cermin": true
+     },
+     {
+      "emoji": "👩",
+      "x": 780,
+      "y": 340,
+      "ukuran": 120,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Kakak-kakaknya membawa putri bungsu ke tengah hutan. Mereka meninggalkannya di sana. Putri bungsu merasa sedih dan sendirian.",
+   "tanya": "Di mana putri bungsu ditinggalkan?",
+   "kunci": [
+    "hutan",
+    "tengah hutan"
+   ],
+   "utama": "hutan",
+   "petunjuk": "Tempat banyak pohon besar.",
+   "stiker": "😢",
+   "gambar": {
+    "latar": "bambu",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🌳",
+      "x": 640,
+      "y": 340,
+      "ukuran": 140
+     },
+     {
+      "emoji": "🌳",
+      "x": 800,
+      "y": 340,
+      "ukuran": 110,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Putri bungsu menenun kapas untuk menghibur diri. Benang menutupi tubuhnya sedikit demi sedikit. Ia terus menenun dengan sabar.",
+   "tanya": "Apa yang ditenun putri bungsu?",
+   "kunci": [
+    "kapas",
+    "menenun kapas"
+   ],
+   "utama": "kapas",
+   "petunjuk": "Bahan lembut berwarna putih.",
+   "stiker": "🧵",
+   "gambar": {
+    "latar": "bambu",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🧵",
+      "x": 640,
+      "y": 320,
+      "ukuran": 140
+     },
+     {
+      "emoji": "🌳",
+      "x": 140,
+      "y": 170,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Tubuh putri bungsu tertutup benang kapas. Perlahan ia berubah menjadi burung ruai. Burung itu memiliki bulu yang indah.",
+   "tanya": "Putri bungsu berubah menjadi apa?",
+   "kunci": [
+    "burung ruai",
+    "burung"
+   ],
+   "utama": "burung ruai",
+   "petunjuk": "Hewan bersayap yang bisa terbang.",
+   "stiker": "🐦",
+   "gambar": {
+    "latar": "bambu",
+    "objek": [
+     {
+      "emoji": "🐦",
+      "x": 480,
+      "y": 280,
+      "ukuran": 150
+     },
+     {
+      "emoji": "✨",
+      "x": 700,
+      "y": 180,
+      "ukuran": 90
+     },
+     {
+      "emoji": "🌳",
+      "x": 200,
+      "y": 340,
+      "ukuran": 110
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "judul": "Si Pitung",
+ "asal": "Cerita rakyat Betawi",
+ "ajaran": "Berani menolong sesama itu perbuatan mulia.",
+ "warna": {
+  "dunia": "#A33B3B",
+  "aksen": "#FFD166",
+  "kartu": "#EFC3C3"
+ },
+ "adegan": [
+  {
+   "narasi": "Si Pitung adalah pemuda dari Betawi. Ia mahir bermain silat. Ia selalu menolong orang yang kesusahan.",
+   "tanya": "Ilmu apa yang dikuasai Si Pitung?",
+   "kunci": [
+    "silat",
+    "main silat"
+   ],
+   "utama": "silat",
+   "petunjuk": "Seni bela diri dari Nusantara.",
+   "stiker": "💪",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🏘️",
+      "x": 700,
+      "y": 330,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Banyak orang kikir berbuat seenaknya. Si Pitung membela rakyat kecil. Warga miskin merasa terbantu.",
+   "tanya": "Siapa yang dibela Si Pitung?",
+   "kunci": [
+    "rakyat kecil",
+    "warga miskin"
+   ],
+   "utama": "rakyat kecil",
+   "petunjuk": "Mereka yang hidup sederhana.",
+   "stiker": "🤝",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 260,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "👨‍🌾",
+      "x": 620,
+      "y": 340,
+      "ukuran": 140,
+      "cermin": true
+     },
+     {
+      "emoji": "👨‍🌾",
+      "x": 800,
+      "y": 340,
+      "ukuran": 140,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Pasukan Belanda mencoba menangkap Si Pitung. Namun, Si Pitung sangat sakti. Mereka selalu kesulitan menangkapnya.",
+   "tanya": "Siapa yang mencoba menangkap Si Pitung?",
+   "kunci": [
+    "pasukan belanda",
+    "belanda"
+   ],
+   "utama": "pasukan belanda",
+   "petunjuk": "Mereka datang dari negeri jauh.",
+   "stiker": "🏃",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "👮",
+      "x": 700,
+      "y": 340,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Si Pitung menjadi cerita di tanah Betawi. Namanya dikenang oleh warga. Keberaniannya menolong sesama selalu diingat.",
+   "tanya": "Di daerah mana Si Pitung dikenang?",
+   "kunci": [
+    "betawi",
+    "tanah betawi"
+   ],
+   "utama": "betawi",
+   "petunjuk": "Daerah asal warga Jakarta.",
+   "stiker": "🌟",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🌟",
+      "x": 700,
+      "y": 170,
+      "ukuran": 100
+     },
+     {
+      "emoji": "🏘️",
+      "x": 640,
+      "y": 350,
+      "ukuran": 140
+     }
+    ]
+   }
+  }
+ ]
+}

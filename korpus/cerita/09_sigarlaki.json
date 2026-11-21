@@ -1,0 +1,145 @@
+{
+ "judul": "Si Sigarlaki dan Si Limbat",
+ "asal": "Cerita rakyat Sulawesi Utara",
+ "ajaran": "Sahabat saling membantu, dan kecerdikan itu berguna.",
+ "warna": {
+  "dunia": "#3D9970",
+  "aksen": "#FFC531",
+  "kartu": "#A8E6C9"
+ },
+ "adegan": [
+  {
+   "narasi": "Si Sigarlaki seorang pemburu. Dia pandai menombak hewan di hutan. Tombaknya selalu dibawa ke mana-mana.",
+   "tanya": "Apa pekerjaan Si Sigarlaki?",
+   "kunci": [
+    "pemburu",
+    "berburu"
+   ],
+   "utama": "pemburu",
+   "petunjuk": "Orang yang mencari hewan di hutan.",
+   "stiker": "🏹",
+   "gambar": {
+    "latar": "bambu",
+    "objek": [
+     {
+      "emoji": "👨",
+      "x": 300,
+      "y": 330,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🏹",
+      "x": 520,
+      "y": 340,
+      "ukuran": 110
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Suatu hari tombaknya hilang. Seekor kepiting raksasa mencurinya. Kepiting itu menyembunyikan tombak itu.",
+   "tanya": "Siapa yang mencuri tombak?",
+   "kunci": [
+    "kepiting",
+    "kepiting raksasa"
+   ],
+   "utama": "kepiting",
+   "petunjuk": "Hewan laut yang berjalan miring dan punya capit.",
+   "stiker": "🦀",
+   "gambar": {
+    "latar": "pantai",
+    "objek": [
+     {
+      "emoji": "👨",
+      "x": 250,
+      "y": 330,
+      "ukuran": 150
+     },
+     {
+      "emoji": "❓",
+      "x": 430,
+      "y": 200,
+      "ukuran": 90
+     },
+     {
+      "emoji": "🦀",
+      "x": 650,
+      "y": 380,
+      "ukuran": 200,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Si Sigarlaki meminta tolong sahabatnya. Sahabatnya bernama Si Limbat. Si Limbat mau membantu mencari tombak itu.",
+   "tanya": "Siapa sahabat Si Sigarlaki?",
+   "kunci": [
+    "si limbat",
+    "limbat"
+   ],
+   "utama": "si limbat",
+   "petunjuk": "Namanya dimulai dengan huruf L.",
+   "stiker": "🤝",
+   "gambar": {
+    "latar": "pantai",
+    "objek": [
+     {
+      "emoji": "👨",
+      "x": 250,
+      "y": 330,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🤝",
+      "x": 480,
+      "y": 300,
+      "ukuran": 110
+     },
+     {
+      "emoji": "🧑",
+      "x": 700,
+      "y": 330,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Si Limbat sangat cerdik. Dia punya cara yang pintar. Mereka berhasil mengambil tombak itu kembali.",
+   "tanya": "Apa yang berhasil diambil kembali?",
+   "kunci": [
+    "tombak",
+    "tombaknya"
+   ],
+   "utama": "tombak",
+   "petunjuk": "Senjata panjang untuk berburu.",
+   "stiker": "🔱",
+   "gambar": {
+    "latar": "pantai",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 300,
+      "y": 330,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🔱",
+      "x": 520,
+      "y": 330,
+      "ukuran": 130
+     },
+     {
+      "emoji": "👨",
+      "x": 720,
+      "y": 330,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  }
+ ]
+}

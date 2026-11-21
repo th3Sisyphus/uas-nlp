@@ -1,0 +1,443 @@
+{
+  "tema": "hewan",
+  "judul": "Hewan",
+  "sumber": "Nama diambil dari judul tema 'Hewan dan Buah-buahan' di data_cerita.json",
+  "kartu": [
+    {
+      "id": "kucing",
+      "kata": "kucing",
+      "emoji": "🐱",
+      "gambar": "aset/gambar/hewan/kucing.png",
+      "variasi": [
+        "kucing",
+        "kucingnya"
+      ],
+      "petunjuk": "Hewan berbulu yang suka mengeong.",
+      "kalimat": "Ini kucing. Kucing berkata meong.",
+      "cerita_id": 52
+    },
+    {
+      "id": "kelinci",
+      "kata": "kelinci",
+      "emoji": "🐰",
+      "gambar": "aset/gambar/hewan/kelinci.png",
+      "variasi": [
+        "kelinci",
+        "kelincinya"
+      ],
+      "petunjuk": "Telinganya panjang dan suka melompat.",
+      "kalimat": "Ini kelinci. Kelinci melompat-lompat.",
+      "cerita_id": 39
+    },
+    {
+      "id": "gajah",
+      "kata": "gajah",
+      "emoji": "🐘",
+      "gambar": "aset/gambar/hewan/gajah.png",
+      "variasi": [
+        "gajah",
+        "gajahnya"
+      ],
+      "petunjuk": "Hewan besar dengan belalai panjang.",
+      "kalimat": "Ini gajah. Gajah punya belalai.",
+      "cerita_id": 10
+    },
+    {
+      "id": "monyet",
+      "kata": "monyet",
+      "emoji": "🐒",
+      "gambar": "aset/gambar/hewan/monyet.png",
+      "variasi": [
+        "monyet",
+        "monyetnya"
+      ],
+      "petunjuk": "Hewan yang pandai memanjat pohon.",
+      "kalimat": "Ini monyet. Monyet suka memanjat.",
+      "cerita_id": 8
+    },
+    {
+      "id": "jerapah",
+      "kata": "jerapah",
+      "emoji": "🦒",
+      "gambar": "aset/gambar/hewan/jerapah.png",
+      "variasi": [
+        "jerapah",
+        "jerapahnya"
+      ],
+      "petunjuk": "Lehernya sangat panjang.",
+      "kalimat": "Ini jerapah. Leher jerapah panjang.",
+      "cerita_id": 13
+    },
+    {
+      "id": "singa",
+      "kata": "singa",
+      "emoji": "🦁",
+      "gambar": "aset/gambar/hewan/singa.png",
+      "variasi": [
+        "singa",
+        "singanya"
+      ],
+      "petunjuk": "Raja hutan yang suka mengaum.",
+      "kalimat": "Ini singa. Singa mengaum.",
+      "cerita_id": 43
+    },
+    {
+      "id": "harimau",
+      "kata": "harimau",
+      "emoji": "🐯",
+      "gambar": "aset/gambar/hewan/harimau.png",
+      "variasi": [
+        "harimau",
+        "harimaunya"
+      ],
+      "petunjuk": "Hewan besar berwarna oranye dengan belang hitam.",
+      "kalimat": "Ini harimau. Harimau punya belang.",
+      "cerita_id": 41
+    },
+    {
+      "id": "beruang",
+      "kata": "beruang",
+      "emoji": "🐻",
+      "gambar": "aset/gambar/hewan/beruang.png",
+      "variasi": [
+        "beruang",
+        "beruangnya"
+      ],
+      "petunjuk": "Hewan besar berbulu tebal yang suka madu.",
+      "kalimat": "Ini beruang. Beruang suka madu.",
+      "cerita_id": 9
+    },
+    {
+      "id": "zebra",
+      "kata": "zebra",
+      "emoji": "🦓",
+      "gambar": "aset/gambar/hewan/zebra.png",
+      "variasi": [
+        "zebra",
+        "zebranya"
+      ],
+      "petunjuk": "Tubuhnya bergaris hitam dan putih.",
+      "kalimat": "Ini zebra. Zebra bergaris hitam putih.",
+      "cerita_id": 48
+    },
+    {
+      "id": "panda",
+      "kata": "panda",
+      "emoji": "🐼",
+      "gambar": "aset/gambar/hewan/panda.png",
+      "variasi": [
+        "panda",
+        "pandanya"
+      ],
+      "petunjuk": "Hewan hitam putih yang suka makan bambu.",
+      "kalimat": "Ini panda. Panda makan bambu.",
+      "cerita_id": 45
+    },
+    {
+      "id": "katak",
+      "kata": "katak",
+      "emoji": "🐸",
+      "gambar": "aset/gambar/hewan/katak.png",
+      "variasi": [
+        "katak",
+        "kataknya"
+      ],
+      "petunjuk": "Hewan hijau yang pandai melompat.",
+      "kalimat": "Ini katak. Katak melompat tinggi.",
+      "cerita_id": 54
+    },
+    {
+      "id": "ular",
+      "kata": "ular",
+      "emoji": "🐍",
+      "gambar": "aset/gambar/hewan/ular.png",
+      "variasi": [
+        "ular",
+        "ularnya"
+      ],
+      "petunjuk": "Hewan panjang yang merayap dan mendesis.",
+      "kalimat": "Ini ular. Ular merayap pelan.",
+      "cerita_id": 58
+    },
+    {
+      "id": "buaya",
+      "kata": "buaya",
+      "emoji": "🐊",
+      "gambar": "aset/gambar/hewan/buaya.png",
+      "variasi": [
+        "buaya",
+        "buayanya"
+      ],
+      "petunjuk": "Hewan di sungai dengan mulut yang besar.",
+      "kalimat": "Ini buaya. Buaya berjemur di tepi sungai.",
+      "cerita_id": 59
+    },
+    {
+      "id": "tikus",
+      "kata": "tikus",
+      "emoji": "🐭",
+      "gambar": "aset/gambar/hewan/tikus.png",
+      "variasi": [
+        "tikus",
+        "tikusnya"
+      ],
+      "petunjuk": "Hewan kecil yang suka mengendap-endap.",
+      "kalimat": "Ini tikus. Tikus itu kecil.",
+      "cerita_id": 53
+    },
+    {
+      "id": "rusa",
+      "kata": "rusa",
+      "emoji": "🦌",
+      "gambar": "aset/gambar/hewan/rusa.png",
+      "variasi": [
+        "rusa",
+        "rusanya"
+      ],
+      "petunjuk": "Hewan berkaki ramping yang berjalan di tepi sungai.",
+      "kalimat": "Ini rusa. Rusa berjalan pelan.",
+      "cerita_id": 40
+    },
+    {
+      "id": "burung_hantu",
+      "kata": "burung hantu",
+      "emoji": "🦉",
+      "gambar": "aset/gambar/hewan/burung_hantu.png",
+      "variasi": [
+        "burung hantu",
+        "burung hantunya",
+        "burunghantu"
+      ],
+      "petunjuk": "Burung yang terjaga pada malam hari.",
+      "kalimat": "Ini burung hantu. Burung hantu terjaga saat malam.",
+      "cerita_id": 55
+    },
+    {
+      "id": "burung_nuri",
+      "kata": "burung nuri",
+      "emoji": "🦜",
+      "gambar": "aset/gambar/hewan/burung_nuri.png",
+      "variasi": [
+        "burung nuri",
+        "burung nurinya",
+        "burungnuri"
+      ],
+      "petunjuk": "Burung berwarna-warni yang pandai berkicau.",
+      "kalimat": "Ini burung nuri. Burung nuri berkicau merdu.",
+      "cerita_id": 11
+    },
+    {
+      "id": "kura_kura",
+      "kata": "kura-kura",
+      "emoji": "🐢",
+      "gambar": "aset/gambar/hewan/kura_kura.png",
+      "variasi": [
+        "kura-kura",
+        "kura-kuranya",
+        "kura kura",
+        "kurakura"
+      ],
+      "petunjuk": "Hewan berjalan lambat dengan cangkang di punggung.",
+      "kalimat": "Ini kura-kura. Kura-kura berjalan lambat.",
+      "cerita_id": 57
+    },
+    {
+      "id": "tupai",
+      "kata": "tupai",
+      "emoji": "🐿️",
+      "gambar": "aset/gambar/hewan/tupai.png",
+      "variasi": [
+        "tupai",
+        "tupainya"
+      ],
+      "petunjuk": "Hewan kecil yang lincah melompat antar dahan.",
+      "kalimat": "Ini tupai. Tupai melompat dari dahan ke dahan.",
+      "cerita_id": 12
+    },
+    {
+      "id": "landak",
+      "kata": "landak",
+      "emoji": "🦔",
+      "gambar": "aset/gambar/hewan/landak.png",
+      "variasi": [
+        "landak",
+        "landaknya"
+      ],
+      "petunjuk": "Hewan kecil yang punya duri di punggung.",
+      "kalimat": "Ini landak. Landak punya duri.",
+      "cerita_id": 14
+    },
+    {
+      "id": "kanguru",
+      "kata": "kanguru",
+      "emoji": "🦘",
+      "gambar": "aset/gambar/hewan/kanguru.png",
+      "variasi": [
+        "kanguru",
+        "kangurunya",
+        "kangguru"
+      ],
+      "petunjuk": "Hewan yang melompat jauh dan punya kantong.",
+      "kalimat": "Ini kanguru. Kanguru membawa anaknya di kantong.",
+      "cerita_id": 46
+    },
+    {
+      "id": "koala",
+      "kata": "koala",
+      "emoji": "🐨",
+      "gambar": "aset/gambar/hewan/koala.png",
+      "variasi": [
+        "koala",
+        "koalanya"
+      ],
+      "petunjuk": "Hewan berbulu abu-abu yang memanjat pohon dengan pelan.",
+      "kalimat": "Ini koala. Koala memanjat pelan.",
+      "cerita_id": 47
+    },
+    {
+      "id": "unta",
+      "kata": "unta",
+      "emoji": "🐪",
+      "gambar": "aset/gambar/hewan/unta.png",
+      "variasi": [
+        "unta",
+        "untanya"
+      ],
+      "petunjuk": "Hewan yang berjalan di gurun pasir.",
+      "kalimat": "Ini unta. Unta berjalan di gurun.",
+      "cerita_id": 49
+    },
+    {
+      "id": "badak",
+      "kata": "badak",
+      "emoji": "🦏",
+      "gambar": "aset/gambar/hewan/badak.png",
+      "variasi": [
+        "badak",
+        "badaknya"
+      ],
+      "petunjuk": "Hewan besar dengan cula di hidungnya.",
+      "kalimat": "Ini badak. Badak punya cula.",
+      "cerita_id": 44
+    },
+    {
+      "id": "kuda_nil",
+      "kata": "kuda nil",
+      "emoji": "🦛",
+      "gambar": "aset/gambar/hewan/kuda_nil.png",
+      "variasi": [
+        "kuda nil",
+        "kuda nilnya",
+        "kudanil"
+      ],
+      "petunjuk": "Hewan besar yang suka di air, mulutnya lebar.",
+      "kalimat": "Ini kuda nil. Kuda nil membuka mulut lebar.",
+      "cerita_id": 42
+    },
+    {
+      "id": "banteng",
+      "kata": "banteng",
+      "emoji": "🐂",
+      "gambar": "aset/gambar/hewan/banteng.png",
+      "variasi": [
+        "banteng",
+        "bantengnya"
+      ],
+      "petunjuk": "Hewan besar bertanduk.",
+      "kalimat": "Ini banteng. Banteng berlari kencang.",
+      "cerita_id": 61
+    },
+    {
+      "id": "kancil",
+      "kata": "kancil",
+      "emoji": null,
+      "gambar": "aset/gambar/hewan/kancil.png",
+      "variasi": [
+        "kancil",
+        "kancilnya"
+      ],
+      "petunjuk": "Hewan kecil yang cerdik.",
+      "kalimat": "Ini kancil. Kancil itu cerdik.",
+      "cerita_id": 7
+    },
+    {
+      "id": "rubah",
+      "kata": "rubah",
+      "emoji": "🦊",
+      "gambar": "aset/gambar/hewan/rubah.png",
+      "variasi": [
+        "rubah",
+        "rubahnya"
+      ],
+      "petunjuk": "Hewan berbulu merah dengan ekor lebat.",
+      "kalimat": "Ini rubah. Rubah berbulu merah.",
+      "cerita_id": 51
+    },
+    {
+      "id": "rakun",
+      "kata": "rakun",
+      "emoji": "🦝",
+      "gambar": "aset/gambar/hewan/rakun.png",
+      "variasi": [
+        "rakun",
+        "rakunnya"
+      ],
+      "petunjuk": "Hewan berbulu abu-abu yang keluar saat malam.",
+      "kalimat": "Ini rakun. Rakun keluar saat malam.",
+      "cerita_id": 50
+    },
+    {
+      "id": "komodo",
+      "kata": "komodo",
+      "emoji": "🦎",
+      "gambar": "aset/gambar/hewan/komodo.png",
+      "variasi": [
+        "komodo",
+        "komodonya"
+      ],
+      "petunjuk": "Kadal raksasa yang hidup di pulau.",
+      "kalimat": "Ini komodo. Komodo hidup di pulau.",
+      "cerita_id": 60
+    },
+    {
+      "id": "orangutan",
+      "kata": "orangutan",
+      "emoji": "🦧",
+      "gambar": "aset/gambar/hewan/orangutan.png",
+      "variasi": [
+        "orangutan",
+        "orangutannya",
+        "orang utan"
+      ],
+      "petunjuk": "Kera berbulu cokelat kemerahan yang tinggal di pohon.",
+      "kalimat": "Ini orangutan. Orangutan duduk di cabang pohon.",
+      "cerita_id": 62
+    },
+    {
+      "id": "trenggiling",
+      "kata": "trenggiling",
+      "emoji": null,
+      "gambar": "aset/gambar/hewan/trenggiling.png",
+      "variasi": [
+        "trenggiling",
+        "trenggilingnya"
+      ],
+      "petunjuk": "Hewan bersisik yang bisa menggulung tubuhnya.",
+      "kalimat": "Ini trenggiling. Trenggiling punya sisik.",
+      "cerita_id": 56
+    },
+    {
+      "id": "tapir",
+      "kata": "tapir",
+      "emoji": null,
+      "gambar": "aset/gambar/hewan/tapir.png",
+      "variasi": [
+        "tapir",
+        "tapirnya"
+      ],
+      "petunjuk": "Hewan pemalu yang berhidung panjang.",
+      "kalimat": "Ini tapir. Tapir berhidung panjang.",
+      "cerita_id": 63
+    }
+  ]
+}

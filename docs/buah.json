@@ -1,0 +1,435 @@
+{
+  "tema": "buah",
+  "judul": "Buah-buahan",
+  "sumber": "Nama diambil dari judul tema 'Hewan dan Buah-buahan' di data_cerita.json",
+  "kartu": [
+    {
+      "id": "apel",
+      "kata": "apel",
+      "emoji": "🍎",
+      "gambar": "aset/gambar/buah/apel.png",
+      "variasi": [
+        "apel",
+        "apelnya"
+      ],
+      "petunjuk": "Buah bulat yang berwarna merah.",
+      "kalimat": "Ini apel. Apel rasanya renyah.",
+      "cerita_id": 13
+    },
+    {
+      "id": "pisang",
+      "kata": "pisang",
+      "emoji": "🍌",
+      "gambar": "aset/gambar/buah/pisang.png",
+      "variasi": [
+        "pisang",
+        "pisangnya"
+      ],
+      "petunjuk": "Buah panjang berkulit kuning.",
+      "kalimat": "Ini pisang. Pisang berwarna kuning.",
+      "cerita_id": 8
+    },
+    {
+      "id": "jeruk",
+      "kata": "jeruk",
+      "emoji": "🍊",
+      "gambar": "aset/gambar/buah/jeruk.png",
+      "variasi": [
+        "jeruk",
+        "jeruknya"
+      ],
+      "petunjuk": "Buah bulat berwarna oranye, rasanya asam manis.",
+      "kalimat": "Ini jeruk. Jeruk rasanya asam manis.",
+      "cerita_id": 39
+    },
+    {
+      "id": "mangga",
+      "kata": "mangga",
+      "emoji": "🥭",
+      "gambar": "aset/gambar/buah/mangga.png",
+      "variasi": [
+        "mangga",
+        "mangganya",
+        "manga"
+      ],
+      "petunjuk": "Buah manis yang tumbuh di pohon besar.",
+      "kalimat": "Ini mangga. Mangga rasanya manis.",
+      "cerita_id": 7
+    },
+    {
+      "id": "semangka",
+      "kata": "semangka",
+      "emoji": "🍉",
+      "gambar": "aset/gambar/buah/semangka.png",
+      "variasi": [
+        "semangka",
+        "semangkanya"
+      ],
+      "petunjuk": "Buah besar yang segar dan berair.",
+      "kalimat": "Ini semangka. Semangka besar dan segar.",
+      "cerita_id": 10
+    },
+    {
+      "id": "anggur",
+      "kata": "anggur",
+      "emoji": "🍇",
+      "gambar": "aset/gambar/buah/anggur.png",
+      "variasi": [
+        "anggur",
+        "anggurnya"
+      ],
+      "petunjuk": "Buah kecil bulat yang tumbuh dalam seikat.",
+      "kalimat": "Ini anggur. Anggur tumbuh dalam seikat.",
+      "cerita_id": 47
+    },
+    {
+      "id": "nanas",
+      "kata": "nanas",
+      "emoji": "🍍",
+      "gambar": "aset/gambar/buah/nanas.png",
+      "variasi": [
+        "nanas",
+        "nanasnya"
+      ],
+      "petunjuk": "Buah berkulit kasar dengan daun di atasnya.",
+      "kalimat": "Ini nanas. Kulit nanas berduri.",
+      "cerita_id": 44
+    },
+    {
+      "id": "stroberi",
+      "kata": "stroberi",
+      "emoji": "🍓",
+      "gambar": "aset/gambar/buah/stroberi.png",
+      "variasi": [
+        "stroberi",
+        "stroberinya",
+        "strawberry"
+      ],
+      "petunjuk": "Buah kecil berwarna merah terang.",
+      "kalimat": "Ini stroberi. Stroberi berwarna merah.",
+      "cerita_id": 14
+    },
+    {
+      "id": "melon",
+      "kata": "melon",
+      "emoji": "🍈",
+      "gambar": "aset/gambar/buah/melon.png",
+      "variasi": [
+        "melon",
+        "melonnya"
+      ],
+      "petunjuk": "Buah bulat besar yang rasanya segar dan manis.",
+      "kalimat": "Ini melon. Melon rasanya manis.",
+      "cerita_id": 42
+    },
+    {
+      "id": "tomat",
+      "kata": "tomat",
+      "emoji": "🍅",
+      "gambar": "aset/gambar/buah/tomat.png",
+      "variasi": [
+        "tomat",
+        "tomatnya"
+      ],
+      "petunjuk": "Buah bulat berwarna merah yang berair.",
+      "kalimat": "Ini tomat. Tomat merah dan bulat.",
+      "cerita_id": 53
+    },
+    {
+      "id": "alpukat",
+      "kata": "alpukat",
+      "emoji": "🥑",
+      "gambar": "aset/gambar/buah/alpukat.png",
+      "variasi": [
+        "alpukat",
+        "alpukatnya",
+        "avokad",
+        "avocado"
+      ],
+      "petunjuk": "Buah berwarna hijau dengan daging yang lembut.",
+      "kalimat": "Ini alpukat. Daging alpukat lembut.",
+      "cerita_id": 52
+    },
+    {
+      "id": "kelapa",
+      "kata": "kelapa",
+      "emoji": "🥥",
+      "gambar": "aset/gambar/buah/kelapa.png",
+      "variasi": [
+        "kelapa",
+        "kelapanya"
+      ],
+      "petunjuk": "Buah besar yang di dalamnya ada air segar.",
+      "kalimat": "Ini kelapa. Air kelapa segar.",
+      "cerita_id": 12
+    },
+    {
+      "id": "pepaya",
+      "kata": "pepaya",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/pepaya.png",
+      "variasi": [
+        "pepaya",
+        "pepayanya"
+      ],
+      "petunjuk": "Buah dengan daging berwarna jingga.",
+      "kalimat": "Ini pepaya. Daging pepaya berwarna jingga.",
+      "cerita_id": 11
+    },
+    {
+      "id": "pir",
+      "kata": "pir",
+      "emoji": "🍐",
+      "gambar": "aset/gambar/buah/pir.png",
+      "variasi": [
+        "pir",
+        "pirnya"
+      ],
+      "petunjuk": "Buah berwarna kuning yang renyah dan berair.",
+      "kalimat": "Ini pir. Pir renyah dan berair.",
+      "cerita_id": 48
+    },
+    {
+      "id": "kiwi",
+      "kata": "kiwi",
+      "emoji": "🥝",
+      "gambar": "aset/gambar/buah/kiwi.png",
+      "variasi": [
+        "kiwi",
+        "kiwinya"
+      ],
+      "petunjuk": "Buah kecil berkulit berbulu.",
+      "kalimat": "Ini kiwi. Kulit kiwi berbulu.",
+      "cerita_id": 45
+    },
+    {
+      "id": "ceri",
+      "kata": "ceri",
+      "emoji": "🍒",
+      "gambar": "aset/gambar/buah/ceri.png",
+      "variasi": [
+        "ceri",
+        "cerinya",
+        "cheri",
+        "cherry"
+      ],
+      "petunjuk": "Buah kecil bulat berwarna merah.",
+      "kalimat": "Ini ceri. Ceri berwarna merah.",
+      "cerita_id": 46
+    },
+    {
+      "id": "durian",
+      "kata": "durian",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/durian.png",
+      "variasi": [
+        "durian",
+        "duriannya"
+      ],
+      "petunjuk": "Buah berduri dengan bau yang tajam.",
+      "kalimat": "Ini durian. Durian baunya tajam.",
+      "cerita_id": 41
+    },
+    {
+      "id": "rambutan",
+      "kata": "rambutan",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/rambutan.png",
+      "variasi": [
+        "rambutan",
+        "rambutannya"
+      ],
+      "petunjuk": "Buah merah yang penuh rambut halus.",
+      "kalimat": "Ini rambutan. Rambutan berambut halus.",
+      "cerita_id": 58
+    },
+    {
+      "id": "salak",
+      "kata": "salak",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/salak.png",
+      "variasi": [
+        "salak",
+        "salaknya"
+      ],
+      "petunjuk": "Buah berkulit cokelat seperti sisik.",
+      "kalimat": "Ini salak. Kulit salak seperti sisik.",
+      "cerita_id": 56
+    },
+    {
+      "id": "manggis",
+      "kata": "manggis",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/manggis.png",
+      "variasi": [
+        "manggis",
+        "manggisnya"
+      ],
+      "petunjuk": "Buah berkulit ungu tua dengan isi putih.",
+      "kalimat": "Ini manggis. Kulit manggis berwarna ungu.",
+      "cerita_id": 59
+    },
+    {
+      "id": "buah_naga",
+      "kata": "buah naga",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/buah_naga.png",
+      "variasi": [
+        "buah naga",
+        "buah naganya",
+        "buahnaga"
+      ],
+      "petunjuk": "Buah berkulit bersisik dengan warna cerah.",
+      "kalimat": "Ini buah naga. Buah naga berwarna cerah.",
+      "cerita_id": 57
+    },
+    {
+      "id": "jambu_air",
+      "kata": "jambu air",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/jambu_air.png",
+      "variasi": [
+        "jambu air",
+        "jambu airnya",
+        "jambuair"
+      ],
+      "petunjuk": "Buah yang banyak airnya, sering berwarna merah.",
+      "kalimat": "Ini jambu air. Jambu air banyak airnya.",
+      "cerita_id": 40
+    },
+    {
+      "id": "belimbing",
+      "kata": "belimbing",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/belimbing.png",
+      "variasi": [
+        "belimbing",
+        "belimbingnya"
+      ],
+      "petunjuk": "Buah kuning yang berbentuk bintang jika dipotong.",
+      "kalimat": "Ini belimbing. Belimbing seperti bintang.",
+      "cerita_id": 60
+    },
+    {
+      "id": "jeruk_bali",
+      "kata": "jeruk bali",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/jeruk_bali.png",
+      "variasi": [
+        "jeruk bali",
+        "jeruk balinya",
+        "jerukbali"
+      ],
+      "petunjuk": "Buah jeruk yang sangat besar.",
+      "kalimat": "Ini jeruk bali. Jeruk bali besar.",
+      "cerita_id": 61
+    },
+    {
+      "id": "markisa",
+      "kata": "markisa",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/markisa.png",
+      "variasi": [
+        "markisa",
+        "markisanya"
+      ],
+      "petunjuk": "Buah dengan biji berair di dalamnya, rasanya asam.",
+      "kalimat": "Ini markisa. Markisa rasanya asam.",
+      "cerita_id": 54
+    },
+    {
+      "id": "duku",
+      "kata": "duku",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/duku.png",
+      "variasi": [
+        "duku",
+        "dukunya"
+      ],
+      "petunjuk": "Buah kecil bulat berkulit cokelat muda.",
+      "kalimat": "Ini duku. Duku bulat dan kecil.",
+      "cerita_id": 62
+    },
+    {
+      "id": "kedondong",
+      "kata": "kedondong",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/kedondong.png",
+      "variasi": [
+        "kedondong",
+        "kedondongnya"
+      ],
+      "petunjuk": "Buah hijau yang rasanya asam dan keras.",
+      "kalimat": "Ini kedondong. Kedondong rasanya asam.",
+      "cerita_id": 63
+    },
+    {
+      "id": "kurma",
+      "kata": "kurma",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/kurma.png",
+      "variasi": [
+        "kurma",
+        "kurmanya"
+      ],
+      "petunjuk": "Buah manis yang tumbuh di pohon dekat oasis.",
+      "kalimat": "Ini kurma. Kurma rasanya manis.",
+      "cerita_id": 49
+    },
+    {
+      "id": "delima",
+      "kata": "delima",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/delima.png",
+      "variasi": [
+        "delima",
+        "delimanya"
+      ],
+      "petunjuk": "Buah dengan butiran merah di dalamnya.",
+      "kalimat": "Ini delima. Delima berisi butiran merah.",
+      "cerita_id": 43
+    },
+    {
+      "id": "ara",
+      "kata": "ara",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/ara.png",
+      "variasi": [
+        "ara",
+        "aranya"
+      ],
+      "petunjuk": "Buah manis dengan banyak biji kecil.",
+      "kalimat": "Ini ara. Ara berbiji kecil.",
+      "cerita_id": 55
+    },
+    {
+      "id": "blueberry",
+      "kata": "blueberry",
+      "emoji": "🫐",
+      "gambar": "aset/gambar/buah/blueberry.png",
+      "variasi": [
+        "blueberry",
+        "blueberrynya",
+        "bluberi",
+        "blueberi"
+      ],
+      "petunjuk": "Buah kecil bulat berwarna biru keunguan.",
+      "kalimat": "Ini blueberry. Blueberry kecil dan biru.",
+      "cerita_id": 50
+    },
+    {
+      "id": "beri_hitam",
+      "kata": "beri hitam",
+      "emoji": null,
+      "gambar": "aset/gambar/buah/beri_hitam.png",
+      "variasi": [
+        "beri hitam",
+        "beri hitamnya",
+        "berihitam"
+      ],
+      "petunjuk": "Buah kecil hitam keunguan yang berkilau.",
+      "kalimat": "Ini beri hitam. Beri hitam berkilau.",
+      "cerita_id": 51
+    }
+  ]
+}

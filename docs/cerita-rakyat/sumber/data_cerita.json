@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "judul": "Malin Kundang",
+    "tema": "Cerita Rakyat",
+    "isi": "Malin Kundang pergi merantau untuk mencari kekayaan. Ia kembali ke desa dengan kapal besar. Namun, ia malu mengakui ibunya sendiri. Akhirnya, sang ibu mengutuknya menjadi batu."
+  },
+  {
+    "id": 2,
+    "judul": "Timun Mas",
+    "tema": "Cerita Rakyat",
+    "isi": "Seorang janda tua menemukan bayi perempuan di dalam buah timun emas. Anak itu tumbuh menjadi gadis yang sangat cantik. Saat raksasa datang menagih janji, Timun Mas melempar biji ajaib. Raksasa itu pun tenggelam di lautan lumpur."
+  },
+  {
+    "id": 3,
+    "judul": "Sangkuriang",
+    "tema": "Cerita Rakyat",
+    "isi": "Sangkuriang jatuh cinta pada Dayang Sumbi tanpa tahu itu ibunya. Dayang Sumbi meminta Sangkuriang membuat perahu dalam semalam. Karena gagal, Sangkuriang marah dan menendang perahu itu. Perahu tersebut berubah menjadi Gunung Tangkuban Perahu."
+  },
+  {
+    "id": 4,
+    "judul": "Bawang Merah dan Bawang Putih",
+    "tema": "Cerita Rakyat",
+    "isi": "Bawang Putih adalah gadis yang rajin dan baik hati. Sebaliknya, Bawang Merah selalu malas dan suka marah. Suatu hari, Bawang Putih mendapat hadiah labu berisi emas. Bawang Merah mencoba meniru, tetapi malah mendapat labu berisi ular berbisa."
+  },
+  {
+    "id": 5,
+    "judul": "Danau Toba",
+    "tema": "Cerita Rakyat",
+    "isi": "Toba menangkap seekor ikan emas ajaib yang berubah menjadi wanita. Mereka menikah dengan syarat Toba tidak boleh menyebut asal-usul istrinya. Suatu hari, Toba marah dan melanggar janji tersebut. Hujan deras pun turun dan membentuk Danau Toba."
+  },
+  {
+    "id": 6,
+    "judul": "Keong Mas",
+    "tema": "Cerita Rakyat",
+    "isi": "Putri Candra Kirana dikutuk menjadi keong mas oleh penyihir jahat. Seorang nenek menemukannya di sungai dan membawanya pulang. Setiap malam, keong itu berubah kembali menjadi putri cantik. Kutukan itu hilang setelah ia bertemu dengan pangeran."
+  },
+  {
+    "id": 7,
+    "judul": "Kancil dan Mangga",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Seekor kancil melihat pohon mangga berbuah lebat di seberang sungai. Ia menipu para buaya agar berbaris menjadi jembatan. Kancil melompat gembira melintasi punggung para buaya. Ia akhirnya bisa makan buah mangga yang manis itu."
+  },
+  {
+    "id": 8,
+    "judul": "Monyet dan Pisang",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Seekor monyet menemukan sisir pisang kuning di pinggir hutan. Ia memakan semuanya tanpa membagi kepada teman-temannya. Akibatnya, monyet itu sakit perut karena terlalu kenyang. Ia berjanji tidak akan bersikap serakah lagi."
+  },
+  {
+    "id": 9,
+    "judul": "Beruang dan Madu",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Beruang madu sangat menyukai rasa manis dari sari bunga. Suatu pagi, ia menemukan sarang lebah di dekat pohon durian. Lebah-lebah itu membiarkan beruang mengambil sedikit madu. Beruang pun makan madu dengan sangat lahap."
+  },
+  {
+    "id": 10,
+    "judul": "Gajah dan Semangka",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Gajah besar berjalan perlahan di tengah ladang semangka. Ia menggunakan belalainya untuk memetik semangka yang paling besar. Dengan sekali gigit, semangka itu pecah di dalam mulutnya. Rasa segar semangka menghilangkan haus sang gajah."
+  },
+  {
+    "id": 11,
+    "judul": "Burung Nuri dan Pepaya",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Burung nuri terbang mencari makan di kebun petani. Ia melihat buah pepaya yang sudah matang di atas pohon. Burung itu mematuk daging pepaya yang berwarna jingga. Setelah kenyang, ia berkicau dengan sangat merdu."
+  },
+  {
+    "id": 12,
+    "judul": "Tupai dan Kelapa",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Tupai lincah melompat dari satu dahan ke dahan lain. Ia berusaha mengupas kulit kelapa menggunakan giginya yang tajam. Setelah berhasil membuat lubang, ia meminum air kelapa yang segar. Tupai merasa sangat bahagia dan kenyang hari itu."
+  },
+  {
+    "id": 13,
+    "judul": "Jerapah dan Apel",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Jerapah memiliki leher yang sangat panjang. Ia mengulurkan lehernya untuk mencapai buah apel merah di dahan tertinggi. Apel itu terasa sangat renyah saat dikunyah. Jerapah pun memetik beberapa apel lagi untuk dibawa pulang."
+  },
+  {
+    "id": 14,
+    "judul": "Landak dan Stroberi",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Landak kecil berjalan mengendus di semak-semak. Ia menemukan banyak buah stroberi liar yang berwarna merah terang. Landak menancapkan stroberi itu pada duri di punggungnya. Ia membawa pulang buah-buahan itu untuk makan malam."
+  },
+  {
+    "id": 15,
+    "judul": "Roro Jonggrang",
+    "tema": "Cerita Rakyat",
+    "isi": "Bandung Bondowoso ingin menikahi Roro Jonggrang. Roro Jonggrang meminta dibangunkan seribu candi dalam satu malam. Saat candi hampir selesai, ia menipu dengan menumbuk padi agar ayam berkokok. Bandung Bondowoso marah lalu mengutuknya menjadi candi keseribu."
+  },
+  {
+    "id": 16,
+    "judul": "Lutung Kasarung",
+    "tema": "Cerita Rakyat",
+    "isi": "Purbasari diusir ke hutan oleh kakaknya yang jahat. Di sana, ia berteman dengan seekor kera hitam bernama Lutung Kasarung. Kera itu sebenarnya adalah pangeran tampan yang sedang dikutuk. Akhirnya Purbasari kembali ke istana dan menikah dengan pangeran tersebut."
+  },
+  {
+    "id": 17,
+    "judul": "Cindelaras",
+    "tema": "Cerita Rakyat",
+    "isi": "Cindelaras memiliki seekor ayam jantan yang sangat kuat. Ayam itu selalu menang saat diadu dengan ayam lain di desa. Kehebatan ayam ini terdengar sampai ke telinga sang raja. Akhirnya Cindelaras diundang ke istana dan bertemu ayah kandungnya."
+  },
+  {
+    "id": 18,
+    "judul": "Batu Menangis",
+    "tema": "Cerita Rakyat",
+    "isi": "Ada seorang janda miskin yang memiliki anak gadis sangat cantik namun pemalas. Gadis itu selalu malu mengakui ibunya saat berjalan di pasar. Karena sakit hati, sang ibu berdoa kepada Tuhan. Gadis durhaka itu pun perlahan berubah menjadi batu yang meneteskan air mata."
+  },
+  {
+    "id": 19,
+    "judul": "Jaka Tarub",
+    "tema": "Cerita Rakyat",
+    "isi": "Jaka Tarub mengintip tujuh bidadari yang sedang mandi di telaga. Ia menyembunyikan salah satu selendang milik bidadari bernama Nawang Wulan. Karena tidak bisa terbang, Nawang Wulan akhirnya menikah dengan Jaka Tarub. Suatu hari, selendang itu ditemukan dan ia kembali ke kahyangan."
+  },
+  {
+    "id": 20,
+    "judul": "Si Pitung",
+    "tema": "Cerita Rakyat",
+    "isi": "Si Pitung adalah seorang pemuda jago silat dari Betawi. Ia selalu merampok harta orang kaya yang kikir untuk dibagikan kepada rakyat miskin. Pasukan Belanda sangat kesulitan untuk menangkap Si Pitung karena ia sakti. Namun, kelemahannya akhirnya terbongkar dan ia berhasil dikalahkan."
+  },
+  {
+    "id": 21,
+    "judul": "Asal Usul Banyuwangi",
+    "tema": "Cerita Rakyat",
+    "isi": "Raden Banterang menuduh istrinya, Surati, berkhianat karena hasutan seseorang. Untuk membuktikan kesuciannya, Surati melompat ke dalam sungai yang deras. Air sungai itu tiba-tiba berubah menjadi sangat jernih dan berbau harum. Sejak saat itu, daerah tersebut diberi nama Banyuwangi."
+  },
+  {
+    "id": 22,
+    "judul": "Legenda Pesut Mahakam",
+    "tema": "Cerita Rakyat",
+    "isi": "Dua orang anak menangis kelaparan karena ditinggal oleh ayah dan ibu tirinya. Mereka memakan bubur panas di dapur yang ternyata sedang mendidih. Karena kepanasan, mereka berlari dan melompat ke dalam Sungai Mahakam. Tubuh mereka akhirnya berubah menjadi ikan pesut."
+  },
+  {
+    "id": 23,
+    "judul": "Kebo Iwa",
+    "tema": "Cerita Rakyat",
+    "isi": "Kebo Iwa adalah pemuda raksasa di Bali yang sangat rakus. Penduduk desa kewalahan menyediakan makanan untuknya setiap hari. Mereka lalu menjebak Kebo Iwa di dalam sebuah sumur besar. Sumur itu ditimbun batu hingga akhirnya membentuk Danau Batur."
+  },
+  {
+    "id": 24,
+    "judul": "Ande Ande Lumut",
+    "tema": "Cerita Rakyat",
+    "isi": "Pangeran Kusumajati menyamar menjadi pemuda desa bernama Ande Ande Lumut. Banyak gadis cantik datang untuk melamarnya, tetapi ia menolak semuanya. Ia hanya mau menerima seorang gadis berpakaian kumal bernama Klenting Kuning. Gadis itu ternyata adalah Putri Sekartaji yang sedang menyamar."
+  },
+  {
+    "id": 25,
+    "judul": "Legenda Pulau Kemaro",
+    "tema": "Cerita Rakyat",
+    "isi": "Pangeran Tan Bun An membuang guci-guci ke sungai karena mengira isinya hanya sayuran busuk. Ternyata di bawah sayuran itu terdapat banyak emas murni dari Tiongkok. Pangeran melompat ke sungai untuk mengambil emas itu namun tenggelam. Sang putri pun ikut melompat dan di tempat itu muncullah Pulau Kemaro."
+  },
+  {
+    "id": 26,
+    "judul": "Legenda Gunung Kelud",
+    "tema": "Cerita Rakyat",
+    "isi": "Lembu Suro marah karena Dewi Kilisuci membatalkan janji pernikahan mereka. Lembu Suro dikubur hidup-hidup di dalam sumur oleh prajurit kerajaan. Sebelum mati, ia mengutuk akan membalas dendam kepada seluruh penduduk. Kutukan itu dipercaya sebagai penyebab meletusnya Gunung Kelud."
+  },
+  {
+    "id": 27,
+    "judul": "Si Sigarlaki dan Si Limbat",
+    "tema": "Cerita Rakyat",
+    "isi": "Si Sigarlaki adalah seorang pemburu yang ahli menombak hewan di hutan. Suatu hari tombaknya dicuri oleh kepiting raksasa dan disembunyikan. Ia meminta bantuan sahabatnya, Si Limbat, untuk mencari tombak tersebut. Mereka berhasil merebutnya kembali berkat kecerdikan Si Limbat."
+  },
+  {
+    "id": 28,
+    "judul": "Asal Usul Burung Ruai",
+    "tema": "Cerita Rakyat",
+    "isi": "Seorang putri bungsu sering disiksa oleh keenam kakak perempuannya. Ia dibuang ke tengah hutan agar tidak bisa kembali ke istana. Ia menangis dan menenun kapas hingga tubuhnya tertutup benang. Putri itu akhirnya berubah menjadi burung ruai yang memiliki bulu indah."
+  },
+  {
+    "id": 29,
+    "judul": "Legenda Batu Golog",
+    "tema": "Cerita Rakyat",
+    "isi": "Amaq Lembain dan Inaq Lembain pergi menumbuk padi di desa tetangga. Mereka meninggalkan kedua anaknya duduk di atas sebuah batu leper. Batu itu tiba-tiba tumbuh semakin tinggi hingga menembus awan. Kedua anak itu akhirnya berubah menjadi burung karena terlalu lama di atas awan."
+  },
+  {
+    "id": 30,
+    "judul": "Putri Tujuh",
+    "tema": "Cerita Rakyat",
+    "isi": "Pangeran Empang Kuala ingin melamar putri tercantik di Kerajaan Seri Bunga Tanjung. Karena lamarannya ditolak, ia mengirim pasukan untuk menyerang kerajaan itu. Ketujuh putri disembunyikan di dalam gua, namun sayangnya mereka semua meninggal. Dari kejadian ini, muncullah nama Kota Dumai."
+  },
+  {
+    "id": 31,
+    "judul": "Asal Usul Sungai Landak",
+    "tema": "Cerita Rakyat",
+    "isi": "Seorang petani miskin menemukan patung landak emas di ladangnya. Patung itu bisa mengabulkan semua permintaan asalkan dielus kepalanya. Petani menjadi kaya raya namun lupa diri dan sangat serakah. Air terus keluar dari patung itu hingga menenggelamkan desa dan membentuk sungai."
+  },
+  {
+    "id": 32,
+    "judul": "Legenda Danau Lipan",
+    "tema": "Cerita Rakyat",
+    "isi": "Putri Aji Berdarah Putih menolak pinangan seorang pangeran dari Tiongkok. Pangeran itu marah dan mengerahkan pasukannya untuk menyerang istana putri. Putri mengunyah sirih dan menyemburkannya ke arah pasukan tersebut. Semburan sirih itu berubah menjadi ribuan lipan raksasa yang menenggelamkan musuh."
+  },
+  {
+    "id": 33,
+    "judul": "Putri Nila Kendi",
+    "tema": "Cerita Rakyat",
+    "isi": "Putri Nila Kendi memiliki suara yang sangat merdu saat bernyanyi. Namun, ia dikurung di istana dan tidak boleh bertemu rakyat jelata. Suatu malam, ia melarikan diri ke hutan untuk mencari kebebasan. Penduduk percaya suaranya masih sering terdengar di dekat air terjun."
+  },
+  {
+    "id": 34,
+    "judul": "La Moelu",
+    "tema": "Cerita Rakyat",
+    "isi": "La Moelu menemukan ikan kecil di sungai lalu merawatnya di dalam tempayan. Ikan itu tumbuh sangat besar dan menjadi teman baiknya setiap hari. Warga desa yang iri membunuh ikan itu dan memakannya beramai-ramai. Dari tulang ikan yang dikubur La Moelu, tumbuhlah pohon emas ajaib."
+  },
+  {
+    "id": 35,
+    "judul": "Legenda Ular N'daung",
+    "tema": "Cerita Rakyat",
+    "isi": "Seorang gadis pemberani mencari obat untuk ibunya di puncak gunung. Ia bertemu dengan ular raksasa bernama N'daung yang menjaga bunga gaib. Gadis itu rela bekerja untuk sang ular demi mendapatkan bunga tersebut. Ternyata, ular itu adalah pangeran yang sedang terkena kutukan."
+  },
+  {
+    "id": 36,
+    "judul": "Bujang Beji",
+    "tema": "Cerita Rakyat",
+    "isi": "Bujang Beji sangat iri melihat Tumenggung Marubai yang selalu mendapat banyak ikan. Ia memutuskan untuk menutup aliran sungai dengan batu besar agar ikan berkumpul. Namun, usahanya digagalkan oleh dewi-dewi yang turun dari langit. Bujang Beji akhirnya menyerah dan berhenti bersikap iri."
+  },
+  {
+    "id": 37,
+    "judul": "Asal Usul Selat Bali",
+    "tema": "Cerita Rakyat",
+    "isi": "Manik Angkeran suka berjudi hingga menghabiskan harta ayahnya, Sidi Mantra. Sidi Mantra meminta bantuan naga sakti untuk mendapatkan emas demi melunasi hutang. Manik Angkeran serakah dan memotong ekor naga itu, lalu ia dibakar menjadi abu. Sidi Mantra menghidupkannya kembali namun memisahkan pulau mereka dengan garis air laut."
+  },
+  {
+    "id": 38,
+    "judul": "Legenda Gunung Bromo",
+    "tema": "Cerita Rakyat",
+    "isi": "Roro Anteng dan Joko Seger berdoa agar dikaruniai banyak anak. Dewa mengabulkannya dengan syarat anak bungsu harus dikorbankan ke kawah gunung. Mereka memiliki dua puluh lima anak dan berat hati melepaskan anak bungsunya. Sang anak akhirnya melompat ke kawah demi keselamatan seluruh keluarganya."
+  },
+  {
+    "id": 39,
+    "judul": "Kelinci dan Jeruk",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Kelinci putih melompat-lompat mencari makan di kebun pak tani. Ia menemukan sebuah jeruk manis yang jatuh dari pohonnya. Kelinci mengupas kulit jeruk itu menggunakan gigi depannya yang panjang. Rasa asam manis dari jeruk membuat kelinci sangat bahagia."
+  },
+  {
+    "id": 40,
+    "judul": "Rusa dan Jambu Air",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Seekor rusa sedang berjalan perlahan di pinggir sungai yang jernih. Ia melihat pohon jambu air yang dahan-dahannya menjuntai ke bawah. Rusa itu langsung memakan jambu air merah yang sangat berair. Dahaganya hilang seketika setelah makan jambu tersebut."
+  },
+  {
+    "id": 41,
+    "judul": "Harimau dan Durian",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Harimau besar sedang beristirahat di bawah pohon besar yang rindang. Tiba-tiba sebuah durian jatuh dan hampir mengenai kepalanya. Harimau itu mengendus durian yang berbau sangat tajam tersebut. Ia tidak menyukainya lalu pergi mencari tempat tidur yang lain."
+  },
+  {
+    "id": 42,
+    "judul": "Kuda Nil dan Melon",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Kuda nil membuka mulutnya lebar-lebar di tepi danau berlumpur. Sang penjaga kebun binatang melemparkan sebuah melon utuh ke arahnya. Kuda nil menggigit melon itu hingga hancur dalam satu kali kunyahan. Ia sangat menyukai rasa buah melon yang segar dan manis."
+  },
+  {
+    "id": 43,
+    "judul": "Singa dan Delima",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Singa jantan berjalan mengitari hutan saat hari sedang terik. Ia menginjak buah delima yang jatuh berserakan di atas tanah. Cairan merah muda dari delima itu menempel di cakarnya yang besar. Singa itu mengendus cakarnya dengan rasa penasaran."
+  },
+  {
+    "id": 44,
+    "judul": "Badak dan Nanas",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Badak bercula satu berjalan menerobos semak-semak tajam di hutan liar. Ia menemukan kebun nanas yang sengaja ditanam oleh warga desa. Badak itu mengunyah nanas berduri tanpa merasa sakit sedikit pun. Kulit mulutnya sangat tebal sehingga duri nanas tidak terasa."
+  },
+  {
+    "id": 45,
+    "judul": "Panda dan Kiwi",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Panda yang lucu merasa bosan karena setiap hari hanya makan bambu. Ia mencoba memakan buah kiwi kecil yang diberikan oleh penjaganya. Kulit kiwi yang berbulu itu ternyata sangat lembut di lidahnya. Panda tersenyum karena menyukai rasa daging kiwi yang asam."
+  },
+  {
+    "id": 46,
+    "judul": "Kanguru dan Ceri",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Ibu kanguru melompat jauh melewati padang rumput yang luas. Anaknya di dalam kantong sedang memegang buah ceri merah. Anak kanguru itu memakan buah ceri sedikit demi sedikit. Mereka berdua sangat menikmati perjalanan di sore hari itu."
+  },
+  {
+    "id": 47,
+    "judul": "Koala dan Anggur",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Koala kecil memanjat pohon kayu putih dengan sangat lambat. Di dahan atas, ada seekor burung yang meninggalkan seikat anggur. Koala memetik satu butir anggur ungu dan mengunyahnya pelan-pelan. Ia merasa buah itu lebih segar dari daun yang biasa ia makan."
+  },
+  {
+    "id": 48,
+    "judul": "Zebra dan Pir",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Zebra bergaris hitam putih berlari santai melintasi padang sabana. Ia berhenti di dekat pohon pir liar yang berbuah lebat. Zebra menjulurkan lidahnya untuk menarik buah pir yang kuning. Buah pir itu memiliki tekstur renyah dan sangat berair."
+  },
+  {
+    "id": 49,
+    "judul": "Unta dan Kurma",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Unta berjalan melintasi gurun pasir yang sangat panas. Ia berhenti di sebuah oasis untuk meminum air yang jernih. Di sana banyak pohon kurma yang buahnya sudah matang. Unta memakan kurma-kurma manis itu untuk menambah tenaga."
+  },
+  {
+    "id": 50,
+    "judul": "Rakun dan Blueberry",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Rakun keluar dari tempat persembunyiannya saat malam tiba. Ia menemukan semak-semak yang penuh dengan blueberry segar. Rakun itu menggunakan tangannya yang kecil untuk memetik buah satu per satu. Ia mencuci blueberry itu di sungai sebelum memakannya."
+  },
+  {
+    "id": 51,
+    "judul": "Rubah dan Beri Hitam",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Rubah merah mengendus jejak di tanah yang basah setelah hujan. Ia melihat semak beri hitam yang buahnya berkilau terkena air. Rubah itu menggigit beberapa buah dan merasakan airnya yang manis. Hidung rubah menjadi kotor terkena warna ungu dari buah tersebut."
+  },
+  {
+    "id": 52,
+    "judul": "Kucing dan Alpukat",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Seekor kucing belang sedang duduk di meja makan pemiliknya. Ia penasaran melihat potongan alpukat hijau di dalam mangkuk. Kucing itu mencoba menjilat sedikit daging alpukat yang lembut. Ia malah bersin dan langsung berlari menjauhi mangkuk tersebut."
+  },
+  {
+    "id": 53,
+    "judul": "Tikus dan Tomat",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Tikus kecil mengendap-endap masuk ke dalam rumah kaca petani. Ia menemukan sebuah tomat merah yang sangat besar dan bulat. Tikus itu menggigit kulit tomat hingga airnya menyembur ke wajahnya. Ia akhirnya menyeret sisa tomat itu ke dalam lubangnya."
+  },
+  {
+    "id": 54,
+    "judul": "Katak dan Markisa",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Katak hijau melompat tinggi dan mendarat di atas batu besar. Di sebelahnya ada buah markisa matang yang jatuh dan terbelah dua. Katak menjulurkan lidahnya dan merasakan biji markisa yang berair. Rasa asam markisa membuat katak itu memejamkan mata."
+  },
+  {
+    "id": 55,
+    "judul": "Burung Hantu dan Ara",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Burung hantu bertengger diam di cabang pohon saat bulan purnama. Ia mematuk buah ara manis yang tumbuh subur di pohon tersebut. Buah ara itu memiliki banyak biji kecil yang renyah di dalamnya. Setelah kenyang, burung hantu mulai berburu tikus tanah."
+  },
+  {
+    "id": 56,
+    "judul": "Trenggiling dan Salak",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Trenggiling berjalan melingkar di atas tanah yang kering. Ia melihat buah salak cokelat yang bentuknya mirip dengan sisik tubuhnya. Trenggiling mencoba mengupas kulit salak tajam itu menggunakan cakar panjangnya. Di dalamnya ada daging buah putih yang tebal dan manis."
+  },
+  {
+    "id": 57,
+    "judul": "Kura-kura dan Buah Naga",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Kura-kura tua berjalan sangat lambat di taman yang penuh bunga. Ia menemukan potongan buah naga ungu jatuh di atas rumput. Kura-kura mulai memakan buah itu dengan gigitan yang pelan. Mulut kura-kura kini berubah warna menjadi merah menyala."
+  },
+  {
+    "id": 58,
+    "judul": "Ular dan Rambutan",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Ular hijau panjang melingkar nyaman di atas dahan pohon. Ia melihat buah rambutan merah yang dipenuhi rambut-rambut halus. Ular menyangka rambutan itu adalah seekor serangga aneh. Ia hanya mendesis ke arah rambutan lalu merayap pergi."
+  },
+  {
+    "id": 59,
+    "judul": "Buaya dan Manggis",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Buaya besar berjemur di pinggir sungai dengan mulut terbuka lebar. Seekor monyet melempar kulit buah manggis tepat ke dalam mulut buaya. Buaya langsung menutup rahangnya karena terkejut. Rasa pahit kulit manggis membuat buaya segera menceburkan diri ke air."
+  },
+  {
+    "id": 60,
+    "judul": "Komodo dan Belimbing",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Komodo berjalan mengendus mencari mangsa di sekitar pulau gersang. Ia menemukan buah belimbing kuning yang berbentuk seperti bintang bersinar. Komodo menjilat belimbing itu dengan lidahnya yang bercabang. Karena tidak suka buah, ia meninggalkan belimbing itu begitu saja."
+  },
+  {
+    "id": 61,
+    "judul": "Banteng dan Jeruk Bali",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Banteng berhidung besar berlari kencang mengelilingi lapangan rumput. Ia menendang sebuah jeruk bali besar seolah-olah itu adalah bola. Jeruk bali itu menggelinding jauh hingga membentur batang pohon. Aroma jeruk yang segar langsung tersebar di udara."
+  },
+  {
+    "id": 62,
+    "judul": "Orangutan dan Duku",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Orangutan pintar duduk bersila di atas cabang pohon tinggi. Ia sedang sibuk mengupas kulit buah duku yang bulat kecil. Orangutan itu tahu harus membuang biji duku agar tidak terasa pahit. Ia memakan puluhan buah duku sampai perutnya buncit."
+  },
+  {
+    "id": 63,
+    "judul": "Tapir dan Kedondong",
+    "tema": "Hewan dan Buah-buahan",
+    "isi": "Tapir yang pemalu bersembunyi di balik semak saat siang hari. Ia mengunyah buah kedondong hijau yang rasanya sangat asam dan keras. Bentuk hidung tapir yang panjang memudahkan ia mengambil buah itu dari tanah. Makanan itu sangat menyegarkan di cuaca yang panas."
+  }
+]

@@ -1,0 +1,151 @@
+{
+ "judul": "Selat Bali",
+ "asal": "Cerita rakyat Bali",
+ "ajaran": "Jangan serakah dan hargai pemberian orang.",
+ "warna": {
+  "dunia": "#1F5F8B",
+  "aksen": "#7FD1E8",
+  "kartu": "#BFDDEB"
+ },
+ "adegan": [
+  {
+   "narasi": "Sidi Mantra tinggal di Bali bersama anaknya. Manik Angkeran suka menghabiskan harta. Harta ayahnya lama-lama habis.",
+   "tanya": "Siapa nama anak Sidi Mantra?",
+   "kunci": [
+    "manik angkeran",
+    "manik"
+   ],
+   "utama": "manik angkeran",
+   "petunjuk": "Nama pemuda yang boros.",
+   "stiker": "🧑",
+   "gambar": {
+    "latar": "pantai",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🧑",
+      "x": 700,
+      "y": 340,
+      "ukuran": 150,
+      "cermin": true
+     },
+     {
+      "emoji": "🏠",
+      "x": 480,
+      "y": 160,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Sidi Mantra meminta bantuan naga sakti. Naga itu memberinya emas. Sidi Mantra melunasi kebutuhan keluarganya.",
+   "tanya": "Siapa yang membantu Sidi Mantra?",
+   "kunci": [
+    "naga sakti",
+    "naga"
+   ],
+   "utama": "naga sakti",
+   "petunjuk": "Hewan besar bersisik dalam cerita.",
+   "stiker": "🐉",
+   "gambar": {
+    "latar": "pantai",
+    "objek": [
+     {
+      "emoji": "🐉",
+      "x": 480,
+      "y": 300,
+      "ukuran": 170
+     },
+     {
+      "emoji": "🧑",
+      "x": 240,
+      "y": 340,
+      "ukuran": 140
+     },
+     {
+      "emoji": "✨",
+      "x": 700,
+      "y": 180,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Manik Angkeran ingin emas lagi. Ia menyakiti naga yang telah menolong ayahnya. Naga itu merasa sedih.",
+   "tanya": "Apa yang dilakukan Manik Angkeran pada naga?",
+   "kunci": [
+    "menyakiti naga",
+    "menyakitinya"
+   ],
+   "utama": "menyakiti naga",
+   "petunjuk": "Perbuatan yang membuat hati sedih.",
+   "stiker": "😞",
+   "gambar": {
+    "latar": "pantai",
+    "objek": [
+     {
+      "emoji": "🧑",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🐉",
+      "x": 700,
+      "y": 320,
+      "ukuran": 150,
+      "cermin": true
+     },
+     {
+      "emoji": "💔",
+      "x": 480,
+      "y": 170,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Sidi Mantra menarik garis di tanah. Air laut memisahkan kedua pulau. Tempat itu menjadi Selat Bali.",
+   "tanya": "Apa nama selat yang terbentuk?",
+   "kunci": [
+    "selat bali",
+    "selat"
+   ],
+   "utama": "selat bali",
+   "petunjuk": "Laut sempit antara dua pulau.",
+   "stiker": "🌊",
+   "gambar": {
+    "latar": "pantai",
+    "objek": [
+     {
+      "emoji": "🌊",
+      "x": 480,
+      "y": 300,
+      "ukuran": 170
+     },
+     {
+      "emoji": "🧑",
+      "x": 240,
+      "y": 340,
+      "ukuran": 140
+     },
+     {
+      "emoji": "🐉",
+      "x": 720,
+      "y": 340,
+      "ukuran": 130,
+      "cermin": true
+     }
+    ]
+   }
+  }
+ ]
+}

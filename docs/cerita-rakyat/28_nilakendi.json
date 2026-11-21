@@ -1,0 +1,151 @@
+{
+ "judul": "Putri Nila Kendi",
+ "asal": "Cerita rakyat Nusantara",
+ "ajaran": "Keinginan baik sebaiknya disampaikan dengan sopan.",
+ "warna": {
+  "dunia": "#2F6F8F",
+  "aksen": "#A8E6CF",
+  "kartu": "#C9E9F2"
+ },
+ "adegan": [
+  {
+   "narasi": "Putri Nila Kendi memiliki suara yang sangat merdu. Ia tinggal di dalam istana. Ia tidak boleh keluar bertemu rakyat.",
+   "tanya": "Apa kelebihan Putri Nila Kendi?",
+   "kunci": [
+    "suara merdu",
+    "merdu"
+   ],
+   "utama": "suara merdu",
+   "petunjuk": "Terdengar indah saat bernyanyi.",
+   "stiker": "🎵",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🎵",
+      "x": 620,
+      "y": 200,
+      "ukuran": 100
+     },
+     {
+      "emoji": "🏛️",
+      "x": 760,
+      "y": 340,
+      "ukuran": 140,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Putri ingin bernyanyi bersama rakyat. Ia meminta izin kepada ayahnya. Namun, ayahnya belum mengizinkan.",
+   "tanya": "Dengan siapa putri ingin bernyanyi?",
+   "kunci": [
+    "rakyat",
+    "bersama rakyat"
+   ],
+   "utama": "rakyat",
+   "petunjuk": "Orang-orang di luar istana.",
+   "stiker": "🎶",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "👨",
+      "x": 700,
+      "y": 340,
+      "ukuran": 150,
+      "cermin": true
+     },
+     {
+      "emoji": "🎶",
+      "x": 480,
+      "y": 170,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Putri berjalan ke hutan seorang diri. Ia ingin menyanyikan lagu dengan tenang. Suaranya terdengar lembut di antara pepohonan.",
+   "tanya": "Ke mana putri pergi?",
+   "kunci": [
+    "hutan",
+    "ke hutan"
+   ],
+   "utama": "hutan",
+   "petunjuk": "Tempat banyak pohon.",
+   "stiker": "🍃",
+   "gambar": {
+    "latar": "bambu",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 360,
+      "y": 330,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🌳",
+      "x": 640,
+      "y": 340,
+      "ukuran": 140
+     },
+     {
+      "emoji": "🍃",
+      "x": 200,
+      "y": 180,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Warga percaya suara putri masih terdengar. Suara itu dekat air terjun. Putri dikenang karena suaranya yang indah.",
+   "tanya": "Di dekat apa suara putri terdengar?",
+   "kunci": [
+    "air terjun",
+    "terjun"
+   ],
+   "utama": "air terjun",
+   "petunjuk": "Air yang jatuh dari ketinggian.",
+   "stiker": "💧",
+   "gambar": {
+    "latar": "sungai",
+    "objek": [
+     {
+      "emoji": "💧",
+      "x": 480,
+      "y": 280,
+      "ukuran": 160
+     },
+     {
+      "emoji": "👸",
+      "x": 240,
+      "y": 340,
+      "ukuran": 130
+     },
+     {
+      "emoji": "🌳",
+      "x": 720,
+      "y": 340,
+      "ukuran": 120,
+      "cermin": true
+     }
+    ]
+   }
+  }
+ ]
+}

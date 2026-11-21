@@ -1,0 +1,153 @@
+{
+ "judul": "Ande Ande Lumut",
+ "asal": "Cerita rakyat Jawa Timur",
+ "ajaran": "Jangan menilai orang dari pakaiannya.",
+ "warna": {
+  "dunia": "#B5445A",
+  "aksen": "#FFD84D",
+  "kartu": "#FFB6C1"
+ },
+ "adegan": [
+  {
+   "narasi": "Pangeran Kusumajati menyamar menjadi pemuda desa. Namanya Ande Ande Lumut. Dia tinggal sederhana di desa.",
+   "tanya": "Siapa nama pemuda desa itu?",
+   "kunci": [
+    "ande ande lumut",
+    "ande"
+   ],
+   "utama": "ande ande lumut",
+   "petunjuk": "Namanya diulang dua kali, lalu ada kata lumut.",
+   "stiker": "👨",
+   "gambar": {
+    "latar": "ladang",
+    "objek": [
+     {
+      "emoji": "👨",
+      "x": 300,
+      "y": 330,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🏡",
+      "x": 700,
+      "y": 300,
+      "ukuran": 200
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Banyak gadis cantik datang melamar Ande Ande Lumut. Mereka memakai baju yang bagus. Tetapi Ande Ande Lumut menolak semuanya.",
+   "tanya": "Siapa yang datang melamar?",
+   "kunci": [
+    "gadis",
+    "gadis cantik",
+    "banyak gadis"
+   ],
+   "utama": "gadis",
+   "petunjuk": "Anak perempuan yang berdandan cantik.",
+   "stiker": "👗",
+   "gambar": {
+    "latar": "ladang",
+    "objek": [
+     {
+      "emoji": "👨",
+      "x": 230,
+      "y": 330,
+      "ukuran": 150
+     },
+     {
+      "emoji": "👩",
+      "x": 500,
+      "y": 340,
+      "ukuran": 130
+     },
+     {
+      "emoji": "👩",
+      "x": 680,
+      "y": 340,
+      "ukuran": 130,
+      "cermin": true
+     },
+     {
+      "emoji": "👗",
+      "x": 820,
+      "y": 370,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Lalu datang seorang gadis berpakaian kumal. Namanya Klenting Kuning. Ande Ande Lumut mau menerimanya.",
+   "tanya": "Siapa nama gadis berpakaian kumal?",
+   "kunci": [
+    "klenting kuning",
+    "klenting"
+   ],
+   "utama": "klenting kuning",
+   "petunjuk": "Namanya ada warna kuning.",
+   "stiker": "👧",
+   "gambar": {
+    "latar": "ladang",
+    "objek": [
+     {
+      "emoji": "👧",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "👨",
+      "x": 660,
+      "y": 330,
+      "ukuran": 150,
+      "cermin": true
+     },
+     {
+      "emoji": "💛",
+      "x": 480,
+      "y": 200,
+      "ukuran": 90
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Ternyata gadis itu seorang putri. Namanya Putri Sekartaji. Dia sedang menyamar. Mereka pun bahagia.",
+   "tanya": "Sebenarnya Klenting Kuning itu siapa?",
+   "kunci": [
+    "putri sekartaji",
+    "putri",
+    "sekartaji"
+   ],
+   "utama": "putri sekartaji",
+   "petunjuk": "Dia seorang putri yang sedang menyamar.",
+   "stiker": "👸",
+   "gambar": {
+    "latar": "polos",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 300,
+      "y": 330,
+      "ukuran": 160
+     },
+     {
+      "emoji": "✨",
+      "x": 480,
+      "y": 230,
+      "ukuran": 100
+     },
+     {
+      "emoji": "🤴",
+      "x": 660,
+      "y": 330,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  }
+ ]
+}

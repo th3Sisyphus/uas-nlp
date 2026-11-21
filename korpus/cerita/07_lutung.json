@@ -1,0 +1,140 @@
+{
+ "judul": "Lutung Kasarung",
+ "asal": "Cerita rakyat Jawa Barat",
+ "ajaran": "Berteman dan berbuat baik membuat kita bahagia.",
+ "warna": {
+  "dunia": "#C2692B",
+  "aksen": "#FFE14D",
+  "kartu": "#F5C28C"
+ },
+ "adegan": [
+  {
+   "narasi": "Purbasari diusir ke hutan oleh kakaknya yang jahat. Hutan itu sepi dan gelap. Purbasari merasa sedih.",
+   "tanya": "Ke mana Purbasari diusir?",
+   "kunci": [
+    "hutan",
+    "ke hutan"
+   ],
+   "utama": "hutan",
+   "petunjuk": "Tempat banyak pohon dan hewan.",
+   "stiker": "🌲",
+   "gambar": {
+    "latar": "bambu",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🌲",
+      "x": 730,
+      "y": 300,
+      "ukuran": 200
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Di hutan, Purbasari bertemu seekor kera hitam. Namanya Lutung Kasarung. Lutung baik hati. Mereka pun berteman.",
+   "tanya": "Siapa nama kera hitam itu?",
+   "kunci": [
+    "lutung kasarung",
+    "lutung"
+   ],
+   "utama": "lutung kasarung",
+   "petunjuk": "Kera berbulu hitam yang baik hati.",
+   "stiker": "🐒",
+   "gambar": {
+    "latar": "bambu",
+    "objek": [
+     {
+      "emoji": "👸",
+      "x": 300,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🐒",
+      "x": 650,
+      "y": 350,
+      "ukuran": 170,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Ternyata kera itu bukan kera biasa. Dia sebenarnya seorang pangeran tampan. Dia sedang terkena kutukan.",
+   "tanya": "Sebenarnya kera itu siapa?",
+   "kunci": [
+    "pangeran",
+    "pangeran tampan",
+    "seorang pangeran"
+   ],
+   "utama": "pangeran",
+   "petunjuk": "Anak raja yang tampan.",
+   "stiker": "🤴",
+   "gambar": {
+    "latar": "bambu",
+    "objek": [
+     {
+      "emoji": "🐒",
+      "x": 300,
+      "y": 350,
+      "ukuran": 170
+     },
+     {
+      "emoji": "✨",
+      "x": 480,
+      "y": 250,
+      "ukuran": 100
+     },
+     {
+      "emoji": "🤴",
+      "x": 680,
+      "y": 330,
+      "ukuran": 160,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Akhirnya Purbasari kembali ke istana. Dia menikah dengan sang pangeran. Mereka hidup bahagia.",
+   "tanya": "Ke mana Purbasari kembali?",
+   "kunci": [
+    "istana",
+    "ke istana"
+   ],
+   "utama": "istana",
+   "petunjuk": "Rumah besar tempat raja dan ratu tinggal.",
+   "stiker": "🏰",
+   "gambar": {
+    "latar": "polos",
+    "objek": [
+     {
+      "emoji": "🏰",
+      "x": 700,
+      "y": 250,
+      "ukuran": 230
+     },
+     {
+      "emoji": "👸",
+      "x": 250,
+      "y": 340,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🤴",
+      "x": 430,
+      "y": 340,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  }
+ ]
+}

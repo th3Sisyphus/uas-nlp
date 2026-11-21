@@ -1,0 +1,145 @@
+{
+ "judul": "Danau Toba",
+ "asal": "Cerita rakyat Sumatera Utara",
+ "ajaran": "Janji harus ditepati.",
+ "warna": {
+  "dunia": "#13A4B8",
+  "aksen": "#FFD84D",
+  "kartu": "#8FE3FF"
+ },
+ "adegan": [
+  {
+   "narasi": "Toba suka memancing di sungai. Suatu hari dia menangkap seekor ikan. Ikan itu berwarna emas dan ajaib.",
+   "tanya": "Ikan apa yang ditangkap Toba?",
+   "kunci": [
+    "ikan emas",
+    "emas"
+   ],
+   "utama": "ikan emas",
+   "petunjuk": "Warnanya kuning berkilau.",
+   "stiker": "🐠",
+   "gambar": {
+    "latar": "sungai",
+    "objek": [
+     {
+      "emoji": "👨",
+      "x": 220,
+      "y": 300,
+      "ukuran": 150
+     },
+     {
+      "emoji": "🎣",
+      "x": 360,
+      "y": 250,
+      "ukuran": 80
+     },
+     {
+      "emoji": "🐠",
+      "x": 650,
+      "y": 420,
+      "ukuran": 140
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Ikan emas itu berubah menjadi wanita cantik. Toba sangat kaget. Mereka lalu menikah. Tetapi ada satu syarat.",
+   "tanya": "Ikan emas berubah menjadi apa?",
+   "kunci": [
+    "wanita",
+    "wanita cantik",
+    "perempuan"
+   ],
+   "utama": "wanita",
+   "petunjuk": "Dia bukan ikan lagi, tetapi seorang ibu muda yang cantik.",
+   "stiker": "👩",
+   "gambar": {
+    "latar": "sungai",
+    "objek": [
+     {
+      "emoji": "👨",
+      "x": 230,
+      "y": 330,
+      "ukuran": 150
+     },
+     {
+      "emoji": "✨",
+      "x": 470,
+      "y": 250,
+      "ukuran": 100
+     },
+     {
+      "emoji": "👩",
+      "x": 700,
+      "y": 320,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Syaratnya, Toba tidak boleh menyebut asal istrinya. Suatu hari Toba marah. Dia melanggar janji itu. Istrinya pun sedih.",
+   "tanya": "Apa yang dilanggar Toba?",
+   "kunci": [
+    "janji",
+    "janjinya"
+   ],
+   "utama": "janji",
+   "petunjuk": "Hal yang harus kita tepati.",
+   "stiker": "🤝",
+   "gambar": {
+    "latar": "senja",
+    "objek": [
+     {
+      "emoji": "😠",
+      "x": 250,
+      "y": 330,
+      "ukuran": 150
+     },
+     {
+      "emoji": "💔",
+      "x": 480,
+      "y": 200,
+      "ukuran": 100
+     },
+     {
+      "emoji": "😢",
+      "x": 700,
+      "y": 330,
+      "ukuran": 150,
+      "cermin": true
+     }
+    ]
+   }
+  },
+  {
+   "narasi": "Hujan deras pun turun. Air naik dan naik. Air itu membentuk sebuah danau yang luas. Namanya Danau Toba.",
+   "tanya": "Apa yang terbentuk dari hujan deras?",
+   "kunci": [
+    "danau toba",
+    "danau"
+   ],
+   "utama": "danau toba",
+   "petunjuk": "Tempat air yang luas, namanya sama dengan nama Toba.",
+   "stiker": "🌧️",
+   "gambar": {
+    "latar": "badai",
+    "objek": [
+     {
+      "emoji": "🌧️",
+      "x": 480,
+      "y": 110,
+      "ukuran": 160
+     },
+     {
+      "emoji": "🏞️",
+      "x": 500,
+      "y": 330,
+      "ukuran": 200
+     }
+    ]
+   }
+  }
+ ]
+}
