@@ -8,6 +8,7 @@ import html
 import random
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 from modul.daftar import potong_halaman, saring
 from modul.flashcard import gambar_kartu, pengecoh
@@ -15,6 +16,7 @@ from modul.ilustrasi import gambar_adegan
 from modul.komponen import judul_balok, kartu_balasan, kartu_banding, kertas, panel_detail_nlp, papan_stiker
 from modul.konfigurasi import MAKS_GANGGUAN_SUARA
 from modul.korpus import CERITA, FLASHCARD
+from modul.narator import narator
 from modul.status import (
     adegan_aktif, kartu_aktif, kartu_berikutnya, ke_adegan_berikutnya, ke_beranda, ke_daftar,
     ke_pertanyaan, ke_ucap, lewati_pertanyaan, mulai_cerita, mulai_kartu, proses_kata, proses_teks,
@@ -96,7 +98,61 @@ def halaman_daftar() -> None:
         st.text_input("Cari judul cerita", key="kata_cari", on_change=ganti_saringan, args=(s.wilayah,))
 
 
+# Menyeragamkan tampilan perekam jadi satu tombol bulat. Ditempel sekali per render;
+# mencari data-testid yang stabil, bukan class acak Streamlit.
+_SKRIP_MIKROFON = """<script>
+(() => {
+  const induk = window.parent;
+  if (induk.__bulatMikrofon) return;
+  induk.__bulatMikrofon = 1;
+  const pasang = () => {
+  if (induk.__gayaMikrofon) return;
+  induk.__gayaMikrofon = 1;
+  const gaya = induk.document.createElement("style");
+  gaya.textContent = `
+    [data-testid="stWidgetLabel"] { display: none !important; }
+    [data-testid="stAudioInput"] { background: none !important; border: none !important;
+      box-shadow: none !important; padding: 0 !important; width: auto !important; }
+    [data-testid="stAudioInputWaveSurfer"] { display: none !important; }
+    [data-testid="stAudioInputActionButton"] {
+      width: 60px !important; height: 60px !important; border-radius: 50% !important;
+      background: #E84D4D !important; color: #fff !important; border: 3px solid #2A1548 !important;
+      box-shadow: 0 3px 0 #B92F3C !important; }
+    [data-testid="stAudioInputActionButton"]:hover { background: #F26363 !important; }
+  `;
+  induk.document.head.appendChild(gaya);
+  };
+  pasang();
+  induk.document.addEventListener("DOMContentLoaded", pasang);
+})();
+</script>"""
+
+
+def _mikrofon(kunci: str) -> None:
+    """Tombol mikrofon bulat untuk merekam jawaban.
+
+    shortkut: st.audio_input 1.50 tidak punya bentuk tombol ikon dan memakai class acak,
+    jadi tampilannya diubah lewat satu <style> yang disuntik ke halaman induk dari iframe
+    components.html (st.html menyaring <script>). Perilaku ASR tetap milik widget.
+    Upgrade: komponen audio kustom bila data-testid berubah.
+    """
+    with st.container(key=f"suara_{kunci}", horizontal_alignment="center"):
+        st.audio_input("Rekam jawabanmu", key=f"mic_{kunci}", label_visibility="collapsed")
+    components.html(_SKRIP_MIKROFON, height=0)
+
+
+def narator_cerita(keadaan: str, teks: str = "", durasi_bicara: float = 0.0) -> None:
+    """Narator + tombol mikrofon di bawah tokoh (dipakai di cerita dan flashcard).
+
+    st.html menyaring <svg> (lihat ilustrasi.py), jadi SVG narator dikirim lewat
+    st.markdown yang mempertahankan HTML mentah.
+    """
+    st.markdown(narator(keadaan, teks, durasi_bicara), unsafe_allow_html=True)
+    _mikrofon(f"{st.session_state.kode}_{st.session_state.indeks}_{st.session_state.nonce_mic}")
+
+
 def tahap_dengar(cerita: dict, adegan: dict) -> None:
+    narator_cerita("bicara", adegan["narasi"], 2.4)
     kertas(f'<p class="bacaan">{html.escape(adegan["narasi"])}</p>')
     putar_suara(adegan["narasi"])
     st.button("Aku siap menjawab", key="tombol_siap", type="primary", width="stretch", on_click=ke_pertanyaan)
@@ -107,19 +163,20 @@ def tahap_tanya(cerita: dict, adegan: dict) -> None:
     balasan = s.balasan
 
     if balasan:
+        pose = {"benar": "benar", "hampir": "menyemangati"}.get(balasan["jenis"], "bingung")
+        narator_cerita(pose, balasan["pesan"], 2.0)
         kartu_balasan(balasan)
         if balasan["jenis"] != "ulang":
             kartu_banding(balasan, adegan, tampilkan_kunci=False)
         panel_detail_nlp(balasan)
         putar_suara(balasan["pesan"])
     else:
+        narator_cerita("mendengar", adegan["tanya"], 2.0)
         kertas(f'<p class="tanya">{html.escape(adegan["tanya"])}</p>')
         putar_suara(adegan["tanya"])
 
-    rekaman = st.audio_input(
-        "Tekan mikrofon, ucapkan jawabanmu, lalu tekan berhenti",
-        key=f"mic_{s.kode}_{s.indeks}_{s.nonce_mic}",
-    )
+    _mikrofon(f"{s.kode}_{s.indeks}_{s.nonce_mic}")
+    rekaman = s.get(f"mic_{s.kode}_{s.indeks}_{s.nonce_mic}")
     if rekaman is not None:
         with st.spinner("Sebentar, aku dengarkan dulu..."):
             tangani_rekaman(rekaman.getvalue())
@@ -202,6 +259,7 @@ def halaman_tamat() -> None:
 
 
 def tahap_kenal(kartu: dict) -> None:
+    narator_cerita("melambai", f"Halo! Ini {kartu['kata']}.", 2.0)
     kertas(f'<div class="kartu-kata">{gambar_kartu(kartu)}'
            f'<p class="kata-besar">{html.escape(kartu["kata"])}</p></div>')
     putar_suara(kartu["kalimat"])
@@ -223,9 +281,12 @@ def ketuk_gambar(kartu: dict, semua: list[dict]) -> None:
 def tahap_ucap(kartu: dict, semua: list[dict]) -> None:
     s = st.session_state
     if s.balasan:
+        pose = {"benar": "benar", "hampir": "menyemangati"}.get(s.balasan["jenis"], "bingung")
+        narator_cerita(pose, s.balasan["pesan"], 2.0)
         kartu_balasan(s.balasan)
         putar_suara(s.balasan["pesan"])
     else:
+        narator_cerita("mendengar", f"Ayo bilang, {kartu['kata']}!", 2.0)
         st.html(f'<p class="tanya" style="text-align:center">Ayo bilang, {html.escape(kartu["kata"])}!</p>')
         putar_suara(f"Ayo bilang, {kartu['kata']}!")
 
@@ -233,10 +294,8 @@ def tahap_ucap(kartu: dict, semua: list[dict]) -> None:
         ketuk_gambar(kartu, semua)
         return
 
-    rekaman = st.audio_input(
-        "Tekan mikrofon, ucapkan katanya, lalu tekan berhenti",
-        key=f"mic_kartu_{s.no_kartu}_{s.nonce_mic}",
-    )
+    _mikrofon(f"kartu_{s.no_kartu}_{s.nonce_mic}")
+    rekaman = s.get(f"mic_kartu_{s.no_kartu}_{s.nonce_mic}")
     if rekaman is not None:
         with st.spinner("Sebentar, aku dengarkan dulu..."):
             tangani_rekaman_kartu(rekaman.getvalue())

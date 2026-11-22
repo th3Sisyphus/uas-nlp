@@ -1,0 +1,1998 @@
+[  123160ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  123643ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  123643ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  124510ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  124511ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  126150ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  126151ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  126152ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  126153ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  128185ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  128186ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  128186ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  128188ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  130202ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  130203ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  130204ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  130240ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  132224ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  132225ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  132225ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  132267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  134241ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  134241ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  134241ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  134242ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  136254ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  136255ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  136256ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  136258ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  138268ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  138269ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  138271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  138272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  140281ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  140282ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  140282ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  140282ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  142293ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  142293ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  142293ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  142293ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  144302ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  144302ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  144303ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  144308ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  146315ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  146315ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  146315ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  146316ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  148329ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  148330ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  148330ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  148359ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  150335ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  150336ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  150337ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  150339ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  152343ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  152343ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  152343ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  152344ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  154358ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  154358ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  154358ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  154359ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  156368ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  156368ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  156369ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  156369ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  158381ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  158381ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  158382ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  158382ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  160399ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  160399ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  160400ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  160400ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  162416ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  162416ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  162417ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  162417ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  164427ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  164428ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  164429ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  164431ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  166439ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  166439ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  166440ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  166440ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  168459ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  168459ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  168460ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  168460ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  170474ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  170475ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  170475ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  170476ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  172484ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  172484ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  172485ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  172485ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  174502ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  174502ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  174503ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  174540ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  176524ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  176524ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  176525ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  176525ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  178542ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  178542ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  178542ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  178543ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  180551ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  180551ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  180552ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  180584ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  182560ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  182560ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  182563ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  182563ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  184577ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  184579ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  184580ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  184613ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  186589ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  186589ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  186590ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  186590ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  188598ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  188598ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  188599ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  188601ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  190618ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  190621ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  190622ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  190624ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  192631ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  192631ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  192631ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  192631ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  194642ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  194643ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  194645ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  194667ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  196655ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  196655ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  196656ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  196656ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  198667ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  198667ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  198667ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  198699ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  200676ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  200676ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  200677ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  200678ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  202685ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  202686ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  202687ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  202689ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  204692ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  204693ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  204696ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  204696ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  206701ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  206701ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  206702ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  206704ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  208713ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  208714ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  208714ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  208716ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  210726ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  210726ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  210726ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  210727ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  212734ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  212734ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  212736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  212737ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  214742ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  214742ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  214743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  214744ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  216750ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  216750ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  216750ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  216750ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  218764ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  218764ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  218764ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  218766ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  220781ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  220782ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  220782ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  220813ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  222792ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  222792ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  222792ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  222793ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  224800ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  224800ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  224800ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  224801ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  226814ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  226814ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  226815ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  226815ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  228825ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  228825ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  228825ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  228826ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  230839ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  230839ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  230840ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  230842ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  232850ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  232850ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  232850ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  232851ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  234863ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  234864ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  234864ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  234864ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  236880ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  236880ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  236880ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  236881ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  238893ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  238894ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  238895ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  238896ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  240900ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  240901ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  240903ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  240903ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  242908ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  242908ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  242908ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  242908ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  244925ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  244926ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  244928ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  244928ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  246937ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  246938ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  246938ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  246938ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  248952ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  248954ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  248954ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  248982ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  250966ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  250966ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  250966ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  250999ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  252979ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  252979ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  252980ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  252980ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  254999ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  254999ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  254999ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  255000ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  257008ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  257010ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  257012ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  257018ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  259024ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  259025ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  259025ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  259026ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  261038ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  261039ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  261039ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  261039ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  263050ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  263050ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  263051ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  263052ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  265062ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  265063ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  265063ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  265063ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  267090ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  267090ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  267091ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  267091ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  269104ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  269105ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  269105ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  269105ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  271131ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  271132ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  271132ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  271132ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  273155ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  273155ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  273156ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  273156ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  275174ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  275174ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  275175ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  275177ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  277189ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  277190ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  277190ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  277190ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  279203ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  279204ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  279204ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  279234ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  281221ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  281222ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  281222ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  281249ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  283237ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  283237ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  283237ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  283266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  285254ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  285254ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  285254ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  285255ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  287266ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  287266ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  287268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  287269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  289279ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  289279ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  289279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  289280ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  291296ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  291296ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  291297ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  291297ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  293312ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  293313ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  293313ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  293314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  295327ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  295327ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  295328ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  295361ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  297337ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  297338ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  297338ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  297338ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  299354ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  299354ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  299355ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  299355ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  301371ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  301372ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  301372ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  301373ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  303398ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  303398ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  303399ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  303400ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  305407ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  305407ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  305408ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  305410ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  307416ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  307416ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  307417ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  307418ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  309424ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  309424ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  309425ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  309427ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  311432ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  311433ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  311434ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  311435ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  313440ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  313440ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  313440ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  313442ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  315453ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  315453ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  315453ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  315453ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  317470ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  317470ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  317471ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  317471ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  319486ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  319487ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  319487ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  319510ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  321498ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  321498ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  321499ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  321523ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  323507ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  323507ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  323508ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  323509ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  325514ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  325514ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  325514ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  325515ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  327528ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  327528ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  327529ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  327530ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  329544ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  329544ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  329544ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  329545ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  331564ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  331564ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  331564ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  331565ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  333573ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  333573ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  333574ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  333576ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  335597ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  335597ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  335598ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  335631ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  337605ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  337605ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  337606ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  337628ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  339614ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  339614ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  339615ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  339618ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  341623ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  341624ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  341625ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  341626ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  343667ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  343668ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  343669ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  343670ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  345682ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  345684ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  345684ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  345686ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  347689ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  347690ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  347690ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  347692ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  349702ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  349702ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  349703ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  349703ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  351714ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  351715ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  351715ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  351715ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  353729ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  353730ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  353730ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  353760ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  355740ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  355741ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  355742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  355745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  357747ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  357747ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  357747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  357748ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  359771ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  359771ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  359771ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  359772ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  361795ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  361795ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  361796ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  361828ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  363806ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  363807ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  363808ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  363810ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  365820ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  365820ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  365821ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  365852ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  367835ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  367835ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  367835ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  367836ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  369851ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  369852ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  369852ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  369853ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  371862ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  371862ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  371863ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  371863ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  373872ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  373872ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  373873ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  373875ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  375880ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  375880ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  375881ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  375882ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  377889ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  377890ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  377891ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  377918ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  379898ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  379899ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  379900ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  379927ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  381905ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  381905ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  381905ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  381932ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  383918ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  383918ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  383918ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  383940ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  385961ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  385961ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  385961ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  385962ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  387972ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  387972ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  387973ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  387974ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  389982ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  389983ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  389983ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  390012ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  391994ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  391994ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  391994ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  392027ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  394010ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  394011ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  394011ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  394012ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  396021ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  396021ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  396022ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  396045ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  398034ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  398035ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  398035ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  398035ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  400046ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  400047ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  400047ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  400049ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  402060ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  402061ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  402061ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  402086ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  404077ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  404078ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  404078ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  404079ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  406088ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  406088ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  406088ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  406117ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  408097ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  408098ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  408099ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  408130ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  410106ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  410108ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  410108ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  410112ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  412114ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  412115ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  412116ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  412118ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  414125ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  414126ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  414126ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  414126ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  416153ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  416153ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  416154ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  416182ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  418163ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  418164ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  418165ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  418168ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  420178ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  420179ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  420179ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  420179ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  422193ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  422193ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  422193ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  422194ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  424210ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  424210ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  424211ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  424211ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  426220ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  426220ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  426220ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  426221ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  428237ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  428237ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  428238ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  428238ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  430274ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  430275ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  430276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  430277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  432286ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  432287ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  432287ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  432287ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  434296ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  434296ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  434297ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  434299ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  436317ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  436317ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  436317ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  436318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  438329ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  438330ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  438333ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  438337ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  440345ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  440345ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  440345ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  440346ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  442356ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  442357ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  442358ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  442390ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  444366ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  444367ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  444367ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  444367ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  446380ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  446382ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  446382ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  446385ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  448395ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  448395ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  448396ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  448396ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  450407ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  450408ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  450408ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  450408ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  452419ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  452419ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  452420ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  452424ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  454429ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  454429ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  454431ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  454432ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  456437ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  456438ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  456438ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  456440ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  458447ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  458448ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  458449ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  458451ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  460454ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  460454ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  460456ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  460457ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  462468ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  462468ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  462468ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  462469ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  464480ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  464481ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  464482ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  464518ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  466491ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  466491ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  466491ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  466492ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  468507ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  468507ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  468508ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  468508ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  470534ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  470534ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  470534ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  470535ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  472549ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  472549ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  472549ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  472550ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  474588ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  474589ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  474590ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  474590ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  476595ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  476595ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  476596ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  476597ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  478608ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  478608ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  478608ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  478609ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  480620ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  480622ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  480623ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  480626ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  482628ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  482628ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  482629ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  482652ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  484636ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  484636ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  484637ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  484660ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  486644ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  486645ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  486645ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  486645ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  488653ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  488653ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  488653ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  488653ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  490661ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  490661ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  490661ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  490662ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  492680ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  492681ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  492681ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  492683ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  494687ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  494687ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  494688ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  494715ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  496695ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  496696ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  496698ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  496726ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  498708ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  498708ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  498708ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  498709ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  500719ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  500720ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  500720ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  500721ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  502735ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  502735ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  502736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  502736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  504750ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  504751ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  504751ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  504751ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  506769ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  506769ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  506769ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  506769ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  508782ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  508783ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  508783ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  508783ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  510795ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  510795ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  510797ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  510799ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  512802ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  512802ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  512803ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  512804ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  514811ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  514811ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  514813ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  514814ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  516828ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  516830ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  516831ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  516833ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  518842ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  518842ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  518843ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  518843ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  520860ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  520860ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  520860ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  520913ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  522874ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  522874ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  522874ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  522875ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  524891ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  524892ms] [ERROR] 
+Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal:
+
+```bash
+streamlit run yourscript.py
+```
+       @ http://localhost:8599/static/js/index.6xX1278W.js:975
+[  524892ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  524896ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
+[  526943ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach DoInitPings @ http://localhost:8599/static/js/index.6xX1278W.js:965
+[  526943ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/health:1
+[  526944ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8599/_stcore/host-config:1
