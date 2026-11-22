@@ -47,6 +47,46 @@ Prinsip umum (lihat `docs/riset.md`):
 
 ---
 
+## Layar 1A — Menu tema
+
+Tiga kartu besar menawarkan Cerita Rakyat, Hewan, dan Buah. Hanya Cerita Rakyat
+yang aktif; dua tema lain bertanda "Segera hadir".
+
+```
++--------------------------------------------------------------+
+|                         DONGENG                              |
+|  +----------------+  +----------------+  +----------------+  |
+|  | CERITA RAKYAT  |  |     HEWAN      |  |      BUAH      |  |
+|  |   31 cerita    |  |  Segera hadir  |  |  Segera hadir  |  |
+|  |   [ PILIH ]    |  |   [nonaktif]   |  |   [nonaktif]   |  |
+|  +----------------+  +----------------+  +----------------+  |
++--------------------------------------------------------------+
+```
+
+## Layar 1B — Daftar cerita
+
+Enam kartu tampil per halaman. Saringan wilayah dan navigasi halaman memakai
+tombol besar. Pencarian judul berada di panel orang tua dan guru.
+
+```
++--------------------------------------------------------------+
+| [Menu tema]                 [Kejutkan aku!]                   |
+| [Semua] [Jawa] [Sumatera] [Kalimantan] ...                   |
+|  +----------+       +----------+       +----------+          |
+|  | GAMBAR   |       | GAMBAR   |       | GAMBAR   |          |
+|  |Dengarkan |       |Dengarkan |       |Dengarkan |          |
+|  +----------+       +----------+       +----------+          |
+|  +----------+       +----------+       +----------+          |
+|  | GAMBAR   |       | GAMBAR   |       | GAMBAR   |          |
+|  |Dengarkan |       |Dengarkan |       |Dengarkan |          |
+|  +----------+       +----------+       +----------+          |
+| [Sebelumnya]       Halaman 1 dari 6       [Berikutnya]        |
+| [Untuk orang tua dan guru: cari judul]                        |
++--------------------------------------------------------------+
+```
+
+---
+
 ## Layar 2 — Baca/dengar cerita
 
 ```
@@ -165,3 +205,72 @@ Saat anak menekan mikrofon:
 | Tombol hint | Ambil `hint` dari `korpus/cerita.json` lalu bacakan dengan TTS |
 | Umpan balik | Pujian + petunjuk bertingkat, lalu kunci jawaban dibacakan |
 | Uji pada anak | Minta 1–2 anak mencoba; amati apakah tombol mudah ditekan |
+
+---
+
+## Layar 1A — Menu tema
+
+Beranda hanya menawarkan tiga pilihan besar, satu aksi utama per layar. Jumlah
+cerita pada kartu Cerita Rakyat dihitung dari `CERITA`, jadi ikut berubah saat
+korpus bertambah. Kartu Hewan dan Buah tampil dengan tombol nonaktif
+"Segera hadir" sampai mode flashcard-nya dibuat.
+
+```
++--------------------------------------------------------------+
+|                         DONGENG                              |
+|                                                              |
+|  +----------------+  +----------------+  +----------------+  |
+|  |  CERITA RAKYAT |  |     HEWAN      |  |      BUAH      |  |
+|  |   31 cerita    |  |  Segera hadir  |  |  Segera hadir  |  |
+|  |   [ PILIH ]    |  | [Segera hadir] |  | [Segera hadir] |  |
+|  +----------------+  +----------------+  +----------------+  |
++--------------------------------------------------------------+
+```
+
+- Tombol "Pilih" setinggi 88 px, kartu lain memakai tombol nonaktif.
+- Tidak ada menu bertingkat: satu ketukan sudah membuka daftar cerita.
+
+---
+
+## Layar 1B — Daftar cerita
+
+Daftar cerita memakai halaman: 6 kartu (3 kolom × 2 baris), saringan wilayah,
+dan navigasi halaman. Pencarian judul disembunyikan di panel orang tua dan guru
+supaya layar anak tetap sedikit teks.
+
+```
++--------------------------------------------------------------+
+|                         CERITA                               |
+|  [ Menu tema ]                    [ Kejutkan aku! ]          |
+|                                                              |
+|  [Semua][Jawa][Sumatera][Kalimantan][Sulawesi][Bali NT][Nus] |
+|                                                              |
+|  +-----------+   +-----------+   +-----------+               |
+|  |  GAMBAR   |   |  GAMBAR   |   |  GAMBAR   |               |
+|  |  Judul    |   |  Judul    |   |  Judul    |               |
+|  |  Asal     |   |  Asal     |   |  Asal     |               |
+|  | [Dengarkan]|  | [Dengarkan]|  | [Dengarkan]|              |
+|  +-----------+   +-----------+   +-----------+               |
+|  +-----------+   +-----------+   +-----------+               |
+|  |  GAMBAR   |   |  GAMBAR   |   |  GAMBAR   |               |
+|  | [Dengarkan]|  | [Dengarkan]|  | [Dengarkan]|              |
+|  +-----------+   +-----------+   +-----------+               |
+|                                                              |
+|  [ Sebelumnya ]   Halaman 1 dari 6   [ Berikutnya ]          |
+|                                                              |
+|  > Untuk orang tua dan guru                                  |
+|      Cari judul cerita: [___________________]                |
++--------------------------------------------------------------+
+```
+
+- Saringan wilayah memakai kata kunci `asal`: Jawa atau Betawi → Jawa;
+  Sumatera atau Riau → Sumatera; Kalimantan → Kalimantan; Sulawesi → Sulawesi;
+  Bali atau Nusa Tenggara → Bali dan Nusa Tenggara; selain itu → Nusantara.
+  Mengganti saringan selalu kembali ke halaman 1.
+- Tombol "Sebelumnya" dan "Berikutnya" nonaktif di ujung rentang halaman.
+- "Kejutkan aku!" memilih satu cerita acak dari seluruh korpus, mengabaikan
+  saringan, lalu langsung membuka halaman cerita.
+- Tombol kembali: "Menu tema" dari daftar ke beranda; "Ganti cerita" dari cerita
+  ke daftar, dengan saringan dan nomor halaman terakhir tetap diingat.
+- Logika penyaringan dan pemotongan halaman ada di `modul/daftar.py` dan diuji
+  tanpa Streamlit di `pengujian/uji_sistem.py`.

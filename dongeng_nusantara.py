@@ -28,27 +28,39 @@ Alur singkat:
 
 import streamlit as st
 
-from modul.halaman import halaman_beranda, halaman_cerita, halaman_tamat
+from modul.halaman import (
+    halaman_beranda, halaman_cerita, halaman_daftar, halaman_kartu, halaman_selesai_kartu, halaman_tamat,
+)
 from modul.komponen import pasang_css, pengaturan_guru
-from modul.konfigurasi import WARNA_BERANDA
+from modul.konfigurasi import WARNA_BERANDA, WARNA_TEMA
 from modul.korpus import CERITA
 from modul.status import siapkan_state
 
-HALAMAN = {"beranda": halaman_beranda, "cerita": halaman_cerita, "tamat": halaman_tamat}
+HALAMAN = {
+    "beranda": halaman_beranda, "daftar": halaman_daftar, "cerita": halaman_cerita, "tamat": halaman_tamat,
+    "kartu": halaman_kartu, "selesai_kartu": halaman_selesai_kartu,
+}
+
+
+def warna_aktif() -> dict:
+    """Warna dunia mengikuti cerita yang dibuka, tema kartu, atau beranda."""
+    s = st.session_state
+    if s.kode:
+        return CERITA[s.kode]["warna"]
+    if s.halaman in ("kartu", "selesai_kartu") and s.tema_kartu:
+        return WARNA_TEMA[s.tema_kartu]
+    return WARNA_BERANDA
 
 
 def main() -> None:
     st.set_page_config(page_title="Panggung Dongeng Nusantara", page_icon="🦌", layout="centered")
     siapkan_state()
-    pasang_css(CERITA[st.session_state.kode]["warna"] if st.session_state.kode else WARNA_BERANDA)
+    pasang_css(warna_aktif())
 
-    # Wadah isi dibuat lebih dulu supaya tampil di atas, tetapi pengaturan guru dijalankan
-    # lebih dulu. Dengan begitu nilainya sudah terbaca saat st.rerun() dipanggil dari halaman.
-    wadah_isi = st.container()
-    with st.container():
-        pengaturan_guru()
-    with wadah_isi:
-        HALAMAN[st.session_state.halaman]()
+    # Pengaturan guru ada di sidebar (bisa dilipat). Dijalankan lebih dulu supaya
+    # nilainya sudah terbaca saat st.rerun() dipanggil dari halaman.
+    pengaturan_guru()
+    HALAMAN[st.session_state.halaman]()
 
 
 if __name__ == "__main__":

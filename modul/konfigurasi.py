@@ -12,6 +12,7 @@ from pathlib import Path
 
 FOLDER = Path(__file__).resolve().parent.parent   # folder proyek
 FOLDER_CERITA = FOLDER / "korpus" / "cerita"
+FOLDER_FLASHCARD = FOLDER / "korpus" / "flashcard"
 BERKAS_LEKSIKON = FOLDER / "korpus" / "leksikon.json"
 BERKAS_CSS = FOLDER / "aset" / "tampilan.css"
 
@@ -36,3 +37,13 @@ RMS_MINIMUM = 0.006             # di bawah ini dianggap tidak ada suara
 KEYAKINAN_MINIMUM = 0.40        # keyakinan ASR rendah + jawaban salah = minta ulang
 
 WARNA_BERANDA = {"dunia": "#6B3FD4", "aksen": "#FFD23F"}
+
+# Flashcard kata: jumlah kartu per sesi dan ambang kecocokan ucapan anak.
+JUMLAH_KARTU_SESI = 8            # kartu pertama di berkas (mudah ke sulit), lalu diacak
+AMBANG_KATA_BENAR = 0.80         # skor minimum agar ucapan dianggap benar
+AMBANG_KATA_HAMPIR = 0.60        # skor minimum agar dianggap hampir benar
+
+WARNA_TEMA = {
+    "hewan": {"dunia": "#3D9970", "aksen": "#FFC531", "kartu": "#A8E6C9"},
+    "buah": {"dunia": "#E8743B", "aksen": "#FFD84D", "kartu": "#FFD0A8"},
+}

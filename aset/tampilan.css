@@ -70,6 +70,36 @@ header[data-testid="stHeader"], #MainMenu, footer,
 .st-key-tombol_ganti button { min-height:48px; box-shadow:0 4px 0 var(--tinta); }
 .st-key-tombol_ganti button p { font-size:1.05rem; }
 
+/* Menu tema di beranda: tiga kartu besar */
+.kartu-tema { text-align:center; padding:1rem .8rem; margin-bottom:.7rem; }
+.kartu-tema h3 { font-family:'Baloo 2','Trebuchet MS',sans-serif; font-weight:800; font-size:clamp(1.4rem,3vw,1.9rem); color:var(--tinta); margin:0 0 .2rem; line-height:1.15; }
+.kartu-tema p { margin:0; font-size:1.05rem; }
+.st-key-pilih_tema_rakyat button { min-height:88px; }
+.st-key-pilih_tema_rakyat button p { font-size:1.6rem; }
+.stButton button:disabled { opacity:.6; box-shadow:0 3px 0 var(--tinta); }
+
+/* Saringan wilayah dan navigasi halaman di daftar cerita */
+.st-key-tombol_sebelum button, .st-key-tombol_berikut button { min-height:64px; }
+[class*="st-key-saring_"] button { min-height:56px; }
+[class*="st-key-saring_"] button p { font-size:1rem; }
+
+/* Flashcard kata: kartu besar dengan satu kata */
+.kartu-kata { text-align:center; }
+.gambar-kartu, .emoji-kartu, .kotak-kata {
+  display:block; width:100%; max-width:320px; margin:0 auto; aspect-ratio:1/1;
+  border:var(--tebal) solid var(--tinta); border-radius:20px; background:#fff; object-fit:contain;
+}
+.emoji-kartu { display:grid; place-items:center; font-size:clamp(6rem,22vw,9rem); line-height:1; }
+.kotak-kata {
+  display:grid; place-items:center; background:var(--aksen); color:var(--tinta);
+  font-family:'Baloo 2','Trebuchet MS',sans-serif; font-weight:800;
+  font-size:clamp(2rem,7vw,3.2rem); padding:.6rem; overflow-wrap:anywhere;
+}
+.kata-besar {
+  font-family:'Baloo 2','Trebuchet MS',sans-serif; font-weight:800;
+  font-size:clamp(2.2rem,8vw,3.6rem); line-height:1.1; color:var(--tinta); margin:.8rem 0 0;
+}
+
 /* Kartu cerita di beranda */
 .kartu-cerita { padding:.7rem; margin-bottom:.7rem; }
 .kartu-cerita .adegan { box-shadow:none; border-width:3px; border-radius:14px; }

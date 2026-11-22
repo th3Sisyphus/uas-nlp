@@ -29,6 +29,7 @@ PESAN_GANGGUAN = {
     "kosong": "Hmm, belum ada suara yang masuk. Yuk, dekatkan mikrofon, lalu bicara lebih keras!",
     "terpotong": "Suaramu terpotong. Yuk, ucapkan sampai selesai, baru tekan tombol berhenti!",
     "tidak_jelas": "Maaf, suaramu belum terdengar jelas, yuk coba ucapkan lagi!",
+    "kurang_terdengar": "Wah, suaranya kurang terdengar, coba bilang sekali lagi yuk!",
     "kurang_yakin": "Maaf, aku belum yakin mendengarnya. Yuk, ucapkan lagi pelan-pelan!",
     "internet": "Maaf, sambungan internetnya sedang terganggu. Minta tolong orang dewasa memeriksanya, ya!",
     "rusak": "Rekamannya tidak bisa dibuka. Yuk, kita rekam sekali lagi!",

@@ -9,18 +9,27 @@ from __future__ import annotations
 import streamlit as st
 
 from modul.asr import PESAN_GANGGUAN, gangguan, transkripsi
-from modul.konfigurasi import AMBANG_LULUS
-from modul.korpus import CERITA
-from modul.kuis import putuskan
+from modul.flashcard import cocokkan_kata, pilih_sesi
+from modul.konfigurasi import AMBANG_LULUS, MAKS_PERCOBAAN
+from modul.korpus import CERITA, FLASHCARD
+from modul.kuis import PUJIAN, putuskan
 from modul.nlp import hasil_nlp, nilai_alternatif
 
 
 def siapkan_state() -> None:
     bawaan = {
-        "halaman": "beranda",   # beranda | cerita | tamat
+        "halaman": "beranda",   # beranda | daftar | cerita | tamat
+        "tema": "rakyat",       # tema yang dipilih di beranda
+        "wilayah": "Semua",     # saringan asal di daftar cerita
+        "nomor_halaman": 1,     # halaman daftar cerita yang sedang tampil
+        "kata_cari": "",        # pencarian judul untuk orang tua dan guru
         "kode": None,
         "indeks": 0,
         "tahap": "dengar",      # dengar | tanya | hasil
+        "tema_kartu": None,     # hewan | buah
+        "sesi_kartu": [],       # kartu yang dipakai sesi ini, sudah diacak
+        "no_kartu": 0,          # posisi di sesi_kartu
+        "tahap_kartu": "kenal", # kenal | ucap | hasil
         "percobaan": 0,         # jumlah jawaban salah pada pertanyaan ini
         "gangguan": 0,          # jumlah rekaman gagal berturut-turut
         "nonce_mic": 0,         # berubah agar perekam kembali kosong
@@ -56,6 +65,10 @@ def mulai_cerita(kode: str) -> None:
 
 def ke_beranda() -> None:
     st.session_state.update(halaman="beranda", kode=None, balasan=None)
+
+
+def ke_daftar() -> None:
+    st.session_state.update(halaman="daftar", kode=None, balasan=None)
 
 
 def ke_pertanyaan() -> None:
@@ -132,3 +145,87 @@ def tangani_rekaman(data_wav: bytes) -> None:
         tetapkan_gangguan(asr["gangguan"])
     else:
         proses_teks(asr["alternatif"], asr["keyakinan"], asr["ujung_terpotong"])
+
+
+# ---- Flashcard kata (tema hewan dan buah) ------------------------------------
+
+
+def kartu_aktif() -> dict:
+    s = st.session_state
+    return s.sesi_kartu[s.no_kartu]
+
+
+def mulai_kartu(tema: str) -> None:
+    s = st.session_state
+    s.tema_kartu, s.sesi_kartu, s.no_kartu, s.tahap_kartu = tema, pilih_sesi(FLASHCARD[tema]["kartu"]), 0, "kenal"
+    s.halaman, s.kode = "kartu", None
+    s.percobaan, s.gangguan, s.balasan = 0, 0, None
+    s.nonce_suara += 1
+
+
+def ke_ucap() -> None:
+    st.session_state.tahap_kartu = "ucap"
+    st.session_state.nonce_suara += 1
+
+
+def kartu_berikutnya() -> None:
+    s = st.session_state
+    s.percobaan, s.gangguan, s.balasan = 0, 0, None
+    s.nonce_mic += 1
+    s.nonce_suara += 1
+    if s.no_kartu + 1 < len(s.sesi_kartu):
+        s.no_kartu += 1
+        s.tahap_kartu = "kenal"
+    else:
+        s.halaman = "selesai_kartu"
+
+
+def proses_kata(alternatif: list[str]) -> None:
+    """Menilai ucapan anak untuk kartu aktif, lalu menyiapkan umpan balik bertingkat."""
+    s = st.session_state
+    kartu = kartu_aktif()
+    hasil = cocokkan_kata(alternatif, kartu, s.sesi_kartu)
+    s.nonce_mic += 1
+    s.nonce_suara += 1
+    s.gangguan = 0
+    pesan, jenis = "", hasil["status"]
+
+    if hasil["status"] == "benar":
+        pesan = f"{PUJIAN[s.no_kartu % len(PUJIAN)]} Ini memang {kartu['kata']}."
+    else:
+        s.percobaan += 1
+        if s.percobaan >= MAKS_PERCOBAAN:
+            jenis = "kunci"
+            pesan = f"Tidak apa-apa. Ini {kartu['kata']}. Yuk, kita lihat kartu berikutnya!"
+        elif s.percobaan > 1:
+            pesan = f"Belum tepat. {kartu['petunjuk']} Ini {kartu['kata']}. Ayo sekali lagi!"
+        else:
+            pesan = f"Belum tepat. Ayo bilang sekali lagi: {kartu['kata']}!"
+
+    s.balasan = {"jenis": jenis, "pesan": pesan, "dengar": hasil["terdengar"], "hasil": hasil}
+    if jenis in ("benar", "kunci"):
+        s.tahap_kartu = "hasil"
+    else:
+        s.tahap_kartu = "ucap"
+    # Rerun dipaksa agar tombol "Kartu berikutnya" dan kolom ketik baru muncul seketika.
+    st.rerun()
+
+
+def tangani_rekaman_kartu(data_wav: bytes) -> None:
+    """Pintu masuk rekaman flashcard. Gangguan suara tidak mengurangi percobaan.
+
+    Setelah MAKS_GANGGUAN_SUARA gangguan berturut-turut, halaman menampilkan mode
+    ketuk gambar supaya anak tetap bisa menyelesaikan kartu tanpa mikrofon.
+    """
+    try:
+        asr = transkripsi(data_wav)
+    except Exception:  # lapisan terakhir: anak tidak boleh melihat traceback
+        asr = gangguan("rusak")
+    if asr["gangguan"]:
+        s = st.session_state
+        s.gangguan += 1
+        s.nonce_mic += 1
+        s.nonce_suara += 1
+        s.balasan = {"jenis": "ulang", "pesan": PESAN_GANGGUAN[asr["gangguan"]], "dengar": "", "hasil": None}
+    else:
+        proses_kata(asr["alternatif"])

@@ -8,7 +8,7 @@ import json
 import re
 from pathlib import Path
 
-from modul.konfigurasi import BERKAS_LEKSIKON, FOLDER_CERITA
+from modul.konfigurasi import BERKAS_LEKSIKON, FOLDER_CERITA, FOLDER_FLASHCARD
 
 
 # =============================================================================
@@ -46,3 +46,42 @@ def muat_cerita(folder: Path = FOLDER_CERITA) -> dict[str, dict]:
 
 CERITA = muat_cerita()
 LEKSIKON = json.loads(BERKAS_LEKSIKON.read_text(encoding="utf-8"))
+
+
+# =============================================================================
+# MEMUAT FLASHCARD
+# Kartu kata tema hewan dan buah untuk anak yang baru belajar berbicara. Urutan
+# kartu di berkas adalah urutan mudah ke sulit; sesi permainan mengambil dari atas.
+# =============================================================================
+
+KOLOM_FLASHCARD = ("tema", "judul", "sumber", "kartu")
+KOLOM_KARTU = ("id", "kata", "gambar", "variasi", "petunjuk", "kalimat", "cerita_id")
+
+
+def muat_flashcard(folder: Path = FOLDER_FLASHCARD) -> dict[str, dict]:
+    """Membaca korpus/flashcard/*.json. Kuncinya nama tema, misalnya "hewan" dan "buah".
+
+    Kolom yang hilang, id ganda, atau kata yang tidak ada di daftar variasi langsung
+    dilaporkan, agar salah ketik tidak baru ketahuan saat demo.
+    """
+    tema = {}
+    for berkas in sorted(folder.glob("*.json")):
+        data = json.loads(berkas.read_text(encoding="utf-8"))
+        kurang = [k for k in KOLOM_FLASHCARD if k not in data]
+        terlihat = set()
+        for nomor, kartu in enumerate(data.get("kartu", []), 1):
+            kurang += [f"kartu {nomor}: {k}" for k in KOLOM_KARTU if k not in kartu]
+            if kartu.get("id") in terlihat:
+                kurang.append(f"kartu {nomor}: id '{kartu['id']}' ganda")
+            terlihat.add(kartu.get("id"))
+            if kartu.get("kata") not in kartu.get("variasi", []):
+                kurang.append(f"kartu {nomor}: 'kata' harus ada di daftar 'variasi'")
+        if kurang:
+            raise ValueError(f"Flashcard {berkas.name} belum lengkap: {'; '.join(kurang)}")
+        tema[berkas.stem] = data
+    if not tema:
+        raise FileNotFoundError(f"Tidak ada berkas flashcard di {folder}")
+    return tema
+
+
+FLASHCARD = muat_flashcard()

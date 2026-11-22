@@ -1,0 +1,11 @@
+- generic [ref=e6]:
+  - generic [ref=e8]:
+    - region "Pembukaan panggung" [ref=e11]:
+      - generic [ref=e14]: PANGGUNGDONGENG NUSANTARA
+    - button [ref=e17] [cursor=pointer]:
+      - paragraph [ref=e19]: Lewati
+  - group [ref=e24]:
+    - generic "keyboard_arrow_right Untuk guru dan orang tua" [ref=e25] [cursor=pointer]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: keyboard_arrow_right
+        - paragraph [ref=e31]: Untuk guru dan orang tua

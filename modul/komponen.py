@@ -94,7 +94,8 @@ def panel_detail_nlp(balasan: dict) -> None:
 
 
 def pengaturan_guru() -> None:
-    with st.expander("Untuk guru dan orang tua"):
+    with st.sidebar:
+        st.subheader("Untuk guru dan orang tua")
         st.slider("Batas lulus kecocokan", 0.30, 0.90, step=0.05, key="atur_ambang")
         st.toggle("Tampilkan detail NLP", key="atur_detail")
         st.toggle("Ketik jawaban tanpa mikrofon", key="atur_ketik")

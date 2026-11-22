@@ -27,7 +27,7 @@ import numpy as np
 FOLDER_PROYEK = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(FOLDER_PROYEK))
 
-from modul import asr, ilustrasi, konfigurasi, korpus, kuis, nlp, status, tts  # noqa: E402
+from modul import asr, daftar, flashcard, ilustrasi, konfigurasi, korpus, kuis, nlp, status, tts  # noqa: E402
 
 # (kode cerita, indeks adegan, jawaban benar, jawaban salah)
 # Baris ke-0, 2, 4, ... tiap kelompok masuk data pengembangan.
@@ -219,6 +219,53 @@ def sinyal_ucapan(detik: float = 1.5, amplitudo: float = 0.3, laju: int = 16000)
 def nilai(kode: str, indeks: int, jawaban: str) -> dict:
     a = adegan(kode, indeks)
     return nlp.nilai_jawaban(jawaban, a["tanya"], a["kunci"], kode)
+
+
+# Daftar cerita dan penyaringan wilayah
+
+
+def uji_pemetaan_wilayah_dari_asal():
+    for asal, harapan in [
+        ("Jawa Tengah", "Jawa"), ("Betawi", "Jawa"), ("Sumatera Barat", "Sumatera"),
+        ("Riau", "Sumatera"), ("Kalimantan Timur", "Kalimantan"), ("Sulawesi Selatan", "Sulawesi"),
+        ("Bali", "Bali dan Nusa Tenggara"), ("NTT", "Nusantara"),
+    ]:
+        assert daftar.wilayah_dari_asal(asal) == harapan, asal
+
+
+def uji_saringan_dan_halaman_terakhir():
+    hasil = daftar.saring(list(korpus.CERITA.items()), "Kalimantan", "")
+    assert hasil, "Kalimantan kosong"
+    assert all(daftar.wilayah_dari_asal(c["asal"]) == "Kalimantan" for _, c in hasil)
+    isi, total = daftar.potong_halaman(list(korpus.CERITA.items()), 99, 6)
+    assert len(isi) <= 6 and isi, "halaman terakhir kosong"
+    assert total >= 2
+
+
+def uji_pemetaan_semua_asal_korpus():
+    harapan = {
+        "Fabel Nusantara": "Nusantara", "Cerita rakyat Jawa Tengah": "Jawa",
+        "Cerita rakyat Sumatera Barat": "Sumatera", "Cerita rakyat Betawi": "Jawa",
+        "Cerita rakyat Kalimantan Timur": "Kalimantan", "Cerita rakyat Sulawesi Utara": "Sulawesi",
+        "Cerita rakyat Bali": "Bali dan Nusa Tenggara", "Cerita rakyat Riau": "Sumatera",
+    }
+    for asal, wilayah in harapan.items():
+        assert daftar.wilayah_dari_asal(asal) == wilayah, asal
+    assert all(daftar.wilayah_dari_asal(c["asal"]) in {
+        "Jawa", "Sumatera", "Kalimantan", "Sulawesi", "Bali dan Nusa Tenggara", "Nusantara",
+    } for c in korpus.CERITA.values())
+
+
+def uji_saring_kata_dan_halaman_tidak_penuh():
+    semua = list(korpus.CERITA.items())
+    assert len(daftar.saring(semua, "Semua", "")) == len(semua)
+    kancil = daftar.saring(semua, "Semua", "kancil")
+    assert [k for k, _ in kancil] == ["kancil"]
+    isi, total = daftar.potong_halaman(semua, 1, 6)
+    assert len(isi) == 6 and total == (len(semua) + 5) // 6
+    akhir, _ = daftar.potong_halaman(semua, total, 6)
+    assert 0 < len(akhir) <= 6
+    assert daftar.potong_halaman([], 1, 6) == ([], 1)
 
 
 # Praproses dan penilaian NLP
@@ -447,6 +494,152 @@ def uji_kuis_keyakinan_rendah_tidak_mengurangi_kesempatan():
 
 def uji_kuis_jawaban_benar_menang_atas_tanda_terpotong():
     assert putuskan(BENAR, keyakinan=0.2, ujung_terpotong=True)["jenis"] == "benar"
+
+
+def uji_asap_beranda_daftar():
+    """Uji asap beranda, daftar cerita, saringan, dan tombol Dengarkan lewat AppTest."""
+    from streamlit.testing.v1 import AppTest
+
+    at = AppTest.from_file(str(FOLDER_PROYEK / "dongeng_nusantara.py"), default_timeout=30).run()
+    assert not at.exception, at.exception
+    assert at.button(key="pilih_tema_rakyat")
+    assert at.button(key="pilih_tema_hewan") and at.button(key="pilih_tema_buah")
+
+    at.button(key="pilih_tema_rakyat").click().run()
+    assert not at.exception, at.exception
+    assert len([b for b in at.button if b.key and b.key.startswith("pilih_")]) == 6
+
+    at.button(key="tombol_berikut").click().run()
+    assert not at.exception, at.exception
+    assert at.session_state["nomor_halaman"] == 2
+
+    at.button(key="saring_Kalimantan").click().run()
+    assert not at.exception, at.exception
+    assert at.session_state["nomor_halaman"] == 1
+    kode_tampil = {b.key[6:] for b in at.button if b.key and b.key.startswith("pilih_")}
+    assert kode_tampil and all(daftar.wilayah_dari_asal(korpus.CERITA[k]["asal"]) == "Kalimantan"
+                               for k in kode_tampil)
+
+    at.button(key="pilih_landak").click().run()
+    assert not at.exception, at.exception
+    assert at.session_state["halaman"] == "cerita"
+
+
+# Flashcard kata (korpus/flashcard/*.json dan modul/flashcard.py)
+
+
+def uji_flashcard_pemuat():
+    assert set(korpus.FLASHCARD) == {"hewan", "buah"}, set(korpus.FLASHCARD)
+    assert len(korpus.FLASHCARD["hewan"]["kartu"]) == 33
+    assert len(korpus.FLASHCARD["buah"]["kartu"]) == 32
+    for tema, data in korpus.FLASHCARD.items():
+        id_kartu = [k["id"] for k in data["kartu"]]
+        assert len(id_kartu) == len(set(id_kartu)), tema
+        assert all(k["kata"] in k["variasi"] for k in data["kartu"]), tema
+
+
+def uji_flashcard_pilih_sesi():
+    kartu = korpus.FLASHCARD["hewan"]["kartu"]
+    sesi = flashcard.pilih_sesi(kartu)
+    assert len(sesi) == konfigurasi.JUMLAH_KARTU_SESI
+    assert {k["id"] for k in sesi} == {k["id"] for k in kartu[:konfigurasi.JUMLAH_KARTU_SESI]}
+
+
+def uji_flashcard_variasi_dan_kata_benar():
+    for data in korpus.FLASHCARD.values():
+        for kartu in data["kartu"]:
+            for ucapan in kartu["variasi"] + [kartu["kata"] + "nya"]:
+                hasil = flashcard.cocokkan_kata([ucapan], kartu, data["kartu"])
+                assert hasil["status"] == "benar", (kartu["kata"], ucapan, hasil)
+            hasil = flashcard.cocokkan_kata([f"ini {kartu['kata']}"], kartu, data["kartu"])
+            assert hasil["status"] == "benar", (kartu["kata"], hasil)
+
+
+def uji_flashcard_kata_lain_bukan_benar():
+    """Menyebut kata kartu lain tidak boleh dinilai benar untuk target.
+
+    Pasangan yang tertukar dicetak, bukan disetel diam-diam: ambang tetap
+    AMBANG_KATA_BENAR/AMBANG_KATA_HAMPIR dari konfigurasi.
+    """
+    tertukar = []
+    for tema, data in korpus.FLASHCARD.items():
+        kartu = data["kartu"]
+        for target in kartu:
+            for lain in kartu:
+                if lain["id"] == target["id"]:
+                    continue
+                hasil = flashcard.cocokkan_kata([lain["kata"]], target, kartu)
+                if hasil["status"] == "benar":
+                    tertukar.append((tema, target["kata"], lain["kata"], round(hasil["skor"], 2)))
+    print(f"  pasangan kata mirip (benar-salah tertukar): {len(tertukar)}")
+    for tema, target, lain, skor in tertukar:
+        print(f"    {tema}: target '{target}' dinilai benar oleh ucapan '{lain}' (skor {skor})")
+    assert len(tertukar) <= 5, f"terlalu banyak pasangan tertukar: {tertukar}"
+
+
+def uji_flashcard_derau_satu_huruf():
+    """Satu penghapusan atau penggantian huruf per kata, meniru salah dengar ASR."""
+    acak = random.Random(7)
+    jumlah = benar = hampir = 0
+    for data in korpus.FLASHCARD.values():
+        for kartu in data["kartu"]:
+            kata = kartu["kata"]
+            i = acak.randrange(1, len(kata) - 1) if len(kata) > 2 else 0
+            rusak = kata[:i] + kata[i + 1:]
+            if acak.random() < 0.5:
+                rusak = kata[:i] + acak.choice("aiueobdgkmnprst") + kata[i + 1:]
+            hasil = flashcard.cocokkan_kata([rusak], kartu, data["kartu"])
+            jumlah += 1
+            benar += hasil["status"] == "benar"
+            hampir += hasil["status"] == "hampir"
+    print(f"  derau satu huruf: benar {benar / jumlah:.1%}, hampir {hampir / jumlah:.1%} dari {jumlah} kartu")
+    assert benar / jumlah >= 0.6, "kata berderau terlalu sering gagal"
+
+
+def uji_asap_flashcard():
+    """Uji asap beranda kartu tema, jawaban ketik benar, dan tiga jawaban salah."""
+    from streamlit.testing.v1 import AppTest
+
+    at = AppTest.from_file(str(FOLDER_PROYEK / "dongeng_nusantara.py"), default_timeout=30).run()
+    assert not at.exception, at.exception
+    assert at.button(key="pilih_tema_hewan") and at.button(key="pilih_tema_buah")
+
+    at.button(key="pilih_tema_hewan").click().run()
+    assert not at.exception, at.exception
+    assert at.session_state["halaman"] == "kartu"
+    assert len(at.session_state["sesi_kartu"]) == konfigurasi.JUMLAH_KARTU_SESI
+
+    at.session_state["atur_ketik"] = True
+    at.run()
+    at.button(key="tombol_mau_bilang").click().run()
+    assert not at.exception, at.exception
+    assert at.session_state["tahap_kartu"] == "ucap"
+    target = at.session_state["sesi_kartu"][0]
+    at.text_input(key=f"ketik_kartu_0_{at.session_state['nonce_mic']}").set_value(target["kata"]).run()
+    at.button(key="tombol_kirim_kartu").click().run()
+    assert not at.exception, at.exception
+    assert at.session_state["tahap_kartu"] == "hasil", at.session_state["balasan"]
+    assert at.session_state["balasan"]["jenis"] == "benar"
+
+    # Halaman kartu berikutnya dibuka lewat sesi baru: AppTest tidak bisa mempertahankan
+    # nilai kolom ketik yang sudah hilang dari layar.
+    at = AppTest.from_file(str(FOLDER_PROYEK / "dongeng_nusantara.py"), default_timeout=30)
+    at.session_state["halaman"] = "kartu"
+    at.session_state["tema_kartu"] = "hewan"
+    at.session_state["sesi_kartu"] = korpus.FLASHCARD["hewan"]["kartu"][:konfigurasi.JUMLAH_KARTU_SESI]
+    at.session_state["no_kartu"] = 1
+    at.session_state["tahap_kartu"] = "ucap"
+    at.session_state["atur_ketik"] = True
+    at.run()
+    for _ in range(konfigurasi.MAKS_PERCOBAAN):
+        kunci = f"ketik_kartu_1_{at.session_state['nonce_mic']}"
+        at.text_input(key=kunci).set_value("zzz").run()
+        at.button(key="tombol_kirim_kartu").click().run()
+        assert not at.exception, at.exception
+    assert at.session_state["balasan"]["jenis"] == "kunci", at.session_state["balasan"]
+    assert at.session_state["tahap_kartu"] == "hasil"
+    at.button(key="tombol_kartu_lanjut").click().run()
+    assert at.session_state["no_kartu"] == 2
 
 
 def jalankan_uji() -> bool:
