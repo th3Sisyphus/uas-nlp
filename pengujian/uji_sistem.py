@@ -638,6 +638,14 @@ def uji_asap_flashcard():
         assert not at.exception, at.exception
     assert at.session_state["balasan"]["jenis"] == "kunci", at.session_state["balasan"]
     assert at.session_state["tahap_kartu"] == "hasil"
+    # Sesi baru: kolom ketik kartu sebelumnya masih tersimpan di widget tree lama,
+    # sedangkan kartu berikutnya tidak punya kolom itu.
+    s_nilai = {k: at.session_state[k] for k in ("halaman", "tema_kartu", "sesi_kartu", "no_kartu",
+                                                "tahap_kartu", "atur_ketik", "balasan")}
+    at = AppTest.from_file(str(FOLDER_PROYEK / "dongeng_nusantara.py"), default_timeout=30)
+    for nama in ("halaman", "tema_kartu", "sesi_kartu", "no_kartu", "tahap_kartu", "atur_ketik", "balasan"):
+        at.session_state[nama] = s_nilai[nama]
+    at.run()
     at.button(key="tombol_kartu_lanjut").click().run()
     assert at.session_state["no_kartu"] == 2
 

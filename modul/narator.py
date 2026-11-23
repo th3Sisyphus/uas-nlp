@@ -21,6 +21,7 @@ import re
 from functools import lru_cache
 
 
+
 # =============================================================================
 # GAYA
 # =============================================================================
@@ -65,7 +66,7 @@ def _gaya(durasi: float) -> str:
 @keyframes b1 {{ 0%,32% {{ opacity:0 }} 33%,65% {{ opacity:1 }} 66%,100% {{ opacity:0 }} }}
 @keyframes b2 {{ 0%,65% {{ opacity:0 }} 66%,100% {{ opacity:1 }} }}
 .gelembung {{ position:relative; background:#fff; border:3px solid #2A1548; border-radius:16px; padding:10px 14px; max-width:340px; }}
-.gelembung p {{ margin:0; font-size:20px; line-height:1.3; font-weight:600; color:#2A1548; }}
+.gelembung p {{ margin:0; font-size:24px; line-height:1.3; font-weight:600; color:#2A1548; overflow-wrap:anywhere; }}
 .sv {{ position:relative; }}
 .sv .suara {{ position:absolute; left:50%; bottom:4px; width:60px; transform:translateX(-50%); z-index:2; }}
 .sv .suara [data-testid="stAudioInput"], .sv .suara [data-testid="stAudioInputControl"] {{ background:none; border:none; box-shadow:none; padding:0; }}
@@ -172,14 +173,19 @@ def _mata(bentuk: str, kelas: str = "") -> str:
 
 
 def _alis(bentuk: str) -> str:
-    """Alis: normal, naik (menyemangati), tanya (satu terangkat)."""
+    """Alis: normal, naik (menyemangati), tanya (satu terangkat).
+
+    Pose "bingung" memutar alis lewat animasi, jadi transform-origin dipusatkan pada
+    kotak alis sendiri (transform-box: fill-box); tanpa itu alis berputar di luar wajah.
+    """
     if bentuk == "naik":
         d = "M74 82 q10 -8 20 -3 M106 79 q10 -5 20 3"
     elif bentuk == "tanya":
         d = "M74 84 q10 -2 20 0 M106 80 q10 -8 20 -4"
     else:
         d = "M74 84 q10 -4 20 -1 M106 83 q10 -3 20 1"
-    return f'<g id="alis"><path d="{d}" fill="none" stroke="#2A1548" stroke-width="4" stroke-linecap="round"/></g>'
+    return (f'<g id="alis" style="transform-box:fill-box;transform-origin:center">'
+            f'<path d="{d}" fill="none" stroke="#2A1548" stroke-width="4" stroke-linecap="round"/></g>')
 
 
 def _mulut(bentuk: str) -> str:
@@ -287,6 +293,11 @@ def _svg(pose: str) -> str:
 # ANTARMUKA
 # =============================================================================
 
+def _rapat(html_teks: str) -> str:
+    """Membuang baris baru dan indentasi agar aman di st.markdown (Markdown memecah HTML)."""
+    return re.sub(r"\n\s*", "", html_teks)
+
+
 def _gelembung(teks: str) -> str:
     """Gelembung bicara di kanan karakter, ekor menunjuk ke tokoh. Teks di-escape."""
     if not teks.strip():
@@ -300,7 +311,6 @@ def _gelembung(teks: str) -> str:
     )
 
 
-@lru_cache(maxsize=128)
 def narator(keadaan: str, teks: str = "", durasi_bicara: float = 0.0) -> str:
     """HTML narator chibi siap pakai di st.markdown(unsafe_allow_html=True) atau components.html.
 
@@ -310,7 +320,7 @@ def narator(keadaan: str, teks: str = "", durasi_bicara: float = 0.0) -> str:
     pose = keadaan if keadaan in _POSE else "melambai"
     # shortkut: <style> ikut terkirim tiap panggilan (Streamlit membuang duplikat). Pindah ke
     # komponen.pasang_css bila HTML makin besar.
-    return (
+    return _rapat(
         f'<style>{_gaya(float(durasi_bicara or 0))}</style>'
         '<div class="sv" style="display:flex;align-items:center;gap:12px;max-width:520px">'
         '<div style="flex:0 0 auto;width:160px">'

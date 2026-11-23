@@ -142,18 +142,17 @@ def _mikrofon(kunci: str) -> None:
 
 
 def narator_cerita(keadaan: str, teks: str = "", durasi_bicara: float = 0.0) -> None:
-    """Narator + tombol mikrofon di bawah tokoh (dipakai di cerita dan flashcard).
+    """Narator beserta gelembung bicaranya. Mikrofon dipanggil pemanggil, bukan di sini.
 
     st.html menyaring <svg> (lihat ilustrasi.py), jadi SVG narator dikirim lewat
-    st.markdown yang mempertahankan HTML mentah.
+    st.markdown yang mempertahankan HTML mentah. Gelembung adalah satu-satunya
+    tempat teks narasi, pertanyaan, dan ajakan, supaya tidak ada teks ganda.
     """
     st.markdown(narator(keadaan, teks, durasi_bicara), unsafe_allow_html=True)
-    _mikrofon(f"{st.session_state.kode}_{st.session_state.indeks}_{st.session_state.nonce_mic}")
 
 
 def tahap_dengar(cerita: dict, adegan: dict) -> None:
     narator_cerita("bicara", adegan["narasi"], 2.4)
-    kertas(f'<p class="bacaan">{html.escape(adegan["narasi"])}</p>')
     putar_suara(adegan["narasi"])
     st.button("Aku siap menjawab", key="tombol_siap", type="primary", width="stretch", on_click=ke_pertanyaan)
 
@@ -165,17 +164,14 @@ def tahap_tanya(cerita: dict, adegan: dict) -> None:
     if balasan:
         pose = {"benar": "benar", "hampir": "menyemangati"}.get(balasan["jenis"], "bingung")
         narator_cerita(pose, balasan["pesan"], 2.0)
-        kartu_balasan(balasan)
-        if balasan["jenis"] != "ulang":
-            kartu_banding(balasan, adegan, tampilkan_kunci=False)
+        kartu_banding(balasan, adegan, tampilkan_kunci=False)
         panel_detail_nlp(balasan)
         putar_suara(balasan["pesan"])
     else:
         narator_cerita("mendengar", adegan["tanya"], 2.0)
-        kertas(f'<p class="tanya">{html.escape(adegan["tanya"])}</p>')
         putar_suara(adegan["tanya"])
 
-    _mikrofon(f"{s.kode}_{s.indeks}_{s.nonce_mic}")
+    _mikrofon(f"tanya_{s.kode}_{s.indeks}_{s.nonce_mic}")
     rekaman = s.get(f"mic_{s.kode}_{s.indeks}_{s.nonce_mic}")
     if rekaman is not None:
         with st.spinner("Sebentar, aku dengarkan dulu..."):
@@ -283,18 +279,16 @@ def tahap_ucap(kartu: dict, semua: list[dict]) -> None:
     if s.balasan:
         pose = {"benar": "benar", "hampir": "menyemangati"}.get(s.balasan["jenis"], "bingung")
         narator_cerita(pose, s.balasan["pesan"], 2.0)
-        kartu_balasan(s.balasan)
         putar_suara(s.balasan["pesan"])
     else:
         narator_cerita("mendengar", f"Ayo bilang, {kartu['kata']}!", 2.0)
-        st.html(f'<p class="tanya" style="text-align:center">Ayo bilang, {html.escape(kartu["kata"])}!</p>')
         putar_suara(f"Ayo bilang, {kartu['kata']}!")
 
     if s.gangguan >= MAKS_GANGGUAN_SUARA:
         ketuk_gambar(kartu, semua)
         return
 
-    _mikrofon(f"kartu_{s.no_kartu}_{s.nonce_mic}")
+    _mikrofon(f"ucap_{s.no_kartu}_{s.nonce_mic}")
     rekaman = s.get(f"mic_kartu_{s.no_kartu}_{s.nonce_mic}")
     if rekaman is not None:
         with st.spinner("Sebentar, aku dengarkan dulu..."):
