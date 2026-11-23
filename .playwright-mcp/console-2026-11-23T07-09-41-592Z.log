@@ -1,0 +1,20 @@
+[   68887ms] [WARNING] WebSocket onclose: code=1006 (abnormal closure), reason="(no close reason)", wasClean=false, state=CONNECTED @ http://localhost:8511/static/js/index.DormvYxC.js:35
+[   69382ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/health:1
+[   69386ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/host-config:1
+[   69496ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/health:1
+[   69497ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/host-config:1
+[   69678ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/health:1
+[   69682ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/host-config:1
+[   70019ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/health:1
+[   70019ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/host-config:1
+[   70789ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/health:1
+[   70790ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/host-config:1
+[   72152ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/health:1
+[   72153ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health @ http://localhost:8511/static/js/index.DormvYxC.js:34
+[   72153ms] [ERROR] Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal: @ http://localhost:8511/static/js/index.DormvYxC.js:39
+[   72154ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/host-config:1
+[   72232ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/static/media/SourceCodeVF-Upright.ttf.BjWn63N-.woff2:1
+[   75260ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/health:1
+[   75260ms] [ERROR] Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health @ http://localhost:8511/static/js/index.DormvYxC.js:34
+[   75260ms] [ERROR] Is Streamlit still running? If you accidentally stopped Streamlit, just restart it in your terminal: @ http://localhost:8511/static/js/index.DormvYxC.js:39
+[   75260ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8511/_stcore/host-config:1
