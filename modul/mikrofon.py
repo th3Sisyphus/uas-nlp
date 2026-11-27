@@ -33,6 +33,10 @@ IDLE_DETIK = 10.0
 HENING_DETIK = 1.6
 MAKS_DETIK = 10.0
 
+# Tinggi tetap komponen: 176px tombol + label + batang/progres (muncul saat aktif).
+# Isi dibatasi overflow:hidden di mikrofon.css supaya tidak muncul scrollbar.
+TINGGI = 320
+
 
 @lru_cache(maxsize=1)
 def _aset(nama: str) -> str:
@@ -72,8 +76,8 @@ def tampilkan_mikrofon(status: str = "siap", kunci: str = "mikrofon") -> None:
             "hening_detik": HENING_DETIK,
             "maks_detik": MAKS_DETIK,
         },
-        height=320,
-        width="content",
+        height=TINGGI,
+        width="stretch",
         on_status_terpasang_change=lambda: None,
     )
 
@@ -103,8 +107,8 @@ def perekam(kunci: str, status: str = "siap", tunda_detik: float = 0.0) -> bytes
             "hening_detik": HENING_DETIK,
             "maks_detik": MAKS_DETIK,
         },
-        height=320,
-        width="content",
+        height=TINGGI,
+        width="stretch",
         on_rekaman_change=lambda: None,
         on_hening_change=lambda: None,
         on_izin_ditolak_change=lambda: None,

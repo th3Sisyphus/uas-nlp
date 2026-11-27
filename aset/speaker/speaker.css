@@ -1,0 +1,173 @@
+/* Komponen pemutar suara narator: satu tombol besar, tiga status.
+   Gaya neo-brutalism ringan: warna flat, border gelap tebal, bayangan solid tanpa blur.
+   Animasi hanya opacity dan transform, 150-400 ms, dan dimatikan saat reduced motion.
+   Catatan: isolate_styles memasang CSS ini di dalam shadow root, jadi token warna
+   ditempel langsung di .spk. :root tidak berlaku di dalam shadow root. */
+.spk {
+  --spk-teks: #2B2250;
+  --spk-krem: #FFF8E7;
+  --spk-ungu: #6B3FD4;
+  --spk-ungu-muda: #C9B8F5;
+  --spk-kuning: #FFD23F;
+  --spk-abu: #8B86A3;
+  --spk-abu-kotak: #EDEAF5;
+  --spk-jalur: #DDD8EA;
+  --spk-garis: 4px;
+  --spk-bayang: 7px;
+  --spk-dur: 250ms;
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  gap: 14px;
+  font-family: 'Nunito', 'Baloo 2', Verdana, sans-serif;
+  color: var(--spk-teks);
+}
+
+.spk * { box-sizing: border-box; }
+
+.spk-panggung {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 176px;
+  height: 176px;
+}
+
+.spk-cincin {
+  position: absolute;
+  inset: 0;
+  border-radius: 44px;
+  border: 4px solid var(--spk-ungu-muda);
+  opacity: 0;
+  transform: scale(1);
+  pointer-events: none;
+}
+
+#spk-tombol {
+  position: relative;
+  width: 176px;
+  height: 176px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  border: var(--spk-garis) solid var(--spk-teks);
+  border-radius: 44px;
+  background: var(--spk-krem);
+  color: var(--spk-ungu);
+  box-shadow: var(--spk-bayang) var(--spk-bayang) 0 var(--spk-teks);
+  cursor: pointer;
+  transition: transform var(--spk-dur) ease-out, background-color var(--spk-dur) ease-out,
+    color var(--spk-dur) ease-out, box-shadow var(--spk-dur) ease-out;
+}
+
+#spk-tombol svg {
+  width: 88px;
+  height: 88px;
+  display: block;
+}
+
+#spk-tombol:hover { transform: translate(-2px, -2px); }
+#spk-tombol:active { transform: translate(3px, 3px); box-shadow: 3px 3px 0 var(--spk-teks); }
+#spk-tombol:focus-visible { outline: 4px solid var(--spk-ungu); outline-offset: 6px; }
+
+.spk-batang {
+  display: none;
+  align-items: flex-end;
+  gap: 8px;
+  height: 44px;
+}
+
+.spk-bar {
+  width: 10px;
+  height: 44px;
+  border-radius: 6px;
+  background: var(--spk-ungu);
+  transform: scaleY(0.3);
+  transform-origin: bottom center;
+}
+
+#spk-label {
+  margin: 0;
+  min-height: 1.4em;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--spk-teks);
+}
+
+#spk-progres {
+  display: none;
+  width: 100%;
+  height: 22px;
+  border: var(--spk-garis) solid var(--spk-teks);
+  border-radius: 12px;
+  background: var(--spk-jalur);
+  overflow: hidden;
+}
+
+#spk-progres > i {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: var(--spk-kuning);
+  transition: width var(--spk-dur) linear;
+}
+
+/* Status: memutar */
+.spk[data-status="memutar"] #spk-tombol {
+  background: var(--spk-ungu);
+  color: #fff;
+  box-shadow: 0 0 0 var(--spk-teks);
+}
+.spk[data-status="memutar"] .spk-batang { display: flex; }
+.spk[data-status="memutar"] #spk-progres { display: block; }
+.spk[data-status="memutar"] .spk-cincin {
+  opacity: 1;
+  animation: spk-ripple 2.4s ease-out infinite;
+}
+.spk-cincin:nth-of-type(2) { animation-delay: 1.2s; }
+.spk[data-status="memutar"] .spk-bar {
+  animation: spk-batang 900ms ease-in-out infinite alternate;
+}
+.spk-bar:nth-of-type(2) { animation-delay: 120ms; }
+.spk-bar:nth-of-type(3) { animation-delay: 240ms; }
+.spk-bar:nth-of-type(4) { animation-delay: 360ms; }
+.spk-bar:nth-of-type(5) { animation-delay: 480ms; }
+
+/* Status: nonaktif */
+.spk[data-status="nonaktif"] #spk-tombol {
+  background: var(--spk-abu-kotak);
+  color: var(--spk-abu);
+  border-color: var(--spk-abu);
+  box-shadow: var(--spk-bayang) var(--spk-bayang) 0 var(--spk-abu);
+  cursor: not-allowed;
+}
+.spk[data-status="nonaktif"] #spk-tombol:hover { transform: none; }
+.spk[data-status="nonaktif"] #spk-label { color: var(--spk-abu); }
+
+@keyframes spk-ripple {
+  0% { opacity: 0.9; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.22); }
+}
+
+
+
+@keyframes spk-batang {
+  from { transform: scaleY(0.3); }
+  to { transform: scaleY(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #spk-tombol, #spk-progres > i { transition-duration: 1ms; }
+  .spk-cincin, .spk-bar { animation: none !important; }
+  .spk[data-status="memutar"] .spk-cincin { opacity: 0.35; }
+}

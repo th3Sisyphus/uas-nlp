@@ -140,8 +140,13 @@ def narator_cerita(keadaan: str, teks: str = "", durasi_bicara: float = 0.0) -> 
 
 
 def tahap_dengar(cerita: dict, adegan: dict) -> None:
+    """Narasi pembuka. Saat ini hanya speaker yang tampil, mikrofon belum muncul."""
     narator_cerita("bicara", adegan["narasi"], perkirakan_durasi(adegan["narasi"]))
-    putar_suara(adegan["narasi"])
+    if putar_suara(adegan["narasi"]) == "selesai":
+        # Narasi habis (atau tidak dapat diputar): langsung ke pertanyaan tanpa
+        # menunggu anak menekan tombol.
+        ke_pertanyaan()
+        st.rerun()
     st.button("Aku siap menjawab", key="tombol_siap", type="primary", width="stretch", on_click=ke_pertanyaan)
 
 
@@ -154,15 +159,23 @@ def tahap_tanya(cerita: dict, adegan: dict) -> None:
         narator_cerita(pose, balasan["pesan"], perkirakan_durasi(balasan["pesan"]))
         kartu_banding(balasan, adegan, tampilkan_kunci=False)
         panel_detail_nlp(balasan)
-        putar_suara(balasan["pesan"])
-        tunda = perkirakan_durasi(balasan["pesan"])
+        teks_suara = balasan["pesan"]
     else:
         narator_cerita("mendengar", adegan["tanya"], perkirakan_durasi(adegan["tanya"]))
-        putar_suara(adegan["tanya"])
-        tunda = perkirakan_durasi(adegan["tanya"])
+        teks_suara = adegan["tanya"]
 
+    # Satu baris: speaker dan mikrofon berdampingan, keduanya selebar kolom.
+    # Mikrofon mulai "nonaktif" (menunggu) dan baru terbuka setelah suara habis.
+    kolom_suara, kolom_mik = st.columns(2, gap="medium")
+    with kolom_suara:
+        selesai = putar_suara(teks_suara)
     rekam = _mikrofon_klasik if s.mikrofon_klasik else perekam
-    _dengar(f"tanya_{s.kode}_{s.indeks}_{s.nonce_mic}", tunda, rekam, tangani_rekaman)
+    with kolom_mik:
+        if selesai == "selesai":
+            _dengar(f"tanya_{s.kode}_{s.indeks}_{s.nonce_mic}", 0.0, rekam, tangani_rekaman)
+        else:
+            # Suara masih berjalan: tampilkan mikrofon dalam status tunggu.
+            rekam(f"tanya_{s.kode}_{s.indeks}_{s.nonce_mic}", "nonaktif", 0.0)
 
     if s.atur_ketik:
         teks = st.text_input("Jawaban anak", key=f"ketik_{s.kode}_{s.indeks}_{s.nonce_mic}")
@@ -173,7 +186,7 @@ def tahap_tanya(cerita: dict, adegan: dict) -> None:
     if balasan and balasan["jenis"] != "ulang":
         with st.expander("Dengar pertanyaannya lagi"):
             st.html(f'<p class="kecil">{html.escape(adegan["tanya"])}</p>')
-            putar_suara(adegan["tanya"], autoplay=False)
+            putar_suara(adegan["tanya"], autoplay=False, kunci="ulang")
 
     if s.gangguan >= MAKS_GANGGUAN_SUARA:
         st.button("Lewati pertanyaan ini", key="tombol_lewati", width="stretch", on_click=lewati_pertanyaan)
@@ -265,19 +278,26 @@ def tahap_ucap(kartu: dict, semua: list[dict]) -> None:
     if s.balasan:
         pose = {"benar": "benar", "hampir": "menyemangati"}.get(s.balasan["jenis"], "bingung")
         narator_cerita(pose, s.balasan["pesan"], perkirakan_durasi(s.balasan["pesan"]))
-        putar_suara(s.balasan["pesan"])
-        tunda = perkirakan_durasi(s.balasan["pesan"])
+        teks_suara = s.balasan["pesan"]
     else:
         narator_cerita("mendengar", f"Ayo bilang, {kartu['kata']}!", perkirakan_durasi(f"Ayo bilang, {kartu['kata']}!"))
-        putar_suara(f"Ayo bilang, {kartu['kata']}!")
-        tunda = perkirakan_durasi(f"Ayo bilang, {kartu['kata']}!")
+        teks_suara = f"Ayo bilang, {kartu['kata']}!"
 
     if s.gangguan >= MAKS_GANGGUAN_SUARA:
+        putar_suara(teks_suara)
         ketuk_gambar(kartu, semua)
         return
 
+    # Satu baris: speaker dan mikrofon berdampingan, sama seperti tahap_tanya.
+    kolom_suara, kolom_mik = st.columns(2, gap="medium")
+    with kolom_suara:
+        selesai = putar_suara(teks_suara)
     rekam = _mikrofon_klasik if s.mikrofon_klasik else perekam
-    _dengar(f"ucap_{s.no_kartu}_{s.nonce_mic}", tunda, rekam, tangani_rekaman_kartu)
+    with kolom_mik:
+        if selesai == "selesai":
+            _dengar(f"ucap_{s.no_kartu}_{s.nonce_mic}", 0.0, rekam, tangani_rekaman_kartu)
+        else:
+            rekam(f"ucap_{s.no_kartu}_{s.nonce_mic}", "nonaktif", 0.0)
 
     if s.atur_ketik:
         teks = st.text_input("Jawaban anak", key=f"ketik_kartu_{s.no_kartu}_{s.nonce_mic}")

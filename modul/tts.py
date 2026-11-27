@@ -23,6 +23,7 @@ except ImportError:  # pragma: no cover
     gTTSError = Exception
 
 from modul.konfigurasi import BAHASA_TTS, BATAS_WAKTU_TTS, SUARA_TTS
+from modul.speaker import tampilkan_speaker
 
 
 # =============================================================================
@@ -117,13 +118,16 @@ def buat_suara(teks: str, pelan: bool = False) -> tuple[bytes | None, str]:
         return _suara_pyttsx3(teks), "audio/wav"
 
 
-def putar_suara(teks: str, autoplay: bool = True) -> None:
-    """Menampilkan pemutar audio untuk teks. Jika TTS gagal, teks tetap tampil di layar."""
+def putar_suara(teks: str, autoplay: bool = True, kunci: str = "utama") -> str:
+    """Menampilkan tombol pemutar suara untuk teks. Jika TTS gagal, teks tetap tampil di layar.
+
+    kunci membedakan beberapa pemutar pada satu halaman. nonce_suara ikut jadi bagian
+    kunci supaya kalimat yang sama diputar ulang sebagai komponen baru.
+    Mengembalikan "selesai" bila audio sudah habis atau tidak tersedia, selain itu None.
+    """
     data, format_audio = buat_suara(teks, st.session_state.get("atur_pelan", False))
     if data is None:
         st.caption("Suara narator belum tersedia. Periksa internet, lalu minta orang dewasa membacakan.")
-        return
-    # Beberapa byte penanda ditambahkan di akhir berkas agar kalimat yang sama bisa diputar
-    # otomatis lagi. Streamlit menganggapnya berkas baru; pemutar audio mengabaikan byte ini.
-    penanda = st.session_state.get("nonce_suara", 0)
-    st.audio(data + bytes(penanda % 251 + 1), format=format_audio, autoplay=autoplay)
+        return "selesai"
+    nonce = st.session_state.get("nonce_suara", 0)
+    return tampilkan_speaker(data, format_audio, autoplay=autoplay, kunci=f"suara_{kunci}_{nonce}")
