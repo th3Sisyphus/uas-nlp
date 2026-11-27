@@ -1,2 +1,7 @@
 [theme]
 base = "light"
+
+# Aset narator (video MP4) disajikan lewat /app/static/... supaya peramban bisa
+# memuatnya sebagai alamat biasa, bukan disisipkan Base64 ke HTML.
+[server]
+enableStaticServing = true

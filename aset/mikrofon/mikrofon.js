@@ -53,11 +53,14 @@ export default function (component) {
   };
 
   // Status awal: nonaktif dulu sampai tunda_detik lewat, kecuali Python bilang memproses.
+  // tundaDetik negatif berarti nonaktif tanpa batas (menunggu narasi selesai).
   if (statusPython === "memproses") {
     pasang("memproses");
-  } else if (statusPython === "nonaktif" || tundaDetik > 0) {
+  } else if (statusPython === "nonaktif" || tundaDetik !== 0) {
     pasang("nonaktif");
-    tunda = setTimeout(() => { if (status === "nonaktif") pasang("siap"); }, tundaDetik * 1000);
+    if (tundaDetik > 0) {
+      tunda = setTimeout(() => { if (status === "nonaktif") pasang("siap"); }, tundaDetik * 1000);
+    }
   } else {
     pasang("siap");
   }

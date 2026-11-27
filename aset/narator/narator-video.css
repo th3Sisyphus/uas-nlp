@@ -1,0 +1,25 @@
+/* Narator video. Latar hijau sudah dibuang di canvas (lihat narator-video.js),
+   jadi di sini tidak ada warna latar sama sekali. */
+.nar-vid {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.nar-vid canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Video gagal dimuat: sembunyikan kotak kosong supaya gelembung tetap rapi. */
+.nar-vid[data-gagal="1"] {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nar-vid canvas { animation: none !important; }
+}

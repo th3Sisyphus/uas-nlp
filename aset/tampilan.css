@@ -137,8 +137,11 @@ audio { width:100%; height:48px; }
 .tabel-hasil th { border-bottom:3px solid var(--tinta); }
 .tabel-hasil td:nth-child(n+4) { white-space:nowrap; overflow-wrap:normal; }
 
-/* Panel guru */
-[data-testid="stExpander"] { background:#fff; border:3px solid var(--tinta); border-radius:16px; margin-top:1.4rem; color:var(--tinta); }
+/* Gelembung bicara narator: teksnya satu-satunya sumber narasi di layar. */
+.gelembung { position:relative; background:#fff; border:3px solid var(--tinta); border-radius:16px; padding:10px 14px; }
+.gelembung p { margin:0; font-size:24px; line-height:1.3; font-weight:600; color:var(--tinta); overflow-wrap:anywhere; }
+
+/* Panel guru */[data-testid="stExpander"] { background:#fff; border:3px solid var(--tinta); border-radius:16px; margin-top:1.4rem; color:var(--tinta); }
 [data-testid="stExpander"] summary p { font-weight:700; color:var(--tinta); }
 [data-testid="stExpander"] label p, [data-testid="stExpander"] p, [data-testid="stCaptionContainer"] p { color:var(--tinta); }
 [data-testid="stExpander"] details { background:#fff; border-radius:13px; }

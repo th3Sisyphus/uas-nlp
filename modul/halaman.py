@@ -16,7 +16,7 @@ from modul.komponen import judul_balok, kartu_balasan, kartu_banding, kertas, pa
 from modul.konfigurasi import MAKS_GANGGUAN_SUARA
 from modul.korpus import CERITA, FLASHCARD
 from modul.mikrofon import perekam, perkirakan_durasi
-from modul.narator import narator
+from modul.narator_video import tampilkan_narator
 from modul.status import (
     adegan_aktif, kartu_aktif, kartu_berikutnya, ke_adegan_berikutnya, ke_beranda, ke_daftar,
     ke_pertanyaan, ke_ucap, lewati_pertanyaan, mulai_cerita, mulai_kartu, proses_kata, proses_teks,
@@ -103,10 +103,24 @@ def halaman_daftar() -> None:
 PESAN_IZIN = "Mikrofonnya belum menyala. Minta izin mikrofon di peramban, ya. Nanti kita coba lagi!"
 
 
-def _mikrofon_klasik(kunci: str) -> bytes | str | None:
+def _mikrofon_klasik(kunci: str, status: str = "siap", tunda_detik: float = 0.0) -> bytes | None:
     """Perekam cadangan bawaan Streamlit (st.audio_input), tanpa suntikan CSS."""
-    rekaman = st.audio_input("Rekam jawabanmu", key=f"mic_{kunci}", label_visibility="collapsed")
+    rekaman = st.audio_input("Rekam jawabanmu", key=f"mic_{kunci}", label_visibility="collapsed",
+                             disabled=status != "siap")
     return rekaman.getvalue() if rekaman is not None else None
+
+
+def _narasi_selesai(kunci: str, hasil: str | None) -> bool:
+    """Mengingat bahwa narasi untuk kunci ini sudah habis.
+
+    Kejadian "selesai" dari komponen speaker hanya hidup satu rerun. Tanpa latch,
+    rekaman yang datang pada rerun berikutnya akan dibuang dan tidak pernah sampai
+    ke transkripsi.
+    """
+    selesai = st.session_state.setdefault("_narasi_selesai", {})
+    if hasil == "selesai":
+        selesai[kunci] = True
+    return selesai.get(kunci, False)
 
 
 def _dengar(kunci: str, tunda_detik: float, rekam, tangani) -> bool:
@@ -130,13 +144,20 @@ def _dengar(kunci: str, tunda_detik: float, rekam, tangani) -> bool:
 
 
 def narator_cerita(keadaan: str, teks: str = "", durasi_bicara: float = 0.0) -> None:
-    """Narator beserta gelembung bicaranya. Mikrofon dipanggil pemanggil, bukan di sini.
+    """Narator video beserta gelembung bicaranya.
 
-    st.html menyaring <svg> (lihat ilustrasi.py), jadi SVG narator dikirim lewat
-    st.markdown yang mempertahankan HTML mentah. Gelembung adalah satu-satunya
-    tempat teks narasi, pertanyaan, dan ajakan, supaya tidak ada teks ganda.
+    Video berlatar hijau digambar ke canvas dengan latar dibuang (narator_video.py),
+    lalu gelembung teks dirender terpisah lewat st.markdown agar HTML-nya utuh.
+    Gelembung adalah satu-satunya tempat teks narasi, pertanyaan, dan ajakan,
+    supaya tidak ada teks ganda.
     """
-    st.markdown(narator(keadaan, teks, durasi_bicara), unsafe_allow_html=True)
+    kiri, kanan = st.columns([1, 3], vertical_alignment="center", gap="small")
+    with kiri:
+        tampilkan_narator(keadaan, lebar=160)
+    with kanan:
+        if teks.strip():
+            st.markdown(f'<div class="gelembung narator-teks"><p>{html.escape(teks.strip())}</p></div>',
+                        unsafe_allow_html=True)
 
 
 def tahap_dengar(cerita: dict, adegan: dict) -> None:
@@ -166,16 +187,16 @@ def tahap_tanya(cerita: dict, adegan: dict) -> None:
 
     # Satu baris: speaker dan mikrofon berdampingan, keduanya selebar kolom.
     # Mikrofon mulai "nonaktif" (menunggu) dan baru terbuka setelah suara habis.
+    kunci_mik = f"tanya_{s.kode}_{s.indeks}_{s.nonce_mic}"
     kolom_suara, kolom_mik = st.columns(2, gap="medium")
     with kolom_suara:
-        selesai = putar_suara(teks_suara)
+        siap = _narasi_selesai(kunci_mik, putar_suara(teks_suara))
     rekam = _mikrofon_klasik if s.mikrofon_klasik else perekam
     with kolom_mik:
-        if selesai == "selesai":
-            _dengar(f"tanya_{s.kode}_{s.indeks}_{s.nonce_mic}", 0.0, rekam, tangani_rekaman)
-        else:
-            # Suara masih berjalan: tampilkan mikrofon dalam status tunggu.
-            rekam(f"tanya_{s.kode}_{s.indeks}_{s.nonce_mic}", "nonaktif", 0.0)
+        # Hasil rekaman SELALU dibaca, walau narasi baru saja selesai di rerun lain.
+        # Selama narasi berjalan, mikrofon tetap terkunci (nonaktif) tanpa tunda,
+        # lalu terbuka pada rerun ketika latch _narasi_selesai sudah bernilai True.
+        _dengar(kunci_mik, 0.0 if siap else -1.0, rekam, tangani_rekaman)
 
     if s.atur_ketik:
         teks = st.text_input("Jawaban anak", key=f"ketik_{s.kode}_{s.indeks}_{s.nonce_mic}")
@@ -289,15 +310,13 @@ def tahap_ucap(kartu: dict, semua: list[dict]) -> None:
         return
 
     # Satu baris: speaker dan mikrofon berdampingan, sama seperti tahap_tanya.
+    kunci_mik = f"ucap_{s.no_kartu}_{s.nonce_mic}"
     kolom_suara, kolom_mik = st.columns(2, gap="medium")
     with kolom_suara:
-        selesai = putar_suara(teks_suara)
+        siap = _narasi_selesai(kunci_mik, putar_suara(teks_suara))
     rekam = _mikrofon_klasik if s.mikrofon_klasik else perekam
     with kolom_mik:
-        if selesai == "selesai":
-            _dengar(f"ucap_{s.no_kartu}_{s.nonce_mic}", 0.0, rekam, tangani_rekaman_kartu)
-        else:
-            rekam(f"ucap_{s.no_kartu}_{s.nonce_mic}", "nonaktif", 0.0)
+        _dengar(kunci_mik, 0.0 if siap else -1.0, rekam, tangani_rekaman_kartu)
 
     if s.atur_ketik:
         teks = st.text_input("Jawaban anak", key=f"ketik_kartu_{s.no_kartu}_{s.nonce_mic}")
