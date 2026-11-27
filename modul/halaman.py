@@ -8,7 +8,6 @@ import html
 import random
 
 import streamlit as st
-import streamlit.components.v1 as components
 
 from modul.daftar import potong_halaman, saring
 from modul.flashcard import gambar_kartu, pengecoh
@@ -16,11 +15,12 @@ from modul.ilustrasi import gambar_adegan
 from modul.komponen import judul_balok, kartu_balasan, kartu_banding, kertas, panel_detail_nlp, papan_stiker
 from modul.konfigurasi import MAKS_GANGGUAN_SUARA
 from modul.korpus import CERITA, FLASHCARD
+from modul.mikrofon import perekam, perkirakan_durasi
 from modul.narator import narator
 from modul.status import (
     adegan_aktif, kartu_aktif, kartu_berikutnya, ke_adegan_berikutnya, ke_beranda, ke_daftar,
     ke_pertanyaan, ke_ucap, lewati_pertanyaan, mulai_cerita, mulai_kartu, proses_kata, proses_teks,
-    tangani_rekaman, tangani_rekaman_kartu,
+    tangani_rekaman, tangani_rekaman_kartu, tetapkan_gangguan,
 )
 from modul.tts import putar_suara
 
@@ -98,47 +98,36 @@ def halaman_daftar() -> None:
         st.text_input("Cari judul cerita", key="kata_cari", on_change=ganti_saringan, args=(s.wilayah,))
 
 
-# Menyeragamkan tampilan perekam jadi satu tombol bulat. Ditempel sekali per render;
-# mencari data-testid yang stabil, bukan class acak Streamlit.
-_SKRIP_MIKROFON = """<script>
-(() => {
-  const induk = window.parent;
-  if (induk.__bulatMikrofon) return;
-  induk.__bulatMikrofon = 1;
-  const pasang = () => {
-  if (induk.__gayaMikrofon) return;
-  induk.__gayaMikrofon = 1;
-  const gaya = induk.document.createElement("style");
-  gaya.textContent = `
-    [data-testid="stWidgetLabel"] { display: none !important; }
-    [data-testid="stAudioInput"] { background: none !important; border: none !important;
-      box-shadow: none !important; padding: 0 !important; width: auto !important; }
-    [data-testid="stAudioInputWaveSurfer"] { display: none !important; }
-    [data-testid="stAudioInputActionButton"] {
-      width: 60px !important; height: 60px !important; border-radius: 50% !important;
-      background: #E84D4D !important; color: #fff !important; border: 3px solid #2A1548 !important;
-      box-shadow: 0 3px 0 #B92F3C !important; }
-    [data-testid="stAudioInputActionButton"]:hover { background: #F26363 !important; }
-  `;
-  induk.document.head.appendChild(gaya);
-  };
-  pasang();
-  induk.document.addEventListener("DOMContentLoaded", pasang);
-})();
-</script>"""
+# ---- Mikrofon: komponen baru, dengan perekam klasik sebagai cadangan ----------
+
+PESAN_IZIN = "Mikrofonnya belum menyala. Minta izin mikrofon di peramban, ya. Nanti kita coba lagi!"
 
 
-def _mikrofon(kunci: str) -> None:
-    """Tombol mikrofon bulat untuk merekam jawaban.
-
-    shortkut: st.audio_input 1.50 tidak punya bentuk tombol ikon dan memakai class acak,
-    jadi tampilannya diubah lewat satu <style> yang disuntik ke halaman induk dari iframe
-    components.html (st.html menyaring <script>). Perilaku ASR tetap milik widget.
-    Upgrade: komponen audio kustom bila data-testid berubah.
-    """
+def _mikrofon_klasik(kunci: str) -> bytes | str | None:
+    """Perekam cadangan bawaan Streamlit (st.audio_input), tanpa suntikan CSS."""
     with st.container(key=f"suara_{kunci}", horizontal_alignment="center"):
-        st.audio_input("Rekam jawabanmu", key=f"mic_{kunci}", label_visibility="collapsed")
-    components.html(_SKRIP_MIKROFON, height=0)
+        rekaman = st.audio_input("Rekam jawabanmu", key=f"mic_{kunci}", label_visibility="collapsed")
+    return rekaman.getvalue() if rekaman is not None else None
+
+
+def _dengar(kunci: str, tunda_detik: float, rekam, tangani) -> bool:
+    """Satu tempat untuk semua hasil perekaman: bytes, "hening", "izin_ditolak", atau None.
+
+    Mengembalikan True bila state berubah dan halaman perlu rerun.
+    """
+    hasil = rekam(kunci, "siap" if tunda_detik <= 0 else "nonaktif", tunda_detik)
+    if hasil is None:
+        return False
+    if isinstance(hasil, bytes):
+        with st.spinner("Sebentar, aku dengarkan dulu..."):
+            tangani(hasil)
+    elif hasil == "hening":
+        tetapkan_gangguan("hening")
+    else:
+        st.warning(PESAN_IZIN)
+        return False
+    st.rerun()
+    return True
 
 
 def narator_cerita(keadaan: str, teks: str = "", durasi_bicara: float = 0.0) -> None:
@@ -152,7 +141,7 @@ def narator_cerita(keadaan: str, teks: str = "", durasi_bicara: float = 0.0) -> 
 
 
 def tahap_dengar(cerita: dict, adegan: dict) -> None:
-    narator_cerita("bicara", adegan["narasi"], 2.4)
+    narator_cerita("bicara", adegan["narasi"], perkirakan_durasi(adegan["narasi"]))
     putar_suara(adegan["narasi"])
     st.button("Aku siap menjawab", key="tombol_siap", type="primary", width="stretch", on_click=ke_pertanyaan)
 
@@ -163,20 +152,18 @@ def tahap_tanya(cerita: dict, adegan: dict) -> None:
 
     if balasan:
         pose = {"benar": "benar", "hampir": "menyemangati"}.get(balasan["jenis"], "bingung")
-        narator_cerita(pose, balasan["pesan"], 2.0)
+        narator_cerita(pose, balasan["pesan"], perkirakan_durasi(balasan["pesan"]))
         kartu_banding(balasan, adegan, tampilkan_kunci=False)
         panel_detail_nlp(balasan)
         putar_suara(balasan["pesan"])
+        tunda = perkirakan_durasi(balasan["pesan"])
     else:
-        narator_cerita("mendengar", adegan["tanya"], 2.0)
+        narator_cerita("mendengar", adegan["tanya"], perkirakan_durasi(adegan["tanya"]))
         putar_suara(adegan["tanya"])
+        tunda = perkirakan_durasi(adegan["tanya"])
 
-    _mikrofon(f"tanya_{s.kode}_{s.indeks}_{s.nonce_mic}")
-    rekaman = s.get(f"mic_{s.kode}_{s.indeks}_{s.nonce_mic}")
-    if rekaman is not None:
-        with st.spinner("Sebentar, aku dengarkan dulu..."):
-            tangani_rekaman(rekaman.getvalue())
-        st.rerun()
+    rekam = _mikrofon_klasik if s.mikrofon_klasik else perekam
+    _dengar(f"tanya_{s.kode}_{s.indeks}_{s.nonce_mic}", tunda, rekam, tangani_rekaman)
 
     if s.atur_ketik:
         teks = st.text_input("Jawaban anak", key=f"ketik_{s.kode}_{s.indeks}_{s.nonce_mic}")
@@ -278,22 +265,20 @@ def tahap_ucap(kartu: dict, semua: list[dict]) -> None:
     s = st.session_state
     if s.balasan:
         pose = {"benar": "benar", "hampir": "menyemangati"}.get(s.balasan["jenis"], "bingung")
-        narator_cerita(pose, s.balasan["pesan"], 2.0)
+        narator_cerita(pose, s.balasan["pesan"], perkirakan_durasi(s.balasan["pesan"]))
         putar_suara(s.balasan["pesan"])
+        tunda = perkirakan_durasi(s.balasan["pesan"])
     else:
-        narator_cerita("mendengar", f"Ayo bilang, {kartu['kata']}!", 2.0)
+        narator_cerita("mendengar", f"Ayo bilang, {kartu['kata']}!", perkirakan_durasi(f"Ayo bilang, {kartu['kata']}!"))
         putar_suara(f"Ayo bilang, {kartu['kata']}!")
+        tunda = perkirakan_durasi(f"Ayo bilang, {kartu['kata']}!")
 
     if s.gangguan >= MAKS_GANGGUAN_SUARA:
         ketuk_gambar(kartu, semua)
         return
 
-    _mikrofon(f"ucap_{s.no_kartu}_{s.nonce_mic}")
-    rekaman = s.get(f"mic_kartu_{s.no_kartu}_{s.nonce_mic}")
-    if rekaman is not None:
-        with st.spinner("Sebentar, aku dengarkan dulu..."):
-            tangani_rekaman_kartu(rekaman.getvalue())
-        st.rerun()
+    rekam = _mikrofon_klasik if s.mikrofon_klasik else perekam
+    _dengar(f"ucap_{s.no_kartu}_{s.nonce_mic}", tunda, rekam, tangani_rekaman_kartu)
 
     if s.atur_ketik:
         teks = st.text_input("Jawaban anak", key=f"ketik_kartu_{s.no_kartu}_{s.nonce_mic}")

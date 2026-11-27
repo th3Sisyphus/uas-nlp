@@ -42,6 +42,7 @@ def siapkan_state() -> None:
         "atur_detail": False,
         "atur_ketik": False,
         "atur_pelan": False,
+        "mikrofon_klasik": False,
     }
     for nama, nilai in bawaan.items():
         st.session_state.setdefault(nama, nilai)

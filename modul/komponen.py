@@ -100,6 +100,7 @@ def pengaturan_guru() -> None:
         st.toggle("Tampilkan detail NLP", key="atur_detail")
         st.toggle("Ketik jawaban tanpa mikrofon", key="atur_ketik")
         st.toggle("Suara narator lebih pelan", key="atur_pelan")
+        st.toggle("Mikrofon klasik", key="mikrofon_klasik")
         st.caption(
             "Rekaman suara dikirim ke layanan Google untuk ditranskripsi dan tidak disimpan oleh aplikasi ini. "
             "Internet diperlukan untuk suara narator dan pengenalan suara."

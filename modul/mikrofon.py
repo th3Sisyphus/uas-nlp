@@ -15,6 +15,7 @@ komponen sampai Python mengirim status baru.
 
 from __future__ import annotations
 
+import base64
 import re
 from functools import lru_cache
 
@@ -81,3 +82,43 @@ def tampilkan_mikrofon(status: str = "siap", kunci: str = "mikrofon") -> None:
         width="content",
         on_status_terpasang_change=lambda: None,
     )
+
+
+def perkirakan_durasi(teks: str, pelan: bool = False) -> float:
+    """Perkiraan lama narator membacakan teks, dalam detik.
+
+    Mikrofon dibiarkan nonaktif selama kira-kira selama itu supaya suara narator
+    tidak ikut terekam.
+    """
+    kata = len(teks.split())
+    return kata / (2.2 if pelan else 2.6)
+
+
+def perekam(kunci: str, status: str = "siap", tunda_detik: float = 0.0) -> bytes | str | None:
+    """Memanggil komponen mikrofon_anak dan menerjemahkan hasilnya.
+
+    Mengembalikan bytes WAV jika ada rekaman, "hening" jika idle/tidak ada suara,
+    "izin_ditolak" jika peramban menolak izin mikrofon, atau None jika belum ada apa-apa.
+    """
+    hasil = _mikrofon_anak()(
+        key=kunci,
+        data={
+            "status": status,
+            "tunda_detik": float(tunda_detik),
+            "idle_detik": IDLE_DETIK,
+            "hening_detik": HENING_DETIK,
+            "maks_detik": MAKS_DETIK,
+        },
+        height=320,
+        width="content",
+        on_rekaman_change=lambda: None,
+        on_hening_change=lambda: None,
+        on_izin_ditolak_change=lambda: None,
+    )
+    if hasil.rekaman and hasil.rekaman.get("wav_base64"):
+        return base64.b64decode(hasil.rekaman["wav_base64"])
+    if hasil.hening is not None:
+        return "hening"
+    if hasil.izin_ditolak is not None:
+        return "izin_ditolak"
+    return None
