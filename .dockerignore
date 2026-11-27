@@ -1,0 +1,38 @@
+.git
+.github
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# Dokumen draf/kerja yang tidak diperlukan aplikasi saat runtime
+docs/cerita-rakyat/sumber/
+docs/laporan-ai/
+docs/laporan/
+prompt/
+
+# Cache audio lokal dan log pengembangan (dibuat ulang otomatis)
+suara/
+output.log
+*.log
+
+# Alat pengembangan lokal, tidak dipakai di container web
+asr_demo.py
+tts_demo.py
+requirements-demo.txt
+pengujian/pratinjau_mikrofon.py
+
+# Berkas editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Artefak Docker itu sendiri
+Dockerfile
+docker-compose.yml
+.dockerignore

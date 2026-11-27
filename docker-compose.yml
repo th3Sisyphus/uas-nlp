@@ -1,0 +1,32 @@
+# Panggung Dongeng Nusantara - jalankan dengan: docker compose up --build
+# Buka http://localhost:8501
+#
+# PENTING soal mikrofon: peramban hanya mengizinkan getUserMedia() di
+# konteks aman - yaitu localhost atau HTTPS. Mengakses lewat
+# http://localhost:8501 di komputer yang sama AMAN. Jika container ini
+# di-deploy ke server lain dan dibuka lewat alamat IP atau domain HTTP
+# biasa (bukan localhost, bukan HTTPS), peramban akan MENOLAK izin
+# mikrofon. Untuk deployment nyata, taruh reverse proxy (Caddy, Nginx,
+# Traefik) dengan sertifikat TLS di depan container ini.
+
+services:
+  dongeng-nusantara:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dongeng-nusantara:latest
+    container_name: dongeng-nusantara
+    ports:
+      - "8501:8501"
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true
+    # Edge-tts dan gTTS butuh internet; pyttsx3 (luring) jadi cadangan
+    # otomatis jika tidak ada koneksi. Tidak perlu volume untuk korpus,
+    # karena korpus/ sudah ikut dalam image (COPY . .).
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 5s
+      start_period: 15s
+      retries: 3
