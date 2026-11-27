@@ -8,11 +8,14 @@ Kontrak antarmuka (dipakai bersama modul lain, jangan diubah tanpa lapor):
     Data    {"status", "tunda_detik", "idle_detik", "hening_detik", "maks_detik"}
     Kejadian ke Python: rekaman, hening, izin_ditolak
 
-Perekaman suara belum ada di tahap ini; yang dipasang baru tampilan dan status.
+Perekaman berjalan di peramban: AudioWorklet menangkap PCM, diturunkan ke 16 kHz mono
+16 bit, dikemas WAV, lalu dikirim sebagai kejadian "rekaman". Status "memproses" dipasang
+komponen sampai Python mengirim status baru.
 """
 
 from __future__ import annotations
 
+import re
 from functools import lru_cache
 
 import streamlit as st
@@ -36,13 +39,27 @@ def _aset(nama: str) -> str:
 
 
 def _mikrofon_anak():
-    """Mendaftarkan komponen sekali per proses; Streamlit menolak nama ganda."""
+    """Mendaftarkan komponen sekali per proses; Streamlit menolak nama ganda.
+
+    Komponen menerima satu berkas JS, jadi dua berkas digabung: fungsi murni dari
+    mikrofon-inti.js lalu badan mikrofon.js. Berkas aset relatif tidak bisa diimpor
+    sebagai modul ES dari JS komponen, karena itu import dan "export default" dibuang
+    dengan replace. Badan berkas kedua menjadi ekspresi fungsi bernama.
+    """
     if "mikrofon_anak" not in st.session_state.get("_komponen_mikrofon", {}):
+        inti = _aset("mikrofon-inti.js")
+        utama = _aset("mikrofon.js")
+        utama = utama.replace(
+            'import { rms, encodeWav, turunkanLaju, keBase64 } from "./mikrofon-inti.js";', ""
+        ).replace("export default function (component) {", "function (component) {")
+        kepala, badan = utama.split("function (component) {", 1)
+        inti = re.sub(r"^export\s+", "", inti, flags=re.MULTILINE)
+        js = f"export default function () {{\nlet komponenMikrofon; {inti} {kepala} komponenMikrofon = (function (component) {{{badan});\nreturn komponenMikrofon;\n}}"
         st.session_state.setdefault("_komponen_mikrofon", {})["mikrofon_anak"] = component(
             "mikrofon_anak",
             html=_aset("mikrofon.html"),
             css=_aset("mikrofon.css"),
-            js=_aset("mikrofon.js"),
+            js=js,
         )
     return st.session_state["_komponen_mikrofon"]["mikrofon_anak"]
 

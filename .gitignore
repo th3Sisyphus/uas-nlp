@@ -9,3 +9,5 @@ suara/
 prompt/
 ai/
 .vscode/
+.playwright-mcp
+.pytest_cache
