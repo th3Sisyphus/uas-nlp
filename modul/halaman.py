@@ -105,8 +105,7 @@ PESAN_IZIN = "Mikrofonnya belum menyala. Minta izin mikrofon di peramban, ya. Na
 
 def _mikrofon_klasik(kunci: str) -> bytes | str | None:
     """Perekam cadangan bawaan Streamlit (st.audio_input), tanpa suntikan CSS."""
-    with st.container(key=f"suara_{kunci}", horizontal_alignment="center"):
-        rekaman = st.audio_input("Rekam jawabanmu", key=f"mic_{kunci}", label_visibility="collapsed")
+    rekaman = st.audio_input("Rekam jawabanmu", key=f"mic_{kunci}", label_visibility="collapsed")
     return rekaman.getvalue() if rekaman is not None else None
 
 

@@ -322,7 +322,7 @@ def narator(keadaan: str, teks: str = "", durasi_bicara: float = 0.0) -> str:
     # komponen.pasang_css bila HTML makin besar.
     return _rapat(
         f'<style>{_gaya(float(durasi_bicara or 0))}</style>'
-        '<div class="sv" style="display:flex;align-items:center;gap:12px;max-width:520px">'
+        '<div class="sv" style="display:flex;align-items:center;gap:12px;max-width:520px;margin:0 auto">'
         '<div style="flex:0 0 auto;width:160px">'
         f'{_svg(pose)}'
         '</div>'
